@@ -1,0 +1,239 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Namespace MonoMod
+   | MonoMod </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Namespace MonoMod
+   | MonoMod ">
+    <meta name="generator" content="docfx 2.43.3.0">
+    <meta name="description" content="A C# modding swiss army knife, powered by cecil.">
+    <link rel="shortcut icon" href="../favicon.png">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    <meta property="docfx:newtab" content="true">
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo-small.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="MonoMod">
+  
+  <h1 id="MonoMod" data-uid="MonoMod" class="text-break">Namespace MonoMod
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="markdown level0 remarks"></div>
+    <h3 id="classes">Classes
+  </h3>
+      <h4><a class="xref" href="MonoMod.DebugSymbolFormat.html">DebugSymbolFormat</a></h4>
+      <section></section>
+      <h4><a class="xref" href="MonoMod.MethodBodyRewriter.html">MethodBodyRewriter</a></h4>
+      <section></section>
+      <h4><a class="xref" href="MonoMod.MethodParser.html">MethodParser</a></h4>
+      <section></section>
+      <h4><a class="xref" href="MonoMod.MethodRewriter.html">MethodRewriter</a></h4>
+      <section></section>
+      <h4><a class="xref" href="MonoMod.MissingDependencyResolver.html">MissingDependencyResolver</a></h4>
+      <section></section>
+      <h4><a class="xref" href="MonoMod.ModReadEventHandler.html">ModReadEventHandler</a></h4>
+      <section></section>
+      <h4><a class="xref" href="MonoMod.MonoModAdded.html">MonoModAdded</a></h4>
+      <section><p>MonoMod &quot;added&quot; attribute.
+Will be applied by MonoMod automatically on patched types / members.</p>
+</section>
+      <h4><a class="xref" href="MonoMod.MonoModConstructor.html">MonoModConstructor</a></h4>
+      <section><p>MonoMod constructor attribute.
+Apply it onto a constructor and it will be patched by MonoMod.
+Or apply it onto a method and it will be handled like a constructor.</p>
+</section>
+      <h4><a class="xref" href="MonoMod.MonoModCustomAttributeAttribute.html">MonoModCustomAttributeAttribute</a></h4>
+      <section><p>MonoMod &quot;custom attribute&quot; attribute.
+Apply it onto a custom attribute type and the supplied handler in your MonoModRules will handle it.
+Replaces MMIL.Rule.RegisterCustomAttribute in MonoModRules constructor.</p>
+</section>
+      <h4><a class="xref" href="MonoMod.MonoModCustomMethodAttributeAttribute.html">MonoModCustomMethodAttributeAttribute</a></h4>
+      <section><p>MonoMod &quot;custom method attribute&quot; attribute.
+Apply it onto a custom attribute type and the supplied handler in your MonoModRules will handle it.
+Replaces MMIL.Rule.RegisterCustomMethodAttribute in MonoModRules constructor.</p>
+</section>
+      <h4><a class="xref" href="MonoMod.MonoModder.html">MonoModder</a></h4>
+      <section></section>
+      <h4><a class="xref" href="MonoMod.MonoModEnumReplace.html">MonoModEnumReplace</a></h4>
+      <section><p>MonoMod enum replace attribute.
+Apply it onto a enum type / class and its values will be replaced by MonoMod.</p>
+</section>
+      <h4><a class="xref" href="MonoMod.MonoModForceCall.html">MonoModForceCall</a></h4>
+      <section><p>MonoMod force call attribute.
+Apply it onto a method and all calls to it will be forcibly replaced with the call instruction.</p>
+</section>
+      <h4><a class="xref" href="MonoMod.MonoModForceCallvirt.html">MonoModForceCallvirt</a></h4>
+      <section><p>MonoMod force callvirt attribute.
+Apply it onto a method and all calls to it will be forcibly replaced with the callvirt instruction.</p>
+</section>
+      <h4><a class="xref" href="MonoMod.MonoModHook.html">MonoModHook</a></h4>
+      <section><p>MonoMod hook attribute.
+Apply it onto a type / method / field and calls to the item it hooks will be relinked to the item the attribute gets applied to.</p>
+</section>
+      <h4><a class="xref" href="MonoMod.MonoModIfFlag.html">MonoModIfFlag</a></h4>
+      <section><p>MonoMod &quot;if&quot; attribute.
+Apply it onto a type / method / field and it gets ignored if MonoModder.Data[key] equals false.
+If fallback (true by default) is false, it also gets ignored if MonoModder.Data[key] is undefined.</p>
+</section>
+      <h4><a class="xref" href="MonoMod.MonoModIgnore.html">MonoModIgnore</a></h4>
+      <section><p>MonoMod ignore attribute.
+Apply it onto a method / type and it (except its MonoMod custom attributes) will be ignored by MonoMod.</p>
+</section>
+      <h4><a class="xref" href="MonoMod.MonoModLinkFrom.html">MonoModLinkFrom</a></h4>
+      <section><p>MonoMod &quot;static hook&quot; attribute.
+Apply it onto a type / method / field and calls to the item it hooks will be relinked to the item the attribute gets applied to.</p>
+</section>
+      <h4><a class="xref" href="MonoMod.MonoModLinkTo.html">MonoModLinkTo</a></h4>
+      <section><p>MonoMod linkto attribute.
+Apply it onto a type / method / field and calls to it by mods will be relinked to another target.</p>
+</section>
+      <h4><a class="xref" href="MonoMod.MonoModNoNew.html">MonoModNoNew</a></h4>
+      <section><p>MonoMod &quot;only patch if it exists&quot; attribute.
+Apply it onto a type or method and it gets ignored if there's no original method in the input module.</p>
+</section>
+      <h4><a class="xref" href="MonoMod.MonoModOnPlatform.html">MonoModOnPlatform</a></h4>
+      <section><p>MonoMod on platform (&quot;#ifdef PLATFORM&quot;) attribute.
+Apply it onto a type / method / field and it gets ignored on non-matching platforms.</p>
+</section>
+      <h4><a class="xref" href="MonoMod.MonoModOriginal.html">MonoModOriginal</a></h4>
+      <section><p>MonoMod original method attribute.
+Will be applied by MonoMod automatically on original methods.
+Use this (or MonoModIgnore) manually to mark non-&quot;orig_&quot; originals!</p>
+</section>
+      <h4><a class="xref" href="MonoMod.MonoModOriginalName.html">MonoModOriginalName</a></h4>
+      <section><p>MonoMod original name attribute.
+Apply it onto a method (not the orig_) and its orig_ method will instead be named like that.</p>
+</section>
+      <h4><a class="xref" href="MonoMod.MonoModPatch.html">MonoModPatch</a></h4>
+      <section><p>MonoMod patch attribute.
+Apply it onto a type and it will behave as if the type was prefixed with patch_.
+This allows for custom compile-time names while MonoMod uses the supplied name for any relinking.</p>
+</section>
+      <h4><a class="xref" href="MonoMod.MonoModPublic.html">MonoModPublic</a></h4>
+      <section><p>MonoMod ignore attribute.
+Apply it onto a method / field / property / type and it will be made public by MonoMod.</p>
+</section>
+      <h4><a class="xref" href="MonoMod.MonoModRemove.html">MonoModRemove</a></h4>
+      <section><p>MonoMod remove attribute.
+Apply it onto a field / method / type and it will be removed by MonoMod.</p>
+</section>
+      <h4><a class="xref" href="MonoMod.MonoModReplace.html">MonoModReplace</a></h4>
+      <section><p>MonoMod replace attribute.
+Apply it onto a method and no orig_ method will be generated by MonoMod.
+Apply it onto a field and its attributes and field type will be replaced.
+Apply it onto a property and it will be removed first, as if you're just adding your own.
+Apply it onto a type and the original type will be removed first.</p>
+</section>
+      <h4><a class="xref" href="MonoMod.MonoModTargetModule.html">MonoModTargetModule</a></h4>
+      <section><p>MonoMod target module attribute.
+Apply it onto a type and it will only be patched in the target module.
+Important: This attribute acts as a filter. It doesn't affect any other module than the input module.
+For example, one can define the target assembly version using MonoModTargetModule,
+or use the same MonoMod mod on multiple differing input assemblies.</p>
+</section>
+      <h4><a class="xref" href="MonoMod.PostProcessor.html">PostProcessor</a></h4>
+      <section></section>
+      <h4><a class="xref" href="MonoMod.RelinkMapEntry.html">RelinkMapEntry</a></h4>
+      <section></section>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Yet another C# modding swiss army knife.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

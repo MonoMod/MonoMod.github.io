@@ -1,0 +1,3239 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class MonoModder
+   | MonoMod </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class MonoModder
+   | MonoMod ">
+    <meta name="generator" content="docfx 2.43.3.0">
+    <meta name="description" content="A C# modding swiss army knife, powered by cecil.">
+    <link rel="shortcut icon" href="../favicon.png">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    <meta property="docfx:newtab" content="true">
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo-small.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="MonoMod.MonoModder">
+  
+  
+  <h1 id="MonoMod_MonoModder" data-uid="MonoMod.MonoModder" class="text-break">Class MonoModder
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">MonoModder</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">System.IDisposable</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="MonoMod.html">MonoMod</a></h6>
+  <h6><strong>Assembly</strong>: MonoMod.dll</h6>
+  <h5 id="MonoMod_MonoModder_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class MonoModder : Object, IDisposable</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="MonoMod_MonoModder__ctor_" data-uid="MonoMod.MonoModder.#ctor*"></a>
+  <h4 id="MonoMod_MonoModder__ctor" data-uid="MonoMod.MonoModder.#ctor">MonoModder()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MonoModder()</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="MonoMod_MonoModder__assemblyResolver" data-uid="MonoMod.MonoModder._assemblyResolver">_assemblyResolver</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected IAssemblyResolver _assemblyResolver</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Mono.Cecil.IAssemblyResolver</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="MonoMod_MonoModder__GACPaths" data-uid="MonoMod.MonoModder._GACPaths">_GACPaths</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected string[] _GACPaths</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="MonoMod_MonoModder__mmAddedCtor" data-uid="MonoMod.MonoModder._mmAddedCtor">_mmAddedCtor</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected MethodDefinition _mmAddedCtor</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Mono.Cecil.MethodDefinition</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="MonoMod_MonoModder__mmOriginalCtor" data-uid="MonoMod.MonoModder._mmOriginalCtor">_mmOriginalCtor</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected MethodDefinition _mmOriginalCtor</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Mono.Cecil.MethodDefinition</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="MonoMod_MonoModder__mmOriginalNameCtor" data-uid="MonoMod.MonoModder._mmOriginalNameCtor">_mmOriginalNameCtor</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected MethodDefinition _mmOriginalNameCtor</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Mono.Cecil.MethodDefinition</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="MonoMod_MonoModder__mmPatchCtor" data-uid="MonoMod.MonoModder._mmPatchCtor">_mmPatchCtor</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected MethodDefinition _mmPatchCtor</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Mono.Cecil.MethodDefinition</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="MonoMod_MonoModder__readerParameters" data-uid="MonoMod.MonoModder._readerParameters">_readerParameters</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected ReaderParameters _readerParameters</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Mono.Cecil.ReaderParameters</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="MonoMod_MonoModder__writerParameters" data-uid="MonoMod.MonoModder._writerParameters">_writerParameters</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected WriterParameters _writerParameters</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Mono.Cecil.WriterParameters</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="MonoMod_MonoModder_CleanupEnabled" data-uid="MonoMod.MonoModder.CleanupEnabled">CleanupEnabled</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool CleanupEnabled</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="MonoMod_MonoModder_CurrentRID" data-uid="MonoMod.MonoModder.CurrentRID">CurrentRID</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int CurrentRID</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="MonoMod_MonoModder_CustomAttributeHandlers" data-uid="MonoMod.MonoModder.CustomAttributeHandlers">CustomAttributeHandlers</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Dictionary&lt;string, FastReflectionDelegate&gt; CustomAttributeHandlers</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.Dictionary</span>&lt;<span class="xref">System.String</span>, <a class="xref" href="MonoMod.Utils.FastReflectionDelegate.html">FastReflectionDelegate</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="MonoMod_MonoModder_CustomMethodAttributeHandlers" data-uid="MonoMod.MonoModder.CustomMethodAttributeHandlers">CustomMethodAttributeHandlers</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Dictionary&lt;string, FastReflectionDelegate&gt; CustomMethodAttributeHandlers</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.Dictionary</span>&lt;<span class="xref">System.String</span>, <a class="xref" href="MonoMod.Utils.FastReflectionDelegate.html">FastReflectionDelegate</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="MonoMod_MonoModder_DebugSymbolOutputFormat" data-uid="MonoMod.MonoModder.DebugSymbolOutputFormat">DebugSymbolOutputFormat</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DebugSymbolFormat DebugSymbolOutputFormat</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MonoMod.DebugSymbolFormat.html">DebugSymbolFormat</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="MonoMod_MonoModder_DependencyCache" data-uid="MonoMod.MonoModder.DependencyCache">DependencyCache</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Dictionary&lt;string, ModuleDefinition&gt; DependencyCache</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.Dictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">Mono.Cecil.ModuleDefinition</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="MonoMod_MonoModder_DependencyDirs" data-uid="MonoMod.MonoModder.DependencyDirs">DependencyDirs</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;string&gt; DependencyDirs</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="MonoMod_MonoModder_DependencyMap" data-uid="MonoMod.MonoModder.DependencyMap">DependencyMap</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Dictionary&lt;ModuleDefinition, List&lt;ModuleDefinition&gt;&gt; DependencyMap</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.Dictionary</span>&lt;<span class="xref">Mono.Cecil.ModuleDefinition</span>, <span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">Mono.Cecil.ModuleDefinition</span>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="MonoMod_MonoModder_ForceCallMap" data-uid="MonoMod.MonoModder.ForceCallMap">ForceCallMap</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Dictionary&lt;string, OpCode&gt; ForceCallMap</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.Dictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">Mono.Cecil.Cil.OpCode</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="MonoMod_MonoModder_Input" data-uid="MonoMod.MonoModder.Input">Input</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Stream Input</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IO.Stream</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="MonoMod_MonoModder_InputPath" data-uid="MonoMod.MonoModder.InputPath">InputPath</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string InputPath</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="MonoMod_MonoModder_IsMono" data-uid="MonoMod.MonoModder.IsMono">IsMono</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly bool IsMono</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="MonoMod_MonoModder_LogVerboseEnabled" data-uid="MonoMod.MonoModder.LogVerboseEnabled">LogVerboseEnabled</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool LogVerboseEnabled</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="MonoMod_MonoModder_MethodBodyRewriter" data-uid="MonoMod.MonoModder.MethodBodyRewriter">MethodBodyRewriter</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MethodBodyRewriter MethodBodyRewriter</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MonoMod.MethodBodyRewriter.html">MethodBodyRewriter</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="MonoMod_MonoModder_MethodParser" data-uid="MonoMod.MonoModder.MethodParser">MethodParser</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MethodParser MethodParser</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MonoMod.MethodParser.html">MethodParser</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="MonoMod_MonoModder_MethodRewriter" data-uid="MonoMod.MonoModder.MethodRewriter">MethodRewriter</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MethodRewriter MethodRewriter</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MonoMod.MethodRewriter.html">MethodRewriter</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="MonoMod_MonoModder_MissingDependencyResolver" data-uid="MonoMod.MonoModder.MissingDependencyResolver">MissingDependencyResolver</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MissingDependencyResolver MissingDependencyResolver</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MonoMod.MissingDependencyResolver.html">MissingDependencyResolver</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="MonoMod_MonoModder_MissingDependencyThrow" data-uid="MonoMod.MonoModder.MissingDependencyThrow">MissingDependencyThrow</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool MissingDependencyThrow</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="MonoMod_MonoModder_Mods" data-uid="MonoMod.MonoModder.Mods">Mods</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;ModuleReference&gt; Mods</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">Mono.Cecil.ModuleReference</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="MonoMod_MonoModder_Module" data-uid="MonoMod.MonoModder.Module">Module</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ModuleDefinition Module</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Mono.Cecil.ModuleDefinition</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="MonoMod_MonoModder_OnReadMod" data-uid="MonoMod.MonoModder.OnReadMod">OnReadMod</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ModReadEventHandler OnReadMod</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MonoMod.ModReadEventHandler.html">ModReadEventHandler</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="MonoMod_MonoModder_Output" data-uid="MonoMod.MonoModder.Output">Output</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Stream Output</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IO.Stream</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="MonoMod_MonoModder_OutputPath" data-uid="MonoMod.MonoModder.OutputPath">OutputPath</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string OutputPath</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="MonoMod_MonoModder_PostProcessors" data-uid="MonoMod.MonoModder.PostProcessors">PostProcessors</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PostProcessor PostProcessors</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MonoMod.PostProcessor.html">PostProcessor</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="MonoMod_MonoModder_PreventInline" data-uid="MonoMod.MonoModder.PreventInline">PreventInline</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool PreventInline</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="MonoMod_MonoModder_PublicEverything" data-uid="MonoMod.MonoModder.PublicEverything">PublicEverything</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool PublicEverything</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="MonoMod_MonoModder_ReadingMode" data-uid="MonoMod.MonoModder.ReadingMode">ReadingMode</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ReadingMode ReadingMode</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Mono.Cecil.ReadingMode</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="MonoMod_MonoModder_RelinkerCacheEnabled" data-uid="MonoMod.MonoModder.RelinkerCacheEnabled">RelinkerCacheEnabled</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool RelinkerCacheEnabled</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="MonoMod_MonoModder_RelinkMap" data-uid="MonoMod.MonoModder.RelinkMap">RelinkMap</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Dictionary&lt;string, object&gt; RelinkMap</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.Dictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.Object</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="MonoMod_MonoModder_RelinkMapCache" data-uid="MonoMod.MonoModder.RelinkMapCache">RelinkMapCache</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Dictionary&lt;string, IMetadataTokenProvider&gt; RelinkMapCache</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.Dictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">Mono.Cecil.IMetadataTokenProvider</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="MonoMod_MonoModder_RelinkModuleMap" data-uid="MonoMod.MonoModder.RelinkModuleMap">RelinkModuleMap</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Dictionary&lt;string, ModuleDefinition&gt; RelinkModuleMap</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.Dictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">Mono.Cecil.ModuleDefinition</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="MonoMod_MonoModder_RelinkModuleMapCache" data-uid="MonoMod.MonoModder.RelinkModuleMapCache">RelinkModuleMapCache</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Dictionary&lt;string, TypeReference&gt; RelinkModuleMapCache</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.Dictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">Mono.Cecil.TypeReference</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="MonoMod_MonoModder_RemovePatchReferences" data-uid="MonoMod.MonoModder.RemovePatchReferences">RemovePatchReferences</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool RemovePatchReferences</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="MonoMod_MonoModder_SharedData" data-uid="MonoMod.MonoModder.SharedData">SharedData</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Dictionary&lt;string, object&gt; SharedData</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.Dictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.Object</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="MonoMod_MonoModder_ShouldCleanupAttrib" data-uid="MonoMod.MonoModder.ShouldCleanupAttrib">ShouldCleanupAttrib</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Func&lt;ICustomAttributeProvider, TypeReference, bool&gt; ShouldCleanupAttrib</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<span class="xref">Mono.Cecil.ICustomAttributeProvider</span>, <span class="xref">Mono.Cecil.TypeReference</span>, <span class="xref">System.Boolean</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="MonoMod_MonoModder_SkipList" data-uid="MonoMod.MonoModder.SkipList">SkipList</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HashSet&lt;string&gt; SkipList</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.HashSet</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="MonoMod_MonoModder_Strict" data-uid="MonoMod.MonoModder.Strict">Strict</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Strict</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="MonoMod_MonoModder_UpgradeMSCORLIB" data-uid="MonoMod.MonoModder.UpgradeMSCORLIB">UpgradeMSCORLIB</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Nullable&lt;bool&gt; UpgradeMSCORLIB</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="MonoMod_MonoModder_Version" data-uid="MonoMod.MonoModder.Version">Version</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly Version Version</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Version</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="MonoMod_MonoModder_AssemblyResolver_" data-uid="MonoMod.MonoModder.AssemblyResolver*"></a>
+  <h4 id="MonoMod_MonoModder_AssemblyResolver" data-uid="MonoMod.MonoModder.AssemblyResolver">AssemblyResolver</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual IAssemblyResolver AssemblyResolver { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Mono.Cecil.IAssemblyResolver</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_MonoModder_GACPaths_" data-uid="MonoMod.MonoModder.GACPaths*"></a>
+  <h4 id="MonoMod_MonoModder_GACPaths" data-uid="MonoMod.MonoModder.GACPaths">GACPaths</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string[] GACPaths { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_MonoModder_ReaderParameters_" data-uid="MonoMod.MonoModder.ReaderParameters*"></a>
+  <h4 id="MonoMod_MonoModder_ReaderParameters" data-uid="MonoMod.MonoModder.ReaderParameters">ReaderParameters</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual ReaderParameters ReaderParameters { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Mono.Cecil.ReaderParameters</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_MonoModder_WriterParameters_" data-uid="MonoMod.MonoModder.WriterParameters*"></a>
+  <h4 id="MonoMod_MonoModder_WriterParameters" data-uid="MonoMod.MonoModder.WriterParameters">WriterParameters</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual WriterParameters WriterParameters { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Mono.Cecil.WriterParameters</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="MonoMod_MonoModder_AllowedSpecialName_" data-uid="MonoMod.MonoModder.AllowedSpecialName*"></a>
+  <h4 id="MonoMod_MonoModder_AllowedSpecialName_Mono_Cecil_MethodDefinition_Mono_Cecil_TypeDefinition_" data-uid="MonoMod.MonoModder.AllowedSpecialName(Mono.Cecil.MethodDefinition,Mono.Cecil.TypeDefinition)">AllowedSpecialName(MethodDefinition, TypeDefinition)</h4>
+  <div class="markdown level1 summary"><p>Checks if the method has a special name that is &quot;allowed&quot; to be patched.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual bool AllowedSpecialName(MethodDefinition method, TypeDefinition targetType = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Mono.Cecil.MethodDefinition</span></td>
+        <td><span class="parametername">method</span></td>
+        <td><p>Method to check.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Mono.Cecil.TypeDefinition</span></td>
+        <td><span class="parametername">targetType</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> if the special name used in the method is allowed, <code>false</code> otherwise.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_MonoModder_AutoPatch_" data-uid="MonoMod.MonoModder.AutoPatch*"></a>
+  <h4 id="MonoMod_MonoModder_AutoPatch" data-uid="MonoMod.MonoModder.AutoPatch">AutoPatch()</h4>
+  <div class="markdown level1 summary"><p>Automatically mods the module, loading Input, writing the modded module to Output.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void AutoPatch()</code></pre>
+  </div>
+  
+  
+  <a id="MonoMod_MonoModder_Cleanup_" data-uid="MonoMod.MonoModder.Cleanup*"></a>
+  <h4 id="MonoMod_MonoModder_Cleanup_Mono_Cecil_ICustomAttributeProvider_System_Boolean_" data-uid="MonoMod.MonoModder.Cleanup(Mono.Cecil.ICustomAttributeProvider,System.Boolean)">Cleanup(ICustomAttributeProvider, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void Cleanup(ICustomAttributeProvider cap, bool all = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Mono.Cecil.ICustomAttributeProvider</span></td>
+        <td><span class="parametername">cap</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">all</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_MonoModder_Cleanup_" data-uid="MonoMod.MonoModder.Cleanup*"></a>
+  <h4 id="MonoMod_MonoModder_Cleanup_System_Boolean_" data-uid="MonoMod.MonoModder.Cleanup(System.Boolean)">Cleanup(Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void Cleanup(bool all = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">all</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_MonoModder_CleanupType_" data-uid="MonoMod.MonoModder.CleanupType*"></a>
+  <h4 id="MonoMod_MonoModder_CleanupType_Mono_Cecil_TypeDefinition_System_Boolean_" data-uid="MonoMod.MonoModder.CleanupType(Mono.Cecil.TypeDefinition,System.Boolean)">CleanupType(TypeDefinition, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void CleanupType(TypeDefinition type, bool all = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Mono.Cecil.TypeDefinition</span></td>
+        <td><span class="parametername">type</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">all</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_MonoModder_ClearCaches_" data-uid="MonoMod.MonoModder.ClearCaches*"></a>
+  <h4 id="MonoMod_MonoModder_ClearCaches_System_Boolean_System_Boolean_System_Boolean_" data-uid="MonoMod.MonoModder.ClearCaches(System.Boolean,System.Boolean,System.Boolean)">ClearCaches(Boolean, Boolean, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void ClearCaches(bool all = false, bool shareable = false, bool moduleSpecific = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">all</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">shareable</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">moduleSpecific</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_MonoModder_DefaultMissingDependencyResolver_" data-uid="MonoMod.MonoModder.DefaultMissingDependencyResolver*"></a>
+  <h4 id="MonoMod_MonoModder_DefaultMissingDependencyResolver_MonoMod_MonoModder_Mono_Cecil_ModuleDefinition_System_String_System_String_" data-uid="MonoMod.MonoModder.DefaultMissingDependencyResolver(MonoMod.MonoModder,Mono.Cecil.ModuleDefinition,System.String,System.String)">DefaultMissingDependencyResolver(MonoModder, ModuleDefinition, String, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual ModuleDefinition DefaultMissingDependencyResolver(MonoModder mod, ModuleDefinition main, string name, string fullName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MonoMod.MonoModder.html">MonoModder</a></td>
+        <td><span class="parametername">mod</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Mono.Cecil.ModuleDefinition</span></td>
+        <td><span class="parametername">main</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">fullName</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Mono.Cecil.ModuleDefinition</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_MonoModder_DefaultParser_" data-uid="MonoMod.MonoModder.DefaultParser*"></a>
+  <h4 id="MonoMod_MonoModder_DefaultParser_MonoMod_MonoModder_Mono_Cecil_Cil_MethodBody_Mono_Cecil_Cil_Instruction_System_Int32__" data-uid="MonoMod.MonoModder.DefaultParser(MonoMod.MonoModder,Mono.Cecil.Cil.MethodBody,Mono.Cecil.Cil.Instruction,System.Int32@)">DefaultParser(MonoModder, MethodBody, Instruction, ref Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual bool DefaultParser(MonoModder mod, MethodBody body, Instruction instr, ref int instri)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MonoMod.MonoModder.html">MonoModder</a></td>
+        <td><span class="parametername">mod</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Mono.Cecil.Cil.MethodBody</span></td>
+        <td><span class="parametername">body</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Mono.Cecil.Cil.Instruction</span></td>
+        <td><span class="parametername">instr</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">instri</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_MonoModder_DefaultPostProcessor_" data-uid="MonoMod.MonoModder.DefaultPostProcessor*"></a>
+  <h4 id="MonoMod_MonoModder_DefaultPostProcessor_MonoMod_MonoModder_" data-uid="MonoMod.MonoModder.DefaultPostProcessor(MonoMod.MonoModder)">DefaultPostProcessor(MonoModder)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void DefaultPostProcessor(MonoModder modder)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MonoMod.MonoModder.html">MonoModder</a></td>
+        <td><span class="parametername">modder</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_MonoModder_DefaultPostProcessType_" data-uid="MonoMod.MonoModder.DefaultPostProcessType*"></a>
+  <h4 id="MonoMod_MonoModder_DefaultPostProcessType_Mono_Cecil_TypeDefinition_" data-uid="MonoMod.MonoModder.DefaultPostProcessType(Mono.Cecil.TypeDefinition)">DefaultPostProcessType(TypeDefinition)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void DefaultPostProcessType(TypeDefinition type)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Mono.Cecil.TypeDefinition</span></td>
+        <td><span class="parametername">type</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_MonoModder_Dispose_" data-uid="MonoMod.MonoModder.Dispose*"></a>
+  <h4 id="MonoMod_MonoModder_Dispose" data-uid="MonoMod.MonoModder.Dispose">Dispose()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void Dispose()</code></pre>
+  </div>
+  
+  
+  <a id="MonoMod_MonoModder_FindType_" data-uid="MonoMod.MonoModder.FindType*"></a>
+  <h4 id="MonoMod_MonoModder_FindType_Mono_Cecil_ModuleDefinition_System_String_System_Collections_Generic_Stack_Mono_Cecil_ModuleDefinition__" data-uid="MonoMod.MonoModder.FindType(Mono.Cecil.ModuleDefinition,System.String,System.Collections.Generic.Stack{Mono.Cecil.ModuleDefinition})">FindType(ModuleDefinition, String, Stack&lt;ModuleDefinition&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual TypeReference FindType(ModuleDefinition main, string fullName, Stack&lt;ModuleDefinition&gt; crawled)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Mono.Cecil.ModuleDefinition</span></td>
+        <td><span class="parametername">main</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">fullName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.Stack</span>&lt;<span class="xref">Mono.Cecil.ModuleDefinition</span>&gt;</td>
+        <td><span class="parametername">crawled</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Mono.Cecil.TypeReference</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_MonoModder_FindType_" data-uid="MonoMod.MonoModder.FindType*"></a>
+  <h4 id="MonoMod_MonoModder_FindType_System_String_" data-uid="MonoMod.MonoModder.FindType(System.String)">FindType(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual TypeReference FindType(string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Mono.Cecil.TypeReference</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_MonoModder_FindType_" data-uid="MonoMod.MonoModder.FindType*"></a>
+  <h4 id="MonoMod_MonoModder_FindType_System_String_System_Boolean_" data-uid="MonoMod.MonoModder.FindType(System.String,System.Boolean)">FindType(String, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual TypeReference FindType(string name, bool runtimeName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">runtimeName</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Mono.Cecil.TypeReference</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_MonoModder_FindTypeDeep_" data-uid="MonoMod.MonoModder.FindTypeDeep*"></a>
+  <h4 id="MonoMod_MonoModder_FindTypeDeep_System_String_" data-uid="MonoMod.MonoModder.FindTypeDeep(System.String)">FindTypeDeep(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual TypeReference FindTypeDeep(string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Mono.Cecil.TypeReference</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_MonoModder_GenReaderParameters_" data-uid="MonoMod.MonoModder.GenReaderParameters*"></a>
+  <h4 id="MonoMod_MonoModder_GenReaderParameters_System_Boolean_System_String_" data-uid="MonoMod.MonoModder.GenReaderParameters(System.Boolean,System.String)">GenReaderParameters(Boolean, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual ReaderParameters GenReaderParameters(bool mainModule, string path = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">mainModule</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">path</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Mono.Cecil.ReaderParameters</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_MonoModder_GetMetadataToken_" data-uid="MonoMod.MonoModder.GetMetadataToken*"></a>
+  <h4 id="MonoMod_MonoModder_GetMetadataToken_Mono_Cecil_TokenType_" data-uid="MonoMod.MonoModder.GetMetadataToken(Mono.Cecil.TokenType)">GetMetadataToken(TokenType)</h4>
+  <div class="markdown level1 summary"><p>Creates a new non-conflicting MetadataToken.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual MetadataToken GetMetadataToken(TokenType type)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Mono.Cecil.TokenType</span></td>
+        <td><span class="parametername">type</span></td>
+        <td><p>The type of the new token.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Mono.Cecil.MetadataToken</span></td>
+        <td><p>A MetadataToken with an unique RID for the target module.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_MonoModder_GetMonoModAddedCtor_" data-uid="MonoMod.MonoModder.GetMonoModAddedCtor*"></a>
+  <h4 id="MonoMod_MonoModder_GetMonoModAddedCtor" data-uid="MonoMod.MonoModder.GetMonoModAddedCtor">GetMonoModAddedCtor()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual MethodReference GetMonoModAddedCtor()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Mono.Cecil.MethodReference</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_MonoModder_GetMonoModOriginalCtor_" data-uid="MonoMod.MonoModder.GetMonoModOriginalCtor*"></a>
+  <h4 id="MonoMod_MonoModder_GetMonoModOriginalCtor" data-uid="MonoMod.MonoModder.GetMonoModOriginalCtor">GetMonoModOriginalCtor()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual MethodReference GetMonoModOriginalCtor()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Mono.Cecil.MethodReference</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_MonoModder_GetMonoModOriginalNameCtor_" data-uid="MonoMod.MonoModder.GetMonoModOriginalNameCtor*"></a>
+  <h4 id="MonoMod_MonoModder_GetMonoModOriginalNameCtor" data-uid="MonoMod.MonoModder.GetMonoModOriginalNameCtor">GetMonoModOriginalNameCtor()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual MethodReference GetMonoModOriginalNameCtor()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Mono.Cecil.MethodReference</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_MonoModder_GetMonoModPatchCtor_" data-uid="MonoMod.MonoModder.GetMonoModPatchCtor*"></a>
+  <h4 id="MonoMod_MonoModder_GetMonoModPatchCtor" data-uid="MonoMod.MonoModder.GetMonoModPatchCtor">GetMonoModPatchCtor()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual MethodReference GetMonoModPatchCtor()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Mono.Cecil.MethodReference</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_MonoModder_Log_" data-uid="MonoMod.MonoModder.Log*"></a>
+  <h4 id="MonoMod_MonoModder_Log_System_Object_" data-uid="MonoMod.MonoModder.Log(System.Object)">Log(Object)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void Log(object value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_MonoModder_Log_" data-uid="MonoMod.MonoModder.Log*"></a>
+  <h4 id="MonoMod_MonoModder_Log_System_String_" data-uid="MonoMod.MonoModder.Log(System.String)">Log(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void Log(string text)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">text</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_MonoModder_LogVerbose_" data-uid="MonoMod.MonoModder.LogVerbose*"></a>
+  <h4 id="MonoMod_MonoModder_LogVerbose_System_Object_" data-uid="MonoMod.MonoModder.LogVerbose(System.Object)">LogVerbose(Object)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void LogVerbose(object value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_MonoModder_LogVerbose_" data-uid="MonoMod.MonoModder.LogVerbose*"></a>
+  <h4 id="MonoMod_MonoModder_LogVerbose_System_String_" data-uid="MonoMod.MonoModder.LogVerbose(System.String)">LogVerbose(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void LogVerbose(string text)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">text</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_MonoModder_MainRelinker_" data-uid="MonoMod.MonoModder.MainRelinker*"></a>
+  <h4 id="MonoMod_MonoModder_MainRelinker_Mono_Cecil_IMetadataTokenProvider_Mono_Cecil_IGenericParameterProvider_" data-uid="MonoMod.MonoModder.MainRelinker(Mono.Cecil.IMetadataTokenProvider,Mono.Cecil.IGenericParameterProvider)">MainRelinker(IMetadataTokenProvider, IGenericParameterProvider)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual IMetadataTokenProvider MainRelinker(IMetadataTokenProvider mtp, IGenericParameterProvider context)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Mono.Cecil.IMetadataTokenProvider</span></td>
+        <td><span class="parametername">mtp</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Mono.Cecil.IGenericParameterProvider</span></td>
+        <td><span class="parametername">context</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Mono.Cecil.IMetadataTokenProvider</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_MonoModder_MapDependencies_" data-uid="MonoMod.MonoModder.MapDependencies*"></a>
+  <h4 id="MonoMod_MonoModder_MapDependencies" data-uid="MonoMod.MonoModder.MapDependencies">MapDependencies()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void MapDependencies()</code></pre>
+  </div>
+  
+  
+  <a id="MonoMod_MonoModder_MapDependencies_" data-uid="MonoMod.MonoModder.MapDependencies*"></a>
+  <h4 id="MonoMod_MonoModder_MapDependencies_Mono_Cecil_ModuleDefinition_" data-uid="MonoMod.MonoModder.MapDependencies(Mono.Cecil.ModuleDefinition)">MapDependencies(ModuleDefinition)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void MapDependencies(ModuleDefinition main)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Mono.Cecil.ModuleDefinition</span></td>
+        <td><span class="parametername">main</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_MonoModder_MapDependency_" data-uid="MonoMod.MonoModder.MapDependency*"></a>
+  <h4 id="MonoMod_MonoModder_MapDependency_Mono_Cecil_ModuleDefinition_Mono_Cecil_AssemblyNameReference_" data-uid="MonoMod.MonoModder.MapDependency(Mono.Cecil.ModuleDefinition,Mono.Cecil.AssemblyNameReference)">MapDependency(ModuleDefinition, AssemblyNameReference)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void MapDependency(ModuleDefinition main, AssemblyNameReference depRef)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Mono.Cecil.ModuleDefinition</span></td>
+        <td><span class="parametername">main</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Mono.Cecil.AssemblyNameReference</span></td>
+        <td><span class="parametername">depRef</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_MonoModder_MapDependency_" data-uid="MonoMod.MonoModder.MapDependency*"></a>
+  <h4 id="MonoMod_MonoModder_MapDependency_Mono_Cecil_ModuleDefinition_System_String_System_String_Mono_Cecil_AssemblyNameReference_" data-uid="MonoMod.MonoModder.MapDependency(Mono.Cecil.ModuleDefinition,System.String,System.String,Mono.Cecil.AssemblyNameReference)">MapDependency(ModuleDefinition, String, String, AssemblyNameReference)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void MapDependency(ModuleDefinition main, string name, string fullName = null, AssemblyNameReference depRef = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Mono.Cecil.ModuleDefinition</span></td>
+        <td><span class="parametername">main</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">fullName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Mono.Cecil.AssemblyNameReference</span></td>
+        <td><span class="parametername">depRef</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_MonoModder_ParseLinkFrom_" data-uid="MonoMod.MonoModder.ParseLinkFrom*"></a>
+  <h4 id="MonoMod_MonoModder_ParseLinkFrom_Mono_Cecil_MemberReference_Mono_Cecil_CustomAttribute_" data-uid="MonoMod.MonoModder.ParseLinkFrom(Mono.Cecil.MemberReference,Mono.Cecil.CustomAttribute)">ParseLinkFrom(MemberReference, CustomAttribute)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void ParseLinkFrom(MemberReference target, CustomAttribute hook)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Mono.Cecil.MemberReference</span></td>
+        <td><span class="parametername">target</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Mono.Cecil.CustomAttribute</span></td>
+        <td><span class="parametername">hook</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_MonoModder_ParseLinkTo_" data-uid="MonoMod.MonoModder.ParseLinkTo*"></a>
+  <h4 id="MonoMod_MonoModder_ParseLinkTo_Mono_Cecil_MemberReference_Mono_Cecil_CustomAttribute_" data-uid="MonoMod.MonoModder.ParseLinkTo(Mono.Cecil.MemberReference,Mono.Cecil.CustomAttribute)">ParseLinkTo(MemberReference, CustomAttribute)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void ParseLinkTo(MemberReference from, CustomAttribute hook)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Mono.Cecil.MemberReference</span></td>
+        <td><span class="parametername">from</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Mono.Cecil.CustomAttribute</span></td>
+        <td><span class="parametername">hook</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_MonoModder_ParseRules_" data-uid="MonoMod.MonoModder.ParseRules*"></a>
+  <h4 id="MonoMod_MonoModder_ParseRules_Mono_Cecil_ModuleDefinition_" data-uid="MonoMod.MonoModder.ParseRules(Mono.Cecil.ModuleDefinition)">ParseRules(ModuleDefinition)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void ParseRules(ModuleDefinition mod)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Mono.Cecil.ModuleDefinition</span></td>
+        <td><span class="parametername">mod</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_MonoModder_ParseRulesInType_" data-uid="MonoMod.MonoModder.ParseRulesInType*"></a>
+  <h4 id="MonoMod_MonoModder_ParseRulesInType_Mono_Cecil_TypeDefinition_System_Type_" data-uid="MonoMod.MonoModder.ParseRulesInType(Mono.Cecil.TypeDefinition,System.Type)">ParseRulesInType(TypeDefinition, Type)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void ParseRulesInType(TypeDefinition type, Type rulesTypeMMILRT = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Mono.Cecil.TypeDefinition</span></td>
+        <td><span class="parametername">type</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Type</span></td>
+        <td><span class="parametername">rulesTypeMMILRT</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_MonoModder_PatchEvent_" data-uid="MonoMod.MonoModder.PatchEvent*"></a>
+  <h4 id="MonoMod_MonoModder_PatchEvent_Mono_Cecil_TypeDefinition_Mono_Cecil_EventDefinition_System_Collections_Generic_HashSet_Mono_Cecil_MethodDefinition__" data-uid="MonoMod.MonoModder.PatchEvent(Mono.Cecil.TypeDefinition,Mono.Cecil.EventDefinition,System.Collections.Generic.HashSet{Mono.Cecil.MethodDefinition})">PatchEvent(TypeDefinition, EventDefinition, HashSet&lt;MethodDefinition&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void PatchEvent(TypeDefinition targetType, EventDefinition srcEvent, HashSet&lt;MethodDefinition&gt; propMethods = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Mono.Cecil.TypeDefinition</span></td>
+        <td><span class="parametername">targetType</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Mono.Cecil.EventDefinition</span></td>
+        <td><span class="parametername">srcEvent</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.HashSet</span>&lt;<span class="xref">Mono.Cecil.MethodDefinition</span>&gt;</td>
+        <td><span class="parametername">propMethods</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_MonoModder_PatchField_" data-uid="MonoMod.MonoModder.PatchField*"></a>
+  <h4 id="MonoMod_MonoModder_PatchField_Mono_Cecil_TypeDefinition_Mono_Cecil_FieldDefinition_" data-uid="MonoMod.MonoModder.PatchField(Mono.Cecil.TypeDefinition,Mono.Cecil.FieldDefinition)">PatchField(TypeDefinition, FieldDefinition)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void PatchField(TypeDefinition targetType, FieldDefinition field)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Mono.Cecil.TypeDefinition</span></td>
+        <td><span class="parametername">targetType</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Mono.Cecil.FieldDefinition</span></td>
+        <td><span class="parametername">field</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_MonoModder_PatchMethod_" data-uid="MonoMod.MonoModder.PatchMethod*"></a>
+  <h4 id="MonoMod_MonoModder_PatchMethod_Mono_Cecil_TypeDefinition_Mono_Cecil_MethodDefinition_" data-uid="MonoMod.MonoModder.PatchMethod(Mono.Cecil.TypeDefinition,Mono.Cecil.MethodDefinition)">PatchMethod(TypeDefinition, MethodDefinition)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual MethodDefinition PatchMethod(TypeDefinition targetType, MethodDefinition method)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Mono.Cecil.TypeDefinition</span></td>
+        <td><span class="parametername">targetType</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Mono.Cecil.MethodDefinition</span></td>
+        <td><span class="parametername">method</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Mono.Cecil.MethodDefinition</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_MonoModder_PatchModule_" data-uid="MonoMod.MonoModder.PatchModule*"></a>
+  <h4 id="MonoMod_MonoModder_PatchModule_Mono_Cecil_ModuleDefinition_" data-uid="MonoMod.MonoModder.PatchModule(Mono.Cecil.ModuleDefinition)">PatchModule(ModuleDefinition)</h4>
+  <div class="markdown level1 summary"><p>Patches the module (adds new type members).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void PatchModule(ModuleDefinition mod)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Mono.Cecil.ModuleDefinition</span></td>
+        <td><span class="parametername">mod</span></td>
+        <td><p>Mod to patch into the input module.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_MonoModder_PatchNested_" data-uid="MonoMod.MonoModder.PatchNested*"></a>
+  <h4 id="MonoMod_MonoModder_PatchNested_Mono_Cecil_TypeDefinition_" data-uid="MonoMod.MonoModder.PatchNested(Mono.Cecil.TypeDefinition)">PatchNested(TypeDefinition)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void PatchNested(TypeDefinition type)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Mono.Cecil.TypeDefinition</span></td>
+        <td><span class="parametername">type</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_MonoModder_PatchProperty_" data-uid="MonoMod.MonoModder.PatchProperty*"></a>
+  <h4 id="MonoMod_MonoModder_PatchProperty_Mono_Cecil_TypeDefinition_Mono_Cecil_PropertyDefinition_System_Collections_Generic_HashSet_Mono_Cecil_MethodDefinition__" data-uid="MonoMod.MonoModder.PatchProperty(Mono.Cecil.TypeDefinition,Mono.Cecil.PropertyDefinition,System.Collections.Generic.HashSet{Mono.Cecil.MethodDefinition})">PatchProperty(TypeDefinition, PropertyDefinition, HashSet&lt;MethodDefinition&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void PatchProperty(TypeDefinition targetType, PropertyDefinition prop, HashSet&lt;MethodDefinition&gt; propMethods = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Mono.Cecil.TypeDefinition</span></td>
+        <td><span class="parametername">targetType</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Mono.Cecil.PropertyDefinition</span></td>
+        <td><span class="parametername">prop</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.HashSet</span>&lt;<span class="xref">Mono.Cecil.MethodDefinition</span>&gt;</td>
+        <td><span class="parametername">propMethods</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_MonoModder_PatchRefs_" data-uid="MonoMod.MonoModder.PatchRefs*"></a>
+  <h4 id="MonoMod_MonoModder_PatchRefs" data-uid="MonoMod.MonoModder.PatchRefs">PatchRefs()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void PatchRefs()</code></pre>
+  </div>
+  
+  
+  <a id="MonoMod_MonoModder_PatchRefs_" data-uid="MonoMod.MonoModder.PatchRefs*"></a>
+  <h4 id="MonoMod_MonoModder_PatchRefs_Mono_Cecil_ModuleDefinition_" data-uid="MonoMod.MonoModder.PatchRefs(Mono.Cecil.ModuleDefinition)">PatchRefs(ModuleDefinition)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void PatchRefs(ModuleDefinition mod)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Mono.Cecil.ModuleDefinition</span></td>
+        <td><span class="parametername">mod</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_MonoModder_PatchRefsInMethod_" data-uid="MonoMod.MonoModder.PatchRefsInMethod*"></a>
+  <h4 id="MonoMod_MonoModder_PatchRefsInMethod_Mono_Cecil_MethodDefinition_" data-uid="MonoMod.MonoModder.PatchRefsInMethod(Mono.Cecil.MethodDefinition)">PatchRefsInMethod(MethodDefinition)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void PatchRefsInMethod(MethodDefinition method)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Mono.Cecil.MethodDefinition</span></td>
+        <td><span class="parametername">method</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_MonoModder_PatchRefsInType_" data-uid="MonoMod.MonoModder.PatchRefsInType*"></a>
+  <h4 id="MonoMod_MonoModder_PatchRefsInType_Mono_Cecil_TypeDefinition_" data-uid="MonoMod.MonoModder.PatchRefsInType(Mono.Cecil.TypeDefinition)">PatchRefsInType(TypeDefinition)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void PatchRefsInType(TypeDefinition type)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Mono.Cecil.TypeDefinition</span></td>
+        <td><span class="parametername">type</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_MonoModder_PatchType_" data-uid="MonoMod.MonoModder.PatchType*"></a>
+  <h4 id="MonoMod_MonoModder_PatchType_Mono_Cecil_TypeDefinition_" data-uid="MonoMod.MonoModder.PatchType(Mono.Cecil.TypeDefinition)">PatchType(TypeDefinition)</h4>
+  <div class="markdown level1 summary"><p>Patches the type (adds new members).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void PatchType(TypeDefinition type)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Mono.Cecil.TypeDefinition</span></td>
+        <td><span class="parametername">type</span></td>
+        <td><p>Type to patch into the input module.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_MonoModder_PatchWasHere_" data-uid="MonoMod.MonoModder.PatchWasHere*"></a>
+  <h4 id="MonoMod_MonoModder_PatchWasHere" data-uid="MonoMod.MonoModder.PatchWasHere">PatchWasHere()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual TypeDefinition PatchWasHere()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Mono.Cecil.TypeDefinition</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_MonoModder_PostRelinker_" data-uid="MonoMod.MonoModder.PostRelinker*"></a>
+  <h4 id="MonoMod_MonoModder_PostRelinker_Mono_Cecil_IMetadataTokenProvider_Mono_Cecil_IGenericParameterProvider_" data-uid="MonoMod.MonoModder.PostRelinker(Mono.Cecil.IMetadataTokenProvider,Mono.Cecil.IGenericParameterProvider)">PostRelinker(IMetadataTokenProvider, IGenericParameterProvider)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual IMetadataTokenProvider PostRelinker(IMetadataTokenProvider mtp, IGenericParameterProvider context)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Mono.Cecil.IMetadataTokenProvider</span></td>
+        <td><span class="parametername">mtp</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Mono.Cecil.IGenericParameterProvider</span></td>
+        <td><span class="parametername">context</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Mono.Cecil.IMetadataTokenProvider</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_MonoModder_PrePatchModule_" data-uid="MonoMod.MonoModder.PrePatchModule*"></a>
+  <h4 id="MonoMod_MonoModder_PrePatchModule_Mono_Cecil_ModuleDefinition_" data-uid="MonoMod.MonoModder.PrePatchModule(Mono.Cecil.ModuleDefinition)">PrePatchModule(ModuleDefinition)</h4>
+  <div class="markdown level1 summary"><p>Pre-Patches the module (adds new types, module references, resources, ...).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void PrePatchModule(ModuleDefinition mod)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Mono.Cecil.ModuleDefinition</span></td>
+        <td><span class="parametername">mod</span></td>
+        <td><p>Mod to patch into the input module.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_MonoModder_PrePatchNested_" data-uid="MonoMod.MonoModder.PrePatchNested*"></a>
+  <h4 id="MonoMod_MonoModder_PrePatchNested_Mono_Cecil_TypeDefinition_" data-uid="MonoMod.MonoModder.PrePatchNested(Mono.Cecil.TypeDefinition)">PrePatchNested(TypeDefinition)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void PrePatchNested(TypeDefinition type)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Mono.Cecil.TypeDefinition</span></td>
+        <td><span class="parametername">type</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_MonoModder_PrePatchType_" data-uid="MonoMod.MonoModder.PrePatchType*"></a>
+  <h4 id="MonoMod_MonoModder_PrePatchType_Mono_Cecil_TypeDefinition_System_Boolean_" data-uid="MonoMod.MonoModder.PrePatchType(Mono.Cecil.TypeDefinition,System.Boolean)">PrePatchType(TypeDefinition, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Patches the type (adds new types).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void PrePatchType(TypeDefinition type, bool forceAdd = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Mono.Cecil.TypeDefinition</span></td>
+        <td><span class="parametername">type</span></td>
+        <td><p>Type to patch into the input module.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">forceAdd</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_MonoModder_Read_" data-uid="MonoMod.MonoModder.Read*"></a>
+  <h4 id="MonoMod_MonoModder_Read" data-uid="MonoMod.MonoModder.Read">Read()</h4>
+  <div class="markdown level1 summary"><p>Reads the main module from the Input stream / InputPath file to Module.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void Read()</code></pre>
+  </div>
+  
+  
+  <a id="MonoMod_MonoModder_ReadMod_" data-uid="MonoMod.MonoModder.ReadMod*"></a>
+  <h4 id="MonoMod_MonoModder_ReadMod_System_IO_Stream_" data-uid="MonoMod.MonoModder.ReadMod(System.IO.Stream)">ReadMod(Stream)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void ReadMod(Stream stream)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IO.Stream</span></td>
+        <td><span class="parametername">stream</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_MonoModder_ReadMod_" data-uid="MonoMod.MonoModder.ReadMod*"></a>
+  <h4 id="MonoMod_MonoModder_ReadMod_System_String_" data-uid="MonoMod.MonoModder.ReadMod(System.String)">ReadMod(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void ReadMod(string path)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">path</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_MonoModder_Relinker_" data-uid="MonoMod.MonoModder.Relinker*"></a>
+  <h4 id="MonoMod_MonoModder_Relinker_Mono_Cecil_IMetadataTokenProvider_Mono_Cecil_IGenericParameterProvider_" data-uid="MonoMod.MonoModder.Relinker(Mono.Cecil.IMetadataTokenProvider,Mono.Cecil.IGenericParameterProvider)">Relinker(IMetadataTokenProvider, IGenericParameterProvider)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual IMetadataTokenProvider Relinker(IMetadataTokenProvider mtp, IGenericParameterProvider context)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Mono.Cecil.IMetadataTokenProvider</span></td>
+        <td><span class="parametername">mtp</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Mono.Cecil.IGenericParameterProvider</span></td>
+        <td><span class="parametername">context</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Mono.Cecil.IMetadataTokenProvider</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_MonoModder_ResolveRelinkTarget_" data-uid="MonoMod.MonoModder.ResolveRelinkTarget*"></a>
+  <h4 id="MonoMod_MonoModder_ResolveRelinkTarget_Mono_Cecil_IMetadataTokenProvider_System_Boolean_System_Boolean_" data-uid="MonoMod.MonoModder.ResolveRelinkTarget(Mono.Cecil.IMetadataTokenProvider,System.Boolean,System.Boolean)">ResolveRelinkTarget(IMetadataTokenProvider, Boolean, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual IMetadataTokenProvider ResolveRelinkTarget(IMetadataTokenProvider mtp, bool relink = true, bool relinkModule = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Mono.Cecil.IMetadataTokenProvider</span></td>
+        <td><span class="parametername">mtp</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">relink</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">relinkModule</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Mono.Cecil.IMetadataTokenProvider</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_MonoModder_RunCustomAttributeHandlers_" data-uid="MonoMod.MonoModder.RunCustomAttributeHandlers*"></a>
+  <h4 id="MonoMod_MonoModder_RunCustomAttributeHandlers_Mono_Cecil_ICustomAttributeProvider_" data-uid="MonoMod.MonoModder.RunCustomAttributeHandlers(Mono.Cecil.ICustomAttributeProvider)">RunCustomAttributeHandlers(ICustomAttributeProvider)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void RunCustomAttributeHandlers(ICustomAttributeProvider cap)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Mono.Cecil.ICustomAttributeProvider</span></td>
+        <td><span class="parametername">cap</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_MonoModder_Write_" data-uid="MonoMod.MonoModder.Write*"></a>
+  <h4 id="MonoMod_MonoModder_Write_System_IO_Stream_System_String_" data-uid="MonoMod.MonoModder.Write(System.IO.Stream,System.String)">Write(Stream, String)</h4>
+  <div class="markdown level1 summary"><p>Write the modded module to the given stream or the default output.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void Write(Stream output = null, string outputPath = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IO.Stream</span></td>
+        <td><span class="parametername">output</span></td>
+        <td><p>Output stream. If none given, default Output will be used.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">outputPath</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">System.IDisposable</span>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="MonoMod.InlineRT.MonoModRulesManager.html#MonoMod_InlineRT_MonoModRulesManager_ExecuteRules_MonoMod_MonoModder_Mono_Cecil_TypeDefinition_">MonoModRulesManager.ExecuteRules(MonoModder, TypeDefinition)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Yet another C# modding swiss army knife.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,1373 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class ILGeneratorShim
+   | MonoMod </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class ILGeneratorShim
+   | MonoMod ">
+    <meta name="generator" content="docfx 2.43.3.0">
+    <meta name="description" content="A C# modding swiss army knife, powered by cecil.">
+    <link rel="shortcut icon" href="../favicon.png">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    <meta property="docfx:newtab" content="true">
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo-small.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="MonoMod.Utils.Cil.ILGeneratorShim">
+  
+  
+  <h1 id="MonoMod_Utils_Cil_ILGeneratorShim" data-uid="MonoMod.Utils.Cil.ILGeneratorShim" class="text-break">Class ILGeneratorShim
+  </h1>
+  <div class="markdown level0 summary"><p>Abstract version of System.Reflection.Emit.ILGenerator. See <span class="xref">System.Reflection.Emit.ILGenerator</span> for proper documentation.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">ILGeneratorShim</span></div>
+      <div class="level2"><a class="xref" href="MonoMod.Utils.Cil.CecilILGenerator.html">CecilILGenerator</a></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="MonoMod.Utils.Cil.html">MonoMod.Utils.Cil</a></h6>
+  <h6><strong>Assembly</strong>: MonoMod.Utils.dll</h6>
+  <h5 id="MonoMod_Utils_Cil_ILGeneratorShim_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract class ILGeneratorShim : Object</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="MonoMod_Utils_Cil_ILGeneratorShim__ctor_" data-uid="MonoMod.Utils.Cil.ILGeneratorShim.#ctor*"></a>
+  <h4 id="MonoMod_Utils_Cil_ILGeneratorShim__ctor" data-uid="MonoMod.Utils.Cil.ILGeneratorShim.#ctor">ILGeneratorShim()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected ILGeneratorShim()</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="MonoMod_Utils_Cil_ILGeneratorShim_ILOffset_" data-uid="MonoMod.Utils.Cil.ILGeneratorShim.ILOffset*"></a>
+  <h4 id="MonoMod_Utils_Cil_ILGeneratorShim_ILOffset" data-uid="MonoMod.Utils.Cil.ILGeneratorShim.ILOffset">ILOffset</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract int ILOffset { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_Utils_Cil_ILGeneratorShim_ProxyType_" data-uid="MonoMod.Utils.Cil.ILGeneratorShim.ProxyType*"></a>
+  <h4 id="MonoMod_Utils_Cil_ILGeneratorShim_ProxyType" data-uid="MonoMod.Utils.Cil.ILGeneratorShim.ProxyType">ProxyType</h4>
+  <div class="markdown level1 summary"><p>Get the non-generic proxy type implementing ILGenerator.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Type ProxyType { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Type</span></td>
+        <td><p>The &quot;real&quot; ILGenerator type, non-generic.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="MonoMod_Utils_Cil_ILGeneratorShim_BeginCatchBlock_" data-uid="MonoMod.Utils.Cil.ILGeneratorShim.BeginCatchBlock*"></a>
+  <h4 id="MonoMod_Utils_Cil_ILGeneratorShim_BeginCatchBlock_System_Type_" data-uid="MonoMod.Utils.Cil.ILGeneratorShim.BeginCatchBlock(System.Type)">BeginCatchBlock(Type)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract void BeginCatchBlock(Type exceptionType)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Type</span></td>
+        <td><span class="parametername">exceptionType</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_Utils_Cil_ILGeneratorShim_BeginExceptFilterBlock_" data-uid="MonoMod.Utils.Cil.ILGeneratorShim.BeginExceptFilterBlock*"></a>
+  <h4 id="MonoMod_Utils_Cil_ILGeneratorShim_BeginExceptFilterBlock" data-uid="MonoMod.Utils.Cil.ILGeneratorShim.BeginExceptFilterBlock">BeginExceptFilterBlock()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract void BeginExceptFilterBlock()</code></pre>
+  </div>
+  
+  
+  <a id="MonoMod_Utils_Cil_ILGeneratorShim_BeginExceptionBlock_" data-uid="MonoMod.Utils.Cil.ILGeneratorShim.BeginExceptionBlock*"></a>
+  <h4 id="MonoMod_Utils_Cil_ILGeneratorShim_BeginExceptionBlock" data-uid="MonoMod.Utils.Cil.ILGeneratorShim.BeginExceptionBlock">BeginExceptionBlock()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract Label BeginExceptionBlock()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Reflection.Emit.Label</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_Utils_Cil_ILGeneratorShim_BeginFaultBlock_" data-uid="MonoMod.Utils.Cil.ILGeneratorShim.BeginFaultBlock*"></a>
+  <h4 id="MonoMod_Utils_Cil_ILGeneratorShim_BeginFaultBlock" data-uid="MonoMod.Utils.Cil.ILGeneratorShim.BeginFaultBlock">BeginFaultBlock()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract void BeginFaultBlock()</code></pre>
+  </div>
+  
+  
+  <a id="MonoMod_Utils_Cil_ILGeneratorShim_BeginFinallyBlock_" data-uid="MonoMod.Utils.Cil.ILGeneratorShim.BeginFinallyBlock*"></a>
+  <h4 id="MonoMod_Utils_Cil_ILGeneratorShim_BeginFinallyBlock" data-uid="MonoMod.Utils.Cil.ILGeneratorShim.BeginFinallyBlock">BeginFinallyBlock()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract void BeginFinallyBlock()</code></pre>
+  </div>
+  
+  
+  <a id="MonoMod_Utils_Cil_ILGeneratorShim_BeginScope_" data-uid="MonoMod.Utils.Cil.ILGeneratorShim.BeginScope*"></a>
+  <h4 id="MonoMod_Utils_Cil_ILGeneratorShim_BeginScope" data-uid="MonoMod.Utils.Cil.ILGeneratorShim.BeginScope">BeginScope()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract void BeginScope()</code></pre>
+  </div>
+  
+  
+  <a id="MonoMod_Utils_Cil_ILGeneratorShim_DeclareLocal_" data-uid="MonoMod.Utils.Cil.ILGeneratorShim.DeclareLocal*"></a>
+  <h4 id="MonoMod_Utils_Cil_ILGeneratorShim_DeclareLocal_System_Type_" data-uid="MonoMod.Utils.Cil.ILGeneratorShim.DeclareLocal(System.Type)">DeclareLocal(Type)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract LocalBuilder DeclareLocal(Type localType)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Type</span></td>
+        <td><span class="parametername">localType</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Reflection.Emit.LocalBuilder</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_Utils_Cil_ILGeneratorShim_DeclareLocal_" data-uid="MonoMod.Utils.Cil.ILGeneratorShim.DeclareLocal*"></a>
+  <h4 id="MonoMod_Utils_Cil_ILGeneratorShim_DeclareLocal_System_Type_System_Boolean_" data-uid="MonoMod.Utils.Cil.ILGeneratorShim.DeclareLocal(System.Type,System.Boolean)">DeclareLocal(Type, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract LocalBuilder DeclareLocal(Type localType, bool pinned)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Type</span></td>
+        <td><span class="parametername">localType</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">pinned</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Reflection.Emit.LocalBuilder</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_Utils_Cil_ILGeneratorShim_DefineLabel_" data-uid="MonoMod.Utils.Cil.ILGeneratorShim.DefineLabel*"></a>
+  <h4 id="MonoMod_Utils_Cil_ILGeneratorShim_DefineLabel" data-uid="MonoMod.Utils.Cil.ILGeneratorShim.DefineLabel">DefineLabel()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract Label DefineLabel()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Reflection.Emit.Label</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_Utils_Cil_ILGeneratorShim_Emit_" data-uid="MonoMod.Utils.Cil.ILGeneratorShim.Emit*"></a>
+  <h4 id="MonoMod_Utils_Cil_ILGeneratorShim_Emit_System_Reflection_Emit_OpCode_" data-uid="MonoMod.Utils.Cil.ILGeneratorShim.Emit(System.Reflection.Emit.OpCode)">Emit(OpCode)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract void Emit(OpCode opcode)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Reflection.Emit.OpCode</span></td>
+        <td><span class="parametername">opcode</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_Utils_Cil_ILGeneratorShim_Emit_" data-uid="MonoMod.Utils.Cil.ILGeneratorShim.Emit*"></a>
+  <h4 id="MonoMod_Utils_Cil_ILGeneratorShim_Emit_System_Reflection_Emit_OpCode_System_Byte_" data-uid="MonoMod.Utils.Cil.ILGeneratorShim.Emit(System.Reflection.Emit.OpCode,System.Byte)">Emit(OpCode, Byte)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract void Emit(OpCode opcode, byte arg)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Reflection.Emit.OpCode</span></td>
+        <td><span class="parametername">opcode</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Byte</span></td>
+        <td><span class="parametername">arg</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_Utils_Cil_ILGeneratorShim_Emit_" data-uid="MonoMod.Utils.Cil.ILGeneratorShim.Emit*"></a>
+  <h4 id="MonoMod_Utils_Cil_ILGeneratorShim_Emit_System_Reflection_Emit_OpCode_System_Double_" data-uid="MonoMod.Utils.Cil.ILGeneratorShim.Emit(System.Reflection.Emit.OpCode,System.Double)">Emit(OpCode, Double)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract void Emit(OpCode opcode, double arg)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Reflection.Emit.OpCode</span></td>
+        <td><span class="parametername">opcode</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">arg</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_Utils_Cil_ILGeneratorShim_Emit_" data-uid="MonoMod.Utils.Cil.ILGeneratorShim.Emit*"></a>
+  <h4 id="MonoMod_Utils_Cil_ILGeneratorShim_Emit_System_Reflection_Emit_OpCode_System_Int16_" data-uid="MonoMod.Utils.Cil.ILGeneratorShim.Emit(System.Reflection.Emit.OpCode,System.Int16)">Emit(OpCode, Int16)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract void Emit(OpCode opcode, short arg)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Reflection.Emit.OpCode</span></td>
+        <td><span class="parametername">opcode</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int16</span></td>
+        <td><span class="parametername">arg</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_Utils_Cil_ILGeneratorShim_Emit_" data-uid="MonoMod.Utils.Cil.ILGeneratorShim.Emit*"></a>
+  <h4 id="MonoMod_Utils_Cil_ILGeneratorShim_Emit_System_Reflection_Emit_OpCode_System_Int32_" data-uid="MonoMod.Utils.Cil.ILGeneratorShim.Emit(System.Reflection.Emit.OpCode,System.Int32)">Emit(OpCode, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract void Emit(OpCode opcode, int arg)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Reflection.Emit.OpCode</span></td>
+        <td><span class="parametername">opcode</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">arg</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_Utils_Cil_ILGeneratorShim_Emit_" data-uid="MonoMod.Utils.Cil.ILGeneratorShim.Emit*"></a>
+  <h4 id="MonoMod_Utils_Cil_ILGeneratorShim_Emit_System_Reflection_Emit_OpCode_System_Int64_" data-uid="MonoMod.Utils.Cil.ILGeneratorShim.Emit(System.Reflection.Emit.OpCode,System.Int64)">Emit(OpCode, Int64)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract void Emit(OpCode opcode, long arg)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Reflection.Emit.OpCode</span></td>
+        <td><span class="parametername">opcode</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">arg</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_Utils_Cil_ILGeneratorShim_Emit_" data-uid="MonoMod.Utils.Cil.ILGeneratorShim.Emit*"></a>
+  <h4 id="MonoMod_Utils_Cil_ILGeneratorShim_Emit_System_Reflection_Emit_OpCode_System_Reflection_ConstructorInfo_" data-uid="MonoMod.Utils.Cil.ILGeneratorShim.Emit(System.Reflection.Emit.OpCode,System.Reflection.ConstructorInfo)">Emit(OpCode, ConstructorInfo)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract void Emit(OpCode opcode, ConstructorInfo con)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Reflection.Emit.OpCode</span></td>
+        <td><span class="parametername">opcode</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Reflection.ConstructorInfo</span></td>
+        <td><span class="parametername">con</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_Utils_Cil_ILGeneratorShim_Emit_" data-uid="MonoMod.Utils.Cil.ILGeneratorShim.Emit*"></a>
+  <h4 id="MonoMod_Utils_Cil_ILGeneratorShim_Emit_System_Reflection_Emit_OpCode_System_Reflection_Emit_Label_" data-uid="MonoMod.Utils.Cil.ILGeneratorShim.Emit(System.Reflection.Emit.OpCode,System.Reflection.Emit.Label)">Emit(OpCode, Label)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract void Emit(OpCode opcode, Label label)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Reflection.Emit.OpCode</span></td>
+        <td><span class="parametername">opcode</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Reflection.Emit.Label</span></td>
+        <td><span class="parametername">label</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_Utils_Cil_ILGeneratorShim_Emit_" data-uid="MonoMod.Utils.Cil.ILGeneratorShim.Emit*"></a>
+  <h4 id="MonoMod_Utils_Cil_ILGeneratorShim_Emit_System_Reflection_Emit_OpCode_System_Reflection_Emit_Label___" data-uid="MonoMod.Utils.Cil.ILGeneratorShim.Emit(System.Reflection.Emit.OpCode,System.Reflection.Emit.Label[])">Emit(OpCode, Label[])</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract void Emit(OpCode opcode, Label[] labels)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Reflection.Emit.OpCode</span></td>
+        <td><span class="parametername">opcode</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Reflection.Emit.Label</span>[]</td>
+        <td><span class="parametername">labels</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_Utils_Cil_ILGeneratorShim_Emit_" data-uid="MonoMod.Utils.Cil.ILGeneratorShim.Emit*"></a>
+  <h4 id="MonoMod_Utils_Cil_ILGeneratorShim_Emit_System_Reflection_Emit_OpCode_System_Reflection_Emit_LocalBuilder_" data-uid="MonoMod.Utils.Cil.ILGeneratorShim.Emit(System.Reflection.Emit.OpCode,System.Reflection.Emit.LocalBuilder)">Emit(OpCode, LocalBuilder)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract void Emit(OpCode opcode, LocalBuilder local)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Reflection.Emit.OpCode</span></td>
+        <td><span class="parametername">opcode</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Reflection.Emit.LocalBuilder</span></td>
+        <td><span class="parametername">local</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_Utils_Cil_ILGeneratorShim_Emit_" data-uid="MonoMod.Utils.Cil.ILGeneratorShim.Emit*"></a>
+  <h4 id="MonoMod_Utils_Cil_ILGeneratorShim_Emit_System_Reflection_Emit_OpCode_System_Reflection_Emit_SignatureHelper_" data-uid="MonoMod.Utils.Cil.ILGeneratorShim.Emit(System.Reflection.Emit.OpCode,System.Reflection.Emit.SignatureHelper)">Emit(OpCode, SignatureHelper)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract void Emit(OpCode opcode, SignatureHelper signature)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Reflection.Emit.OpCode</span></td>
+        <td><span class="parametername">opcode</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Reflection.Emit.SignatureHelper</span></td>
+        <td><span class="parametername">signature</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_Utils_Cil_ILGeneratorShim_Emit_" data-uid="MonoMod.Utils.Cil.ILGeneratorShim.Emit*"></a>
+  <h4 id="MonoMod_Utils_Cil_ILGeneratorShim_Emit_System_Reflection_Emit_OpCode_System_Reflection_FieldInfo_" data-uid="MonoMod.Utils.Cil.ILGeneratorShim.Emit(System.Reflection.Emit.OpCode,System.Reflection.FieldInfo)">Emit(OpCode, FieldInfo)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract void Emit(OpCode opcode, FieldInfo field)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Reflection.Emit.OpCode</span></td>
+        <td><span class="parametername">opcode</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Reflection.FieldInfo</span></td>
+        <td><span class="parametername">field</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_Utils_Cil_ILGeneratorShim_Emit_" data-uid="MonoMod.Utils.Cil.ILGeneratorShim.Emit*"></a>
+  <h4 id="MonoMod_Utils_Cil_ILGeneratorShim_Emit_System_Reflection_Emit_OpCode_System_Reflection_MethodInfo_" data-uid="MonoMod.Utils.Cil.ILGeneratorShim.Emit(System.Reflection.Emit.OpCode,System.Reflection.MethodInfo)">Emit(OpCode, MethodInfo)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract void Emit(OpCode opcode, MethodInfo meth)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Reflection.Emit.OpCode</span></td>
+        <td><span class="parametername">opcode</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Reflection.MethodInfo</span></td>
+        <td><span class="parametername">meth</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_Utils_Cil_ILGeneratorShim_Emit_" data-uid="MonoMod.Utils.Cil.ILGeneratorShim.Emit*"></a>
+  <h4 id="MonoMod_Utils_Cil_ILGeneratorShim_Emit_System_Reflection_Emit_OpCode_System_SByte_" data-uid="MonoMod.Utils.Cil.ILGeneratorShim.Emit(System.Reflection.Emit.OpCode,System.SByte)">Emit(OpCode, SByte)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract void Emit(OpCode opcode, sbyte arg)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Reflection.Emit.OpCode</span></td>
+        <td><span class="parametername">opcode</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.SByte</span></td>
+        <td><span class="parametername">arg</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_Utils_Cil_ILGeneratorShim_Emit_" data-uid="MonoMod.Utils.Cil.ILGeneratorShim.Emit*"></a>
+  <h4 id="MonoMod_Utils_Cil_ILGeneratorShim_Emit_System_Reflection_Emit_OpCode_System_Single_" data-uid="MonoMod.Utils.Cil.ILGeneratorShim.Emit(System.Reflection.Emit.OpCode,System.Single)">Emit(OpCode, Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract void Emit(OpCode opcode, float arg)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Reflection.Emit.OpCode</span></td>
+        <td><span class="parametername">opcode</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">arg</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_Utils_Cil_ILGeneratorShim_Emit_" data-uid="MonoMod.Utils.Cil.ILGeneratorShim.Emit*"></a>
+  <h4 id="MonoMod_Utils_Cil_ILGeneratorShim_Emit_System_Reflection_Emit_OpCode_System_String_" data-uid="MonoMod.Utils.Cil.ILGeneratorShim.Emit(System.Reflection.Emit.OpCode,System.String)">Emit(OpCode, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract void Emit(OpCode opcode, string str)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Reflection.Emit.OpCode</span></td>
+        <td><span class="parametername">opcode</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">str</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_Utils_Cil_ILGeneratorShim_Emit_" data-uid="MonoMod.Utils.Cil.ILGeneratorShim.Emit*"></a>
+  <h4 id="MonoMod_Utils_Cil_ILGeneratorShim_Emit_System_Reflection_Emit_OpCode_System_Type_" data-uid="MonoMod.Utils.Cil.ILGeneratorShim.Emit(System.Reflection.Emit.OpCode,System.Type)">Emit(OpCode, Type)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract void Emit(OpCode opcode, Type cls)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Reflection.Emit.OpCode</span></td>
+        <td><span class="parametername">opcode</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Type</span></td>
+        <td><span class="parametername">cls</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_Utils_Cil_ILGeneratorShim_EmitCall_" data-uid="MonoMod.Utils.Cil.ILGeneratorShim.EmitCall*"></a>
+  <h4 id="MonoMod_Utils_Cil_ILGeneratorShim_EmitCall_System_Reflection_Emit_OpCode_System_Reflection_MethodInfo_System_Type___" data-uid="MonoMod.Utils.Cil.ILGeneratorShim.EmitCall(System.Reflection.Emit.OpCode,System.Reflection.MethodInfo,System.Type[])">EmitCall(OpCode, MethodInfo, Type[])</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract void EmitCall(OpCode opcode, MethodInfo methodInfo, Type[] optionalParameterTypes)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Reflection.Emit.OpCode</span></td>
+        <td><span class="parametername">opcode</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Reflection.MethodInfo</span></td>
+        <td><span class="parametername">methodInfo</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Type</span>[]</td>
+        <td><span class="parametername">optionalParameterTypes</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_Utils_Cil_ILGeneratorShim_EmitCalli_" data-uid="MonoMod.Utils.Cil.ILGeneratorShim.EmitCalli*"></a>
+  <h4 id="MonoMod_Utils_Cil_ILGeneratorShim_EmitCalli_System_Reflection_Emit_OpCode_System_Reflection_CallingConventions_System_Type_System_Type___System_Type___" data-uid="MonoMod.Utils.Cil.ILGeneratorShim.EmitCalli(System.Reflection.Emit.OpCode,System.Reflection.CallingConventions,System.Type,System.Type[],System.Type[])">EmitCalli(OpCode, CallingConventions, Type, Type[], Type[])</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract void EmitCalli(OpCode opcode, CallingConventions callingConvention, Type returnType, Type[] parameterTypes, Type[] optionalParameterTypes)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Reflection.Emit.OpCode</span></td>
+        <td><span class="parametername">opcode</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Reflection.CallingConventions</span></td>
+        <td><span class="parametername">callingConvention</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Type</span></td>
+        <td><span class="parametername">returnType</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Type</span>[]</td>
+        <td><span class="parametername">parameterTypes</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Type</span>[]</td>
+        <td><span class="parametername">optionalParameterTypes</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_Utils_Cil_ILGeneratorShim_EmitCalli_" data-uid="MonoMod.Utils.Cil.ILGeneratorShim.EmitCalli*"></a>
+  <h4 id="MonoMod_Utils_Cil_ILGeneratorShim_EmitCalli_System_Reflection_Emit_OpCode_System_Runtime_InteropServices_CallingConvention_System_Type_System_Type___" data-uid="MonoMod.Utils.Cil.ILGeneratorShim.EmitCalli(System.Reflection.Emit.OpCode,System.Runtime.InteropServices.CallingConvention,System.Type,System.Type[])">EmitCalli(OpCode, CallingConvention, Type, Type[])</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract void EmitCalli(OpCode opcode, CallingConvention unmanagedCallConv, Type returnType, Type[] parameterTypes)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Reflection.Emit.OpCode</span></td>
+        <td><span class="parametername">opcode</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Runtime.InteropServices.CallingConvention</span></td>
+        <td><span class="parametername">unmanagedCallConv</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Type</span></td>
+        <td><span class="parametername">returnType</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Type</span>[]</td>
+        <td><span class="parametername">parameterTypes</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_Utils_Cil_ILGeneratorShim_EmitWriteLine_" data-uid="MonoMod.Utils.Cil.ILGeneratorShim.EmitWriteLine*"></a>
+  <h4 id="MonoMod_Utils_Cil_ILGeneratorShim_EmitWriteLine_System_Reflection_Emit_LocalBuilder_" data-uid="MonoMod.Utils.Cil.ILGeneratorShim.EmitWriteLine(System.Reflection.Emit.LocalBuilder)">EmitWriteLine(LocalBuilder)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract void EmitWriteLine(LocalBuilder localBuilder)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Reflection.Emit.LocalBuilder</span></td>
+        <td><span class="parametername">localBuilder</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_Utils_Cil_ILGeneratorShim_EmitWriteLine_" data-uid="MonoMod.Utils.Cil.ILGeneratorShim.EmitWriteLine*"></a>
+  <h4 id="MonoMod_Utils_Cil_ILGeneratorShim_EmitWriteLine_System_Reflection_FieldInfo_" data-uid="MonoMod.Utils.Cil.ILGeneratorShim.EmitWriteLine(System.Reflection.FieldInfo)">EmitWriteLine(FieldInfo)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract void EmitWriteLine(FieldInfo fld)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Reflection.FieldInfo</span></td>
+        <td><span class="parametername">fld</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_Utils_Cil_ILGeneratorShim_EmitWriteLine_" data-uid="MonoMod.Utils.Cil.ILGeneratorShim.EmitWriteLine*"></a>
+  <h4 id="MonoMod_Utils_Cil_ILGeneratorShim_EmitWriteLine_System_String_" data-uid="MonoMod.Utils.Cil.ILGeneratorShim.EmitWriteLine(System.String)">EmitWriteLine(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract void EmitWriteLine(string value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_Utils_Cil_ILGeneratorShim_EndExceptionBlock_" data-uid="MonoMod.Utils.Cil.ILGeneratorShim.EndExceptionBlock*"></a>
+  <h4 id="MonoMod_Utils_Cil_ILGeneratorShim_EndExceptionBlock" data-uid="MonoMod.Utils.Cil.ILGeneratorShim.EndExceptionBlock">EndExceptionBlock()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract void EndExceptionBlock()</code></pre>
+  </div>
+  
+  
+  <a id="MonoMod_Utils_Cil_ILGeneratorShim_EndScope_" data-uid="MonoMod.Utils.Cil.ILGeneratorShim.EndScope*"></a>
+  <h4 id="MonoMod_Utils_Cil_ILGeneratorShim_EndScope" data-uid="MonoMod.Utils.Cil.ILGeneratorShim.EndScope">EndScope()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract void EndScope()</code></pre>
+  </div>
+  
+  
+  <a id="MonoMod_Utils_Cil_ILGeneratorShim_GetProxy_" data-uid="MonoMod.Utils.Cil.ILGeneratorShim.GetProxy*"></a>
+  <h4 id="MonoMod_Utils_Cil_ILGeneratorShim_GetProxy" data-uid="MonoMod.Utils.Cil.ILGeneratorShim.GetProxy">GetProxy()</h4>
+  <div class="markdown level1 summary"><p>Get a &quot;real&quot; ILGenerator for this ILGeneratorShim.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ILGenerator GetProxy()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Reflection.Emit.ILGenerator</span></td>
+        <td><p>A &quot;real&quot; ILGenerator.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_Utils_Cil_ILGeneratorShim_GetProxyType_" data-uid="MonoMod.Utils.Cil.ILGeneratorShim.GetProxyType*"></a>
+  <h4 id="MonoMod_Utils_Cil_ILGeneratorShim_GetProxyType_System_Type_" data-uid="MonoMod.Utils.Cil.ILGeneratorShim.GetProxyType(System.Type)">GetProxyType(Type)</h4>
+  <div class="markdown level1 summary"><p>Get the proxy type for a given ILGeneratorShim type. The proxy type implements ILGenerator.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Type GetProxyType(Type tShim)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Type</span></td>
+        <td><span class="parametername">tShim</span></td>
+        <td><p>The ILGeneratorShim type.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Type</span></td>
+        <td><p>The &quot;real&quot; ILGenerator type.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_Utils_Cil_ILGeneratorShim_GetProxyType_" data-uid="MonoMod.Utils.Cil.ILGeneratorShim.GetProxyType*"></a>
+  <h4 id="MonoMod_Utils_Cil_ILGeneratorShim_GetProxyType__1" data-uid="MonoMod.Utils.Cil.ILGeneratorShim.GetProxyType``1">GetProxyType&lt;TShim&gt;()</h4>
+  <div class="markdown level1 summary"><p>Get the proxy type for a given ILGeneratorShim type. The proxy type implements ILGenerator.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Type GetProxyType&lt;TShim&gt;()
+    where TShim : ILGeneratorShim</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Type</span></td>
+        <td><p>The &quot;real&quot; ILGenerator type.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TShim</span></td>
+        <td><p>The ILGeneratorShim type.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_Utils_Cil_ILGeneratorShim_MarkLabel_" data-uid="MonoMod.Utils.Cil.ILGeneratorShim.MarkLabel*"></a>
+  <h4 id="MonoMod_Utils_Cil_ILGeneratorShim_MarkLabel_System_Reflection_Emit_Label_" data-uid="MonoMod.Utils.Cil.ILGeneratorShim.MarkLabel(System.Reflection.Emit.Label)">MarkLabel(Label)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract void MarkLabel(Label loc)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Reflection.Emit.Label</span></td>
+        <td><span class="parametername">loc</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_Utils_Cil_ILGeneratorShim_ThrowException_" data-uid="MonoMod.Utils.Cil.ILGeneratorShim.ThrowException*"></a>
+  <h4 id="MonoMod_Utils_Cil_ILGeneratorShim_ThrowException_System_Type_" data-uid="MonoMod.Utils.Cil.ILGeneratorShim.ThrowException(System.Type)">ThrowException(Type)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract void ThrowException(Type excType)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Type</span></td>
+        <td><span class="parametername">excType</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_Utils_Cil_ILGeneratorShim_UsingNamespace_" data-uid="MonoMod.Utils.Cil.ILGeneratorShim.UsingNamespace*"></a>
+  <h4 id="MonoMod_Utils_Cil_ILGeneratorShim_UsingNamespace_System_String_" data-uid="MonoMod.Utils.Cil.ILGeneratorShim.UsingNamespace(System.String)">UsingNamespace(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract void UsingNamespace(string usingNamespace)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">usingNamespace</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Yet another C# modding swiss army knife.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

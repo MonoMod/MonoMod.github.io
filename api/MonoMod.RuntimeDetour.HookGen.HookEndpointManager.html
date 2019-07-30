@@ -1,0 +1,694 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class HookEndpointManager
+   | MonoMod </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class HookEndpointManager
+   | MonoMod ">
+    <meta name="generator" content="docfx 2.43.3.0">
+    <meta name="description" content="A C# modding swiss army knife, powered by cecil.">
+    <link rel="shortcut icon" href="../favicon.png">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    <meta property="docfx:newtab" content="true">
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo-small.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="MonoMod.RuntimeDetour.HookGen.HookEndpointManager">
+  
+  
+  <h1 id="MonoMod_RuntimeDetour_HookGen_HookEndpointManager" data-uid="MonoMod.RuntimeDetour.HookGen.HookEndpointManager" class="text-break">Class HookEndpointManager
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">HookEndpointManager</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="MonoMod.RuntimeDetour.HookGen.html">MonoMod.RuntimeDetour.HookGen</a></h6>
+  <h6><strong>Assembly</strong>: MonoMod.RuntimeDetour.dll</h6>
+  <h5 id="MonoMod_RuntimeDetour_HookGen_HookEndpointManager_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class HookEndpointManager : Object</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="MonoMod_RuntimeDetour_HookGen_HookEndpointManager_Add_" data-uid="MonoMod.RuntimeDetour.HookGen.HookEndpointManager.Add*"></a>
+  <h4 id="MonoMod_RuntimeDetour_HookGen_HookEndpointManager_Add_System_Reflection_MethodBase_System_Delegate_" data-uid="MonoMod.RuntimeDetour.HookGen.HookEndpointManager.Add(System.Reflection.MethodBase,System.Delegate)">Add(MethodBase, Delegate)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Add(MethodBase method, Delegate hookDelegate)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Reflection.MethodBase</span></td>
+        <td><span class="parametername">method</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Delegate</span></td>
+        <td><span class="parametername">hookDelegate</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_RuntimeDetour_HookGen_HookEndpointManager_Add_" data-uid="MonoMod.RuntimeDetour.HookGen.HookEndpointManager.Add*"></a>
+  <h4 id="MonoMod_RuntimeDetour_HookGen_HookEndpointManager_Add__1_System_Reflection_MethodBase_System_Delegate_" data-uid="MonoMod.RuntimeDetour.HookGen.HookEndpointManager.Add``1(System.Reflection.MethodBase,System.Delegate)">Add&lt;T&gt;(MethodBase, Delegate)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Add&lt;T&gt;(MethodBase method, Delegate hookDelegate)
+    where T : Delegate</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Reflection.MethodBase</span></td>
+        <td><span class="parametername">method</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Delegate</span></td>
+        <td><span class="parametername">hookDelegate</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_RuntimeDetour_HookGen_HookEndpointManager_GetOwner_" data-uid="MonoMod.RuntimeDetour.HookGen.HookEndpointManager.GetOwner*"></a>
+  <h4 id="MonoMod_RuntimeDetour_HookGen_HookEndpointManager_GetOwner_System_Delegate_" data-uid="MonoMod.RuntimeDetour.HookGen.HookEndpointManager.GetOwner(System.Delegate)">GetOwner(Delegate)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static object GetOwner(Delegate hook)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Delegate</span></td>
+        <td><span class="parametername">hook</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_RuntimeDetour_HookGen_HookEndpointManager_Modify_" data-uid="MonoMod.RuntimeDetour.HookGen.HookEndpointManager.Modify*"></a>
+  <h4 id="MonoMod_RuntimeDetour_HookGen_HookEndpointManager_Modify_System_Reflection_MethodBase_System_Delegate_" data-uid="MonoMod.RuntimeDetour.HookGen.HookEndpointManager.Modify(System.Reflection.MethodBase,System.Delegate)">Modify(MethodBase, Delegate)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Modify(MethodBase method, Delegate callback)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Reflection.MethodBase</span></td>
+        <td><span class="parametername">method</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Delegate</span></td>
+        <td><span class="parametername">callback</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_RuntimeDetour_HookGen_HookEndpointManager_Modify_" data-uid="MonoMod.RuntimeDetour.HookGen.HookEndpointManager.Modify*"></a>
+  <h4 id="MonoMod_RuntimeDetour_HookGen_HookEndpointManager_Modify__1_System_Reflection_MethodBase_System_Delegate_" data-uid="MonoMod.RuntimeDetour.HookGen.HookEndpointManager.Modify``1(System.Reflection.MethodBase,System.Delegate)">Modify&lt;T&gt;(MethodBase, Delegate)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Modify&lt;T&gt;(MethodBase method, Delegate callback)
+    where T : Delegate</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Reflection.MethodBase</span></td>
+        <td><span class="parametername">method</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Delegate</span></td>
+        <td><span class="parametername">callback</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_RuntimeDetour_HookGen_HookEndpointManager_Remove_" data-uid="MonoMod.RuntimeDetour.HookGen.HookEndpointManager.Remove*"></a>
+  <h4 id="MonoMod_RuntimeDetour_HookGen_HookEndpointManager_Remove_System_Reflection_MethodBase_System_Delegate_" data-uid="MonoMod.RuntimeDetour.HookGen.HookEndpointManager.Remove(System.Reflection.MethodBase,System.Delegate)">Remove(MethodBase, Delegate)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Remove(MethodBase method, Delegate hookDelegate)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Reflection.MethodBase</span></td>
+        <td><span class="parametername">method</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Delegate</span></td>
+        <td><span class="parametername">hookDelegate</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_RuntimeDetour_HookGen_HookEndpointManager_Remove_" data-uid="MonoMod.RuntimeDetour.HookGen.HookEndpointManager.Remove*"></a>
+  <h4 id="MonoMod_RuntimeDetour_HookGen_HookEndpointManager_Remove__1_System_Reflection_MethodBase_System_Delegate_" data-uid="MonoMod.RuntimeDetour.HookGen.HookEndpointManager.Remove``1(System.Reflection.MethodBase,System.Delegate)">Remove&lt;T&gt;(MethodBase, Delegate)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Remove&lt;T&gt;(MethodBase method, Delegate hookDelegate)
+    where T : Delegate</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Reflection.MethodBase</span></td>
+        <td><span class="parametername">method</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Delegate</span></td>
+        <td><span class="parametername">hookDelegate</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_RuntimeDetour_HookGen_HookEndpointManager_RemoveAllOwnedBy_" data-uid="MonoMod.RuntimeDetour.HookGen.HookEndpointManager.RemoveAllOwnedBy*"></a>
+  <h4 id="MonoMod_RuntimeDetour_HookGen_HookEndpointManager_RemoveAllOwnedBy_System_Object_" data-uid="MonoMod.RuntimeDetour.HookGen.HookEndpointManager.RemoveAllOwnedBy(System.Object)">RemoveAllOwnedBy(Object)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void RemoveAllOwnedBy(object owner)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">owner</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_RuntimeDetour_HookGen_HookEndpointManager_Unmodify_" data-uid="MonoMod.RuntimeDetour.HookGen.HookEndpointManager.Unmodify*"></a>
+  <h4 id="MonoMod_RuntimeDetour_HookGen_HookEndpointManager_Unmodify_System_Reflection_MethodBase_System_Delegate_" data-uid="MonoMod.RuntimeDetour.HookGen.HookEndpointManager.Unmodify(System.Reflection.MethodBase,System.Delegate)">Unmodify(MethodBase, Delegate)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Unmodify(MethodBase method, Delegate callback)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Reflection.MethodBase</span></td>
+        <td><span class="parametername">method</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Delegate</span></td>
+        <td><span class="parametername">callback</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_RuntimeDetour_HookGen_HookEndpointManager_Unmodify_" data-uid="MonoMod.RuntimeDetour.HookGen.HookEndpointManager.Unmodify*"></a>
+  <h4 id="MonoMod_RuntimeDetour_HookGen_HookEndpointManager_Unmodify__1_System_Reflection_MethodBase_System_Delegate_" data-uid="MonoMod.RuntimeDetour.HookGen.HookEndpointManager.Unmodify``1(System.Reflection.MethodBase,System.Delegate)">Unmodify&lt;T&gt;(MethodBase, Delegate)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Unmodify&lt;T&gt;(MethodBase method, Delegate callback)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Reflection.MethodBase</span></td>
+        <td><span class="parametername">method</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Delegate</span></td>
+        <td><span class="parametername">callback</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="events">Events
+  </h3>
+  
+  
+  <h4 id="MonoMod_RuntimeDetour_HookGen_HookEndpointManager_OnAdd" data-uid="MonoMod.RuntimeDetour.HookGen.HookEndpointManager.OnAdd">OnAdd</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event Func&lt;MethodBase, Delegate, bool&gt; OnAdd</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<span class="xref">System.Reflection.MethodBase</span>, <span class="xref">System.Delegate</span>, <span class="xref">System.Boolean</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="MonoMod_RuntimeDetour_HookGen_HookEndpointManager_OnGetOwner" data-uid="MonoMod.RuntimeDetour.HookGen.HookEndpointManager.OnGetOwner">OnGetOwner</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event Func&lt;Delegate, object&gt; OnGetOwner</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<span class="xref">System.Delegate</span>, <span class="xref">System.Object</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="MonoMod_RuntimeDetour_HookGen_HookEndpointManager_OnModify" data-uid="MonoMod.RuntimeDetour.HookGen.HookEndpointManager.OnModify">OnModify</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event Func&lt;MethodBase, Delegate, bool&gt; OnModify</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<span class="xref">System.Reflection.MethodBase</span>, <span class="xref">System.Delegate</span>, <span class="xref">System.Boolean</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="MonoMod_RuntimeDetour_HookGen_HookEndpointManager_OnPostModify" data-uid="MonoMod.RuntimeDetour.HookGen.HookEndpointManager.OnPostModify">OnPostModify</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event Action&lt;MethodBase, Delegate&gt; OnPostModify</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<span class="xref">System.Reflection.MethodBase</span>, <span class="xref">System.Delegate</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="MonoMod_RuntimeDetour_HookGen_HookEndpointManager_OnRemove" data-uid="MonoMod.RuntimeDetour.HookGen.HookEndpointManager.OnRemove">OnRemove</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event Func&lt;MethodBase, Delegate, bool&gt; OnRemove</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<span class="xref">System.Reflection.MethodBase</span>, <span class="xref">System.Delegate</span>, <span class="xref">System.Boolean</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="MonoMod_RuntimeDetour_HookGen_HookEndpointManager_OnRemoveAllOwnedBy" data-uid="MonoMod.RuntimeDetour.HookGen.HookEndpointManager.OnRemoveAllOwnedBy">OnRemoveAllOwnedBy</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event Func&lt;object, bool&gt; OnRemoveAllOwnedBy</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<span class="xref">System.Object</span>, <span class="xref">System.Boolean</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="MonoMod_RuntimeDetour_HookGen_HookEndpointManager_OnUnmodify" data-uid="MonoMod.RuntimeDetour.HookGen.HookEndpointManager.OnUnmodify">OnUnmodify</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event Func&lt;MethodBase, Delegate, bool&gt; OnUnmodify</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<span class="xref">System.Reflection.MethodBase</span>, <span class="xref">System.Delegate</span>, <span class="xref">System.Boolean</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Yet another C# modding swiss army knife.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,937 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class DetourHelper
+   | MonoMod </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class DetourHelper
+   | MonoMod ">
+    <meta name="generator" content="docfx 2.43.3.0">
+    <meta name="description" content="A C# modding swiss army knife, powered by cecil.">
+    <link rel="shortcut icon" href="../favicon.png">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    <meta property="docfx:newtab" content="true">
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo-small.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="MonoMod.RuntimeDetour.DetourHelper">
+  
+  
+  <h1 id="MonoMod_RuntimeDetour_DetourHelper" data-uid="MonoMod.RuntimeDetour.DetourHelper" class="text-break">Class DetourHelper
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">DetourHelper</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="MonoMod.RuntimeDetour.html">MonoMod.RuntimeDetour</a></h6>
+  <h6><strong>Assembly</strong>: MonoMod.RuntimeDetour.dll</h6>
+  <h5 id="MonoMod_RuntimeDetour_DetourHelper_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class DetourHelper : Object</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="MonoMod_RuntimeDetour_DetourHelper_Native_" data-uid="MonoMod.RuntimeDetour.DetourHelper.Native*"></a>
+  <h4 id="MonoMod_RuntimeDetour_DetourHelper_Native" data-uid="MonoMod.RuntimeDetour.DetourHelper.Native">Native</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IDetourNativePlatform Native { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MonoMod.RuntimeDetour.IDetourNativePlatform.html">IDetourNativePlatform</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_RuntimeDetour_DetourHelper_Runtime_" data-uid="MonoMod.RuntimeDetour.DetourHelper.Runtime*"></a>
+  <h4 id="MonoMod_RuntimeDetour_DetourHelper_Runtime" data-uid="MonoMod.RuntimeDetour.DetourHelper.Runtime">Runtime</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IDetourRuntimePlatform Runtime { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MonoMod.RuntimeDetour.IDetourRuntimePlatform.html">IDetourRuntimePlatform</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="MonoMod_RuntimeDetour_DetourHelper_CreateILCopy_" data-uid="MonoMod.RuntimeDetour.DetourHelper.CreateILCopy*"></a>
+  <h4 id="MonoMod_RuntimeDetour_DetourHelper_CreateILCopy_System_Reflection_MethodBase_" data-uid="MonoMod.RuntimeDetour.DetourHelper.CreateILCopy(System.Reflection.MethodBase)">CreateILCopy(MethodBase)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MethodInfo CreateILCopy(this MethodBase method)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Reflection.MethodBase</span></td>
+        <td><span class="parametername">method</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Reflection.MethodInfo</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_RuntimeDetour_DetourHelper_EmitDetourApply_" data-uid="MonoMod.RuntimeDetour.DetourHelper.EmitDetourApply*"></a>
+  <h4 id="MonoMod_RuntimeDetour_DetourHelper_EmitDetourApply_Mono_Cecil_Cil_ILProcessor_MonoMod_RuntimeDetour_NativeDetourData_" data-uid="MonoMod.RuntimeDetour.DetourHelper.EmitDetourApply(Mono.Cecil.Cil.ILProcessor,MonoMod.RuntimeDetour.NativeDetourData)">EmitDetourApply(ILProcessor, NativeDetourData)</h4>
+  <div class="markdown level1 summary"><p>Emit a call to DetourManager.Native.Apply using a copy of the given data.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void EmitDetourApply(this ILProcessor il, NativeDetourData data)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Mono.Cecil.Cil.ILProcessor</span></td>
+        <td><span class="parametername">il</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MonoMod.RuntimeDetour.NativeDetourData.html">NativeDetourData</a></td>
+        <td><span class="parametername">data</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_RuntimeDetour_DetourHelper_EmitDetourCopy_" data-uid="MonoMod.RuntimeDetour.DetourHelper.EmitDetourCopy*"></a>
+  <h4 id="MonoMod_RuntimeDetour_DetourHelper_EmitDetourCopy_Mono_Cecil_Cil_ILProcessor_System_IntPtr_System_IntPtr_System_Byte_" data-uid="MonoMod.RuntimeDetour.DetourHelper.EmitDetourCopy(Mono.Cecil.Cil.ILProcessor,System.IntPtr,System.IntPtr,System.Byte)">EmitDetourCopy(ILProcessor, IntPtr, IntPtr, Byte)</h4>
+  <div class="markdown level1 summary"><p>Emit a call to DetourManager.Native.Copy using the given parameters.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void EmitDetourCopy(this ILProcessor il, IntPtr src, IntPtr dst, byte type)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Mono.Cecil.Cil.ILProcessor</span></td>
+        <td><span class="parametername">il</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.IntPtr</span></td>
+        <td><span class="parametername">src</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.IntPtr</span></td>
+        <td><span class="parametername">dst</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Byte</span></td>
+        <td><span class="parametername">type</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_RuntimeDetour_DetourHelper_FlushICache_" data-uid="MonoMod.RuntimeDetour.DetourHelper.FlushICache*"></a>
+  <h4 id="MonoMod_RuntimeDetour_DetourHelper_FlushICache_MonoMod_RuntimeDetour_IDetourNativePlatform_MonoMod_RuntimeDetour_NativeDetourData_" data-uid="MonoMod.RuntimeDetour.DetourHelper.FlushICache(MonoMod.RuntimeDetour.IDetourNativePlatform,MonoMod.RuntimeDetour.NativeDetourData)">FlushICache(IDetourNativePlatform, NativeDetourData)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void FlushICache(this IDetourNativePlatform plat, NativeDetourData detour)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MonoMod.RuntimeDetour.IDetourNativePlatform.html">IDetourNativePlatform</a></td>
+        <td><span class="parametername">plat</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MonoMod.RuntimeDetour.NativeDetourData.html">NativeDetourData</a></td>
+        <td><span class="parametername">detour</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_RuntimeDetour_DetourHelper_GenerateNativeProxy_" data-uid="MonoMod.RuntimeDetour.DetourHelper.GenerateNativeProxy*"></a>
+  <h4 id="MonoMod_RuntimeDetour_DetourHelper_GenerateNativeProxy_System_IntPtr_System_Reflection_MethodBase_" data-uid="MonoMod.RuntimeDetour.DetourHelper.GenerateNativeProxy(System.IntPtr,System.Reflection.MethodBase)">GenerateNativeProxy(IntPtr, MethodBase)</h4>
+  <div class="markdown level1 summary"><p>Generate a DynamicMethod to easily call the given native function from another DynamicMethod.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MethodInfo GenerateNativeProxy(IntPtr target, MethodBase signature)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IntPtr</span></td>
+        <td><span class="parametername">target</span></td>
+        <td><p>The pointer to the native function to call.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Reflection.MethodBase</span></td>
+        <td><span class="parametername">signature</span></td>
+        <td><p>A MethodBase with the target function's signature.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Reflection.MethodInfo</span></td>
+        <td><p>The detoured DynamicMethod.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_RuntimeDetour_DetourHelper_GetNativeStart_" data-uid="MonoMod.RuntimeDetour.DetourHelper.GetNativeStart*"></a>
+  <h4 id="MonoMod_RuntimeDetour_DetourHelper_GetNativeStart_System_Delegate_" data-uid="MonoMod.RuntimeDetour.DetourHelper.GetNativeStart(System.Delegate)">GetNativeStart(Delegate)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IntPtr GetNativeStart(this Delegate method)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Delegate</span></td>
+        <td><span class="parametername">method</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IntPtr</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_RuntimeDetour_DetourHelper_GetNativeStart_" data-uid="MonoMod.RuntimeDetour.DetourHelper.GetNativeStart*"></a>
+  <h4 id="MonoMod_RuntimeDetour_DetourHelper_GetNativeStart_System_Linq_Expressions_Expression_" data-uid="MonoMod.RuntimeDetour.DetourHelper.GetNativeStart(System.Linq.Expressions.Expression)">GetNativeStart(Expression)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IntPtr GetNativeStart(this Expression method)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Linq.Expressions.Expression</span></td>
+        <td><span class="parametername">method</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IntPtr</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_RuntimeDetour_DetourHelper_GetNativeStart_" data-uid="MonoMod.RuntimeDetour.DetourHelper.GetNativeStart*"></a>
+  <h4 id="MonoMod_RuntimeDetour_DetourHelper_GetNativeStart_System_Reflection_MethodBase_" data-uid="MonoMod.RuntimeDetour.DetourHelper.GetNativeStart(System.Reflection.MethodBase)">GetNativeStart(MethodBase)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IntPtr GetNativeStart(this MethodBase method)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Reflection.MethodBase</span></td>
+        <td><span class="parametername">method</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IntPtr</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_RuntimeDetour_DetourHelper_MakeExecutable_" data-uid="MonoMod.RuntimeDetour.DetourHelper.MakeExecutable*"></a>
+  <h4 id="MonoMod_RuntimeDetour_DetourHelper_MakeExecutable_MonoMod_RuntimeDetour_IDetourNativePlatform_MonoMod_RuntimeDetour_NativeDetourData_" data-uid="MonoMod.RuntimeDetour.DetourHelper.MakeExecutable(MonoMod.RuntimeDetour.IDetourNativePlatform,MonoMod.RuntimeDetour.NativeDetourData)">MakeExecutable(IDetourNativePlatform, NativeDetourData)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void MakeExecutable(this IDetourNativePlatform plat, NativeDetourData detour)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MonoMod.RuntimeDetour.IDetourNativePlatform.html">IDetourNativePlatform</a></td>
+        <td><span class="parametername">plat</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MonoMod.RuntimeDetour.NativeDetourData.html">NativeDetourData</a></td>
+        <td><span class="parametername">detour</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_RuntimeDetour_DetourHelper_MakeWritable_" data-uid="MonoMod.RuntimeDetour.DetourHelper.MakeWritable*"></a>
+  <h4 id="MonoMod_RuntimeDetour_DetourHelper_MakeWritable_MonoMod_RuntimeDetour_IDetourNativePlatform_MonoMod_RuntimeDetour_NativeDetourData_" data-uid="MonoMod.RuntimeDetour.DetourHelper.MakeWritable(MonoMod.RuntimeDetour.IDetourNativePlatform,MonoMod.RuntimeDetour.NativeDetourData)">MakeWritable(IDetourNativePlatform, NativeDetourData)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void MakeWritable(this IDetourNativePlatform plat, NativeDetourData detour)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MonoMod.RuntimeDetour.IDetourNativePlatform.html">IDetourNativePlatform</a></td>
+        <td><span class="parametername">plat</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MonoMod.RuntimeDetour.NativeDetourData.html">NativeDetourData</a></td>
+        <td><span class="parametername">detour</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_RuntimeDetour_DetourHelper_Pin_" data-uid="MonoMod.RuntimeDetour.DetourHelper.Pin*"></a>
+  <h4 id="MonoMod_RuntimeDetour_DetourHelper_Pin__1___0_" data-uid="MonoMod.RuntimeDetour.DetourHelper.Pin``1(``0)">Pin&lt;T&gt;(T)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T Pin&lt;T&gt;(this T method)
+    where T : MethodBase</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">method</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_RuntimeDetour_DetourHelper_StubCriticalDetour_" data-uid="MonoMod.RuntimeDetour.DetourHelper.StubCriticalDetour*"></a>
+  <h4 id="MonoMod_RuntimeDetour_DetourHelper_StubCriticalDetour_MonoMod_Utils_DynamicMethodDefinition_" data-uid="MonoMod.RuntimeDetour.DetourHelper.StubCriticalDetour(MonoMod.Utils.DynamicMethodDefinition)">StubCriticalDetour(DynamicMethodDefinition)</h4>
+  <div class="markdown level1 summary"><p>Fill the DynamicMethodDefinition with a throw.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static DynamicMethodDefinition StubCriticalDetour(this DynamicMethodDefinition dm)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MonoMod.Utils.DynamicMethodDefinition.html">DynamicMethodDefinition</a></td>
+        <td><span class="parametername">dm</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MonoMod.Utils.DynamicMethodDefinition.html">DynamicMethodDefinition</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_RuntimeDetour_DetourHelper_TryCreateILCopy_" data-uid="MonoMod.RuntimeDetour.DetourHelper.TryCreateILCopy*"></a>
+  <h4 id="MonoMod_RuntimeDetour_DetourHelper_TryCreateILCopy_System_Reflection_MethodBase_System_Reflection_MethodInfo__" data-uid="MonoMod.RuntimeDetour.DetourHelper.TryCreateILCopy(System.Reflection.MethodBase,System.Reflection.MethodInfo@)">TryCreateILCopy(MethodBase, out MethodInfo)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool TryCreateILCopy(this MethodBase method, out MethodInfo dm)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Reflection.MethodBase</span></td>
+        <td><span class="parametername">method</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Reflection.MethodInfo</span></td>
+        <td><span class="parametername">dm</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_RuntimeDetour_DetourHelper_Unpin_" data-uid="MonoMod.RuntimeDetour.DetourHelper.Unpin*"></a>
+  <h4 id="MonoMod_RuntimeDetour_DetourHelper_Unpin__1___0_" data-uid="MonoMod.RuntimeDetour.DetourHelper.Unpin``1(``0)">Unpin&lt;T&gt;(T)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T Unpin&lt;T&gt;(this T method)
+    where T : MethodBase</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">method</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_RuntimeDetour_DetourHelper_Write_" data-uid="MonoMod.RuntimeDetour.DetourHelper.Write*"></a>
+  <h4 id="MonoMod_RuntimeDetour_DetourHelper_Write_System_IntPtr_System_Int32__System_Byte_" data-uid="MonoMod.RuntimeDetour.DetourHelper.Write(System.IntPtr,System.Int32@,System.Byte)">Write(IntPtr, ref Int32, Byte)</h4>
+  <div class="markdown level1 summary"><p>Write the given value at the address to + offs, afterwards advancing offs by sizeof(byte).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Write(this IntPtr to, ref int offs, byte value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IntPtr</span></td>
+        <td><span class="parametername">to</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">offs</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Byte</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_RuntimeDetour_DetourHelper_Write_" data-uid="MonoMod.RuntimeDetour.DetourHelper.Write*"></a>
+  <h4 id="MonoMod_RuntimeDetour_DetourHelper_Write_System_IntPtr_System_Int32__System_UInt16_" data-uid="MonoMod.RuntimeDetour.DetourHelper.Write(System.IntPtr,System.Int32@,System.UInt16)">Write(IntPtr, ref Int32, UInt16)</h4>
+  <div class="markdown level1 summary"><p>Write the given value at the address to + offs, afterwards advancing offs by sizeof(ushort).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Write(this IntPtr to, ref int offs, ushort value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IntPtr</span></td>
+        <td><span class="parametername">to</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">offs</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt16</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_RuntimeDetour_DetourHelper_Write_" data-uid="MonoMod.RuntimeDetour.DetourHelper.Write*"></a>
+  <h4 id="MonoMod_RuntimeDetour_DetourHelper_Write_System_IntPtr_System_Int32__System_UInt32_" data-uid="MonoMod.RuntimeDetour.DetourHelper.Write(System.IntPtr,System.Int32@,System.UInt32)">Write(IntPtr, ref Int32, UInt32)</h4>
+  <div class="markdown level1 summary"><p>Write the given value at the address to + offs, afterwards advancing offs by sizeof(ushort).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Write(this IntPtr to, ref int offs, uint value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IntPtr</span></td>
+        <td><span class="parametername">to</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">offs</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_RuntimeDetour_DetourHelper_Write_" data-uid="MonoMod.RuntimeDetour.DetourHelper.Write*"></a>
+  <h4 id="MonoMod_RuntimeDetour_DetourHelper_Write_System_IntPtr_System_Int32__System_UInt64_" data-uid="MonoMod.RuntimeDetour.DetourHelper.Write(System.IntPtr,System.Int32@,System.UInt64)">Write(IntPtr, ref Int32, UInt64)</h4>
+  <div class="markdown level1 summary"><p>Write the given value at the address to + offs, afterwards advancing offs by sizeof(ulong).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Write(this IntPtr to, ref int offs, ulong value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IntPtr</span></td>
+        <td><span class="parametername">to</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">offs</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt64</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Yet another C# modding swiss army knife.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

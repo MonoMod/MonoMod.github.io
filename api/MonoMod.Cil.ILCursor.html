@@ -1,0 +1,2920 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class ILCursor
+   | MonoMod </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class ILCursor
+   | MonoMod ">
+    <meta name="generator" content="docfx 2.43.3.0">
+    <meta name="description" content="A C# modding swiss army knife, powered by cecil.">
+    <link rel="shortcut icon" href="../favicon.png">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    <meta property="docfx:newtab" content="true">
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo-small.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="MonoMod.Cil.ILCursor">
+  
+  
+  <h1 id="MonoMod_Cil_ILCursor" data-uid="MonoMod.Cil.ILCursor" class="text-break">Class ILCursor
+  </h1>
+  <div class="markdown level0 summary"><p>A cursor used to manipulate a method body in an ILContext.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">ILCursor</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="MonoMod.Cil.html">MonoMod.Cil</a></h6>
+  <h6><strong>Assembly</strong>: MonoMod.Utils.dll</h6>
+  <h5 id="MonoMod_Cil_ILCursor_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class ILCursor : Object</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="MonoMod_Cil_ILCursor__ctor_" data-uid="MonoMod.Cil.ILCursor.#ctor*"></a>
+  <h4 id="MonoMod_Cil_ILCursor__ctor_MonoMod_Cil_ILContext_" data-uid="MonoMod.Cil.ILCursor.#ctor(MonoMod.Cil.ILContext)">ILCursor(ILContext)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ILCursor(ILContext context)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MonoMod.Cil.ILContext.html">ILContext</a></td>
+        <td><span class="parametername">context</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_Cil_ILCursor__ctor_" data-uid="MonoMod.Cil.ILCursor.#ctor*"></a>
+  <h4 id="MonoMod_Cil_ILCursor__ctor_MonoMod_Cil_ILCursor_" data-uid="MonoMod.Cil.ILCursor.#ctor(MonoMod.Cil.ILCursor)">ILCursor(ILCursor)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ILCursor(ILCursor c)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MonoMod.Cil.ILCursor.html">ILCursor</a></td>
+        <td><span class="parametername">c</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="MonoMod_Cil_ILCursor_Body_" data-uid="MonoMod.Cil.ILCursor.Body*"></a>
+  <h4 id="MonoMod_Cil_ILCursor_Body" data-uid="MonoMod.Cil.ILCursor.Body">Body</h4>
+  <div class="markdown level1 summary"><p>See <a class="xref" href="MonoMod.Cil.ILContext.html#MonoMod_Cil_ILContext_Body">Body</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MethodBody Body { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Mono.Cecil.Cil.MethodBody</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_Cil_ILCursor_Context_" data-uid="MonoMod.Cil.ILCursor.Context*"></a>
+  <h4 id="MonoMod_Cil_ILCursor_Context" data-uid="MonoMod.Cil.ILCursor.Context">Context</h4>
+  <div class="markdown level1 summary"><p>The context to which this cursor belongs to.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ILContext Context { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MonoMod.Cil.ILContext.html">ILContext</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_Cil_ILCursor_IL_" data-uid="MonoMod.Cil.ILCursor.IL*"></a>
+  <h4 id="MonoMod_Cil_ILCursor_IL" data-uid="MonoMod.Cil.ILCursor.IL">IL</h4>
+  <div class="markdown level1 summary"><p>See <a class="xref" href="MonoMod.Cil.ILContext.html#MonoMod_Cil_ILContext_IL">IL</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ILProcessor IL { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Mono.Cecil.Cil.ILProcessor</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_Cil_ILCursor_IncomingLabels_" data-uid="MonoMod.Cil.ILCursor.IncomingLabels*"></a>
+  <h4 id="MonoMod_Cil_ILCursor_IncomingLabels" data-uid="MonoMod.Cil.ILCursor.IncomingLabels">IncomingLabels</h4>
+  <div class="markdown level1 summary"><p>Enumerates all labels which point to the current instruction (<code>label.Target == Next</code>)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;ILLabel&gt; IncomingLabels { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="MonoMod.Cil.ILLabel.html">ILLabel</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_Cil_ILCursor_Index_" data-uid="MonoMod.Cil.ILCursor.Index*"></a>
+  <h4 id="MonoMod_Cil_ILCursor_Index" data-uid="MonoMod.Cil.ILCursor.Index">Index</h4>
+  <div class="markdown level1 summary"><p>The index of the instruction immediately following the cursor position. Range: 0 to <code>Instrs.Count</code>
+Setter accepts negative indexing by adding <code>Instrs.Count</code> to the operand</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Index { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_Cil_ILCursor_Instrs_" data-uid="MonoMod.Cil.ILCursor.Instrs*"></a>
+  <h4 id="MonoMod_Cil_ILCursor_Instrs" data-uid="MonoMod.Cil.ILCursor.Instrs">Instrs</h4>
+  <div class="markdown level1 summary"><p>See <a class="xref" href="MonoMod.Cil.ILContext.html#MonoMod_Cil_ILContext_Instrs">Instrs</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Collection&lt;Instruction&gt; Instrs { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Mono.Collections.Generic.Collection</span>&lt;<span class="xref">Mono.Cecil.Cil.Instruction</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_Cil_ILCursor_Method_" data-uid="MonoMod.Cil.ILCursor.Method*"></a>
+  <h4 id="MonoMod_Cil_ILCursor_Method" data-uid="MonoMod.Cil.ILCursor.Method">Method</h4>
+  <div class="markdown level1 summary"><p>See <a class="xref" href="MonoMod.Cil.ILContext.html#MonoMod_Cil_ILContext_Method">Method</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MethodDefinition Method { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Mono.Cecil.MethodDefinition</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_Cil_ILCursor_Module_" data-uid="MonoMod.Cil.ILCursor.Module*"></a>
+  <h4 id="MonoMod_Cil_ILCursor_Module" data-uid="MonoMod.Cil.ILCursor.Module">Module</h4>
+  <div class="markdown level1 summary"><p>See <a class="xref" href="MonoMod.Cil.ILContext.html#MonoMod_Cil_ILContext_Module">Module</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ModuleDefinition Module { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Mono.Cecil.ModuleDefinition</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_Cil_ILCursor_Next_" data-uid="MonoMod.Cil.ILCursor.Next*"></a>
+  <h4 id="MonoMod_Cil_ILCursor_Next" data-uid="MonoMod.Cil.ILCursor.Next">Next</h4>
+  <div class="markdown level1 summary"><p>The instruction immediately following the cursor position or null if the cursor is at the end of the instruction list.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Instruction Next { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Mono.Cecil.Cil.Instruction</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_Cil_ILCursor_Prev_" data-uid="MonoMod.Cil.ILCursor.Prev*"></a>
+  <h4 id="MonoMod_Cil_ILCursor_Prev" data-uid="MonoMod.Cil.ILCursor.Prev">Prev</h4>
+  <div class="markdown level1 summary"><p>The instruction immediately preceding the cursor position or null if the cursor is at the start of the instruction list.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Instruction Prev { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Mono.Cecil.Cil.Instruction</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_Cil_ILCursor_Previous_" data-uid="MonoMod.Cil.ILCursor.Previous*"></a>
+  <h4 id="MonoMod_Cil_ILCursor_Previous" data-uid="MonoMod.Cil.ILCursor.Previous">Previous</h4>
+  <div class="markdown level1 summary"><p>The instruction immediately preceding the cursor position or null if the cursor is at the start of the instruction list.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Instruction Previous { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Mono.Cecil.Cil.Instruction</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_Cil_ILCursor_SearchTarget_" data-uid="MonoMod.Cil.ILCursor.SearchTarget*"></a>
+  <h4 id="MonoMod_Cil_ILCursor_SearchTarget" data-uid="MonoMod.Cil.ILCursor.SearchTarget">SearchTarget</h4>
+  <div class="markdown level1 summary"><p>Indicates whether the position of a MMILCursor is the result of a search function and
+if the next search should ignore the instruction preceeding or following this cursor.</p>
+<p>See <see cref="!:Utils.SearchTarget"></see></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SearchTarget SearchTarget { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MonoMod.Cil.SearchTarget.html">SearchTarget</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="MonoMod_Cil_ILCursor_AddReference_" data-uid="MonoMod.Cil.ILCursor.AddReference*"></a>
+  <h4 id="MonoMod_Cil_ILCursor_AddReference__1___0_" data-uid="MonoMod.Cil.ILCursor.AddReference``1(``0)">AddReference&lt;T&gt;(T)</h4>
+  <div class="markdown level1 summary"><p>Bind an arbitary object to an ILContext for static retrieval. See <a class="xref" href="MonoMod.Cil.ILContext.html#MonoMod_Cil_ILContext_AddReference__1___0_">AddReference&lt;T&gt;(T)</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int AddReference&lt;T&gt;(T t)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">t</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_Cil_ILCursor_Clone_" data-uid="MonoMod.Cil.ILCursor.Clone*"></a>
+  <h4 id="MonoMod_Cil_ILCursor_Clone" data-uid="MonoMod.Cil.ILCursor.Clone">Clone()</h4>
+  <div class="markdown level1 summary"><p>Create a clone of this cursor.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ILCursor Clone()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MonoMod.Cil.ILCursor.html">ILCursor</a></td>
+        <td><p>The cloned cursor.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_Cil_ILCursor_DefineLabel_" data-uid="MonoMod.Cil.ILCursor.DefineLabel*"></a>
+  <h4 id="MonoMod_Cil_ILCursor_DefineLabel" data-uid="MonoMod.Cil.ILCursor.DefineLabel">DefineLabel()</h4>
+  <div class="markdown level1 summary"><p>Create a new label for use with <a class="xref" href="MonoMod.Cil.ILCursor.html#MonoMod_Cil_ILCursor_MarkLabel_MonoMod_Cil_ILLabel_">MarkLabel(ILLabel)</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ILLabel DefineLabel()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MonoMod.Cil.ILLabel.html">ILLabel</a></td>
+        <td><p>A new label with no target</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_Cil_ILCursor_Emit_" data-uid="MonoMod.Cil.ILCursor.Emit*"></a>
+  <h4 id="MonoMod_Cil_ILCursor_Emit_Mono_Cecil_Cil_OpCode_" data-uid="MonoMod.Cil.ILCursor.Emit(Mono.Cecil.Cil.OpCode)">Emit(OpCode)</h4>
+  <div class="markdown level1 summary"><p>Emit a new instruction at this cursor's current position.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ILCursor Emit(OpCode opcode)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Mono.Cecil.Cil.OpCode</span></td>
+        <td><span class="parametername">opcode</span></td>
+        <td><p>The instruction opcode.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MonoMod.Cil.ILCursor.html">ILCursor</a></td>
+        <td><p>this</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_Cil_ILCursor_Emit_" data-uid="MonoMod.Cil.ILCursor.Emit*"></a>
+  <h4 id="MonoMod_Cil_ILCursor_Emit_Mono_Cecil_Cil_OpCode_Mono_Cecil_CallSite_" data-uid="MonoMod.Cil.ILCursor.Emit(Mono.Cecil.Cil.OpCode,Mono.Cecil.CallSite)">Emit(OpCode, CallSite)</h4>
+  <div class="markdown level1 summary"><p>Emit a new instruction at this cursor's current position.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ILCursor Emit(OpCode opcode, CallSite site)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Mono.Cecil.Cil.OpCode</span></td>
+        <td><span class="parametername">opcode</span></td>
+        <td><p>The instruction opcode.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Mono.Cecil.CallSite</span></td>
+        <td><span class="parametername">site</span></td>
+        <td><p>The instruction operand.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MonoMod.Cil.ILCursor.html">ILCursor</a></td>
+        <td><p>this</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_Cil_ILCursor_Emit_" data-uid="MonoMod.Cil.ILCursor.Emit*"></a>
+  <h4 id="MonoMod_Cil_ILCursor_Emit_Mono_Cecil_Cil_OpCode_Mono_Cecil_Cil_Instruction_" data-uid="MonoMod.Cil.ILCursor.Emit(Mono.Cecil.Cil.OpCode,Mono.Cecil.Cil.Instruction)">Emit(OpCode, Instruction)</h4>
+  <div class="markdown level1 summary"><p>Emit a new instruction at this cursor's current position.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ILCursor Emit(OpCode opcode, Instruction target)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Mono.Cecil.Cil.OpCode</span></td>
+        <td><span class="parametername">opcode</span></td>
+        <td><p>The instruction opcode.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Mono.Cecil.Cil.Instruction</span></td>
+        <td><span class="parametername">target</span></td>
+        <td><p>The instruction operand.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MonoMod.Cil.ILCursor.html">ILCursor</a></td>
+        <td><p>this</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_Cil_ILCursor_Emit_" data-uid="MonoMod.Cil.ILCursor.Emit*"></a>
+  <h4 id="MonoMod_Cil_ILCursor_Emit_Mono_Cecil_Cil_OpCode_Mono_Cecil_Cil_Instruction___" data-uid="MonoMod.Cil.ILCursor.Emit(Mono.Cecil.Cil.OpCode,Mono.Cecil.Cil.Instruction[])">Emit(OpCode, Instruction[])</h4>
+  <div class="markdown level1 summary"><p>Emit a new instruction at this cursor's current position.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ILCursor Emit(OpCode opcode, Instruction[] targets)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Mono.Cecil.Cil.OpCode</span></td>
+        <td><span class="parametername">opcode</span></td>
+        <td><p>The instruction opcode.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Mono.Cecil.Cil.Instruction</span>[]</td>
+        <td><span class="parametername">targets</span></td>
+        <td><p>The instruction operand.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MonoMod.Cil.ILCursor.html">ILCursor</a></td>
+        <td><p>this</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_Cil_ILCursor_Emit_" data-uid="MonoMod.Cil.ILCursor.Emit*"></a>
+  <h4 id="MonoMod_Cil_ILCursor_Emit_Mono_Cecil_Cil_OpCode_Mono_Cecil_Cil_VariableDefinition_" data-uid="MonoMod.Cil.ILCursor.Emit(Mono.Cecil.Cil.OpCode,Mono.Cecil.Cil.VariableDefinition)">Emit(OpCode, VariableDefinition)</h4>
+  <div class="markdown level1 summary"><p>Emit a new instruction at this cursor's current position.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ILCursor Emit(OpCode opcode, VariableDefinition variable)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Mono.Cecil.Cil.OpCode</span></td>
+        <td><span class="parametername">opcode</span></td>
+        <td><p>The instruction opcode.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Mono.Cecil.Cil.VariableDefinition</span></td>
+        <td><span class="parametername">variable</span></td>
+        <td><p>The instruction operand.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MonoMod.Cil.ILCursor.html">ILCursor</a></td>
+        <td><p>this</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_Cil_ILCursor_Emit_" data-uid="MonoMod.Cil.ILCursor.Emit*"></a>
+  <h4 id="MonoMod_Cil_ILCursor_Emit_Mono_Cecil_Cil_OpCode_Mono_Cecil_FieldReference_" data-uid="MonoMod.Cil.ILCursor.Emit(Mono.Cecil.Cil.OpCode,Mono.Cecil.FieldReference)">Emit(OpCode, FieldReference)</h4>
+  <div class="markdown level1 summary"><p>Emit a new instruction at this cursor's current position.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ILCursor Emit(OpCode opcode, FieldReference field)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Mono.Cecil.Cil.OpCode</span></td>
+        <td><span class="parametername">opcode</span></td>
+        <td><p>The instruction opcode.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Mono.Cecil.FieldReference</span></td>
+        <td><span class="parametername">field</span></td>
+        <td><p>The instruction operand.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MonoMod.Cil.ILCursor.html">ILCursor</a></td>
+        <td><p>this</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_Cil_ILCursor_Emit_" data-uid="MonoMod.Cil.ILCursor.Emit*"></a>
+  <h4 id="MonoMod_Cil_ILCursor_Emit_Mono_Cecil_Cil_OpCode_Mono_Cecil_MethodReference_" data-uid="MonoMod.Cil.ILCursor.Emit(Mono.Cecil.Cil.OpCode,Mono.Cecil.MethodReference)">Emit(OpCode, MethodReference)</h4>
+  <div class="markdown level1 summary"><p>Emit a new instruction at this cursor's current position.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ILCursor Emit(OpCode opcode, MethodReference method)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Mono.Cecil.Cil.OpCode</span></td>
+        <td><span class="parametername">opcode</span></td>
+        <td><p>The instruction opcode.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Mono.Cecil.MethodReference</span></td>
+        <td><span class="parametername">method</span></td>
+        <td><p>The instruction operand.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MonoMod.Cil.ILCursor.html">ILCursor</a></td>
+        <td><p>this</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_Cil_ILCursor_Emit_" data-uid="MonoMod.Cil.ILCursor.Emit*"></a>
+  <h4 id="MonoMod_Cil_ILCursor_Emit_Mono_Cecil_Cil_OpCode_Mono_Cecil_ParameterDefinition_" data-uid="MonoMod.Cil.ILCursor.Emit(Mono.Cecil.Cil.OpCode,Mono.Cecil.ParameterDefinition)">Emit(OpCode, ParameterDefinition)</h4>
+  <div class="markdown level1 summary"><p>Emit a new instruction at this cursor's current position.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ILCursor Emit(OpCode opcode, ParameterDefinition parameter)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Mono.Cecil.Cil.OpCode</span></td>
+        <td><span class="parametername">opcode</span></td>
+        <td><p>The instruction opcode.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Mono.Cecil.ParameterDefinition</span></td>
+        <td><span class="parametername">parameter</span></td>
+        <td><p>The instruction operand.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MonoMod.Cil.ILCursor.html">ILCursor</a></td>
+        <td><p>this</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_Cil_ILCursor_Emit_" data-uid="MonoMod.Cil.ILCursor.Emit*"></a>
+  <h4 id="MonoMod_Cil_ILCursor_Emit_Mono_Cecil_Cil_OpCode_Mono_Cecil_TypeReference_" data-uid="MonoMod.Cil.ILCursor.Emit(Mono.Cecil.Cil.OpCode,Mono.Cecil.TypeReference)">Emit(OpCode, TypeReference)</h4>
+  <div class="markdown level1 summary"><p>Emit a new instruction at this cursor's current position.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ILCursor Emit(OpCode opcode, TypeReference type)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Mono.Cecil.Cil.OpCode</span></td>
+        <td><span class="parametername">opcode</span></td>
+        <td><p>The instruction opcode.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Mono.Cecil.TypeReference</span></td>
+        <td><span class="parametername">type</span></td>
+        <td><p>The instruction operand.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MonoMod.Cil.ILCursor.html">ILCursor</a></td>
+        <td><p>this</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_Cil_ILCursor_Emit_" data-uid="MonoMod.Cil.ILCursor.Emit*"></a>
+  <h4 id="MonoMod_Cil_ILCursor_Emit_Mono_Cecil_Cil_OpCode_System_Byte_" data-uid="MonoMod.Cil.ILCursor.Emit(Mono.Cecil.Cil.OpCode,System.Byte)">Emit(OpCode, Byte)</h4>
+  <div class="markdown level1 summary"><p>Emit a new instruction at this cursor's current position.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ILCursor Emit(OpCode opcode, byte value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Mono.Cecil.Cil.OpCode</span></td>
+        <td><span class="parametername">opcode</span></td>
+        <td><p>The instruction opcode.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Byte</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The instruction operand.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MonoMod.Cil.ILCursor.html">ILCursor</a></td>
+        <td><p>this</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_Cil_ILCursor_Emit_" data-uid="MonoMod.Cil.ILCursor.Emit*"></a>
+  <h4 id="MonoMod_Cil_ILCursor_Emit_Mono_Cecil_Cil_OpCode_System_Double_" data-uid="MonoMod.Cil.ILCursor.Emit(Mono.Cecil.Cil.OpCode,System.Double)">Emit(OpCode, Double)</h4>
+  <div class="markdown level1 summary"><p>Emit a new instruction at this cursor's current position.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ILCursor Emit(OpCode opcode, double value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Mono.Cecil.Cil.OpCode</span></td>
+        <td><span class="parametername">opcode</span></td>
+        <td><p>The instruction opcode.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The instruction operand.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MonoMod.Cil.ILCursor.html">ILCursor</a></td>
+        <td><p>this</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_Cil_ILCursor_Emit_" data-uid="MonoMod.Cil.ILCursor.Emit*"></a>
+  <h4 id="MonoMod_Cil_ILCursor_Emit_Mono_Cecil_Cil_OpCode_System_Int32_" data-uid="MonoMod.Cil.ILCursor.Emit(Mono.Cecil.Cil.OpCode,System.Int32)">Emit(OpCode, Int32)</h4>
+  <div class="markdown level1 summary"><p>Emit a new instruction at this cursor's current position.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ILCursor Emit(OpCode opcode, int value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Mono.Cecil.Cil.OpCode</span></td>
+        <td><span class="parametername">opcode</span></td>
+        <td><p>The instruction opcode.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The instruction operand.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MonoMod.Cil.ILCursor.html">ILCursor</a></td>
+        <td><p>this</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_Cil_ILCursor_Emit_" data-uid="MonoMod.Cil.ILCursor.Emit*"></a>
+  <h4 id="MonoMod_Cil_ILCursor_Emit_Mono_Cecil_Cil_OpCode_System_Int64_" data-uid="MonoMod.Cil.ILCursor.Emit(Mono.Cecil.Cil.OpCode,System.Int64)">Emit(OpCode, Int64)</h4>
+  <div class="markdown level1 summary"><p>Emit a new instruction at this cursor's current position.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ILCursor Emit(OpCode opcode, long value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Mono.Cecil.Cil.OpCode</span></td>
+        <td><span class="parametername">opcode</span></td>
+        <td><p>The instruction opcode.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The instruction operand.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MonoMod.Cil.ILCursor.html">ILCursor</a></td>
+        <td><p>this</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_Cil_ILCursor_Emit_" data-uid="MonoMod.Cil.ILCursor.Emit*"></a>
+  <h4 id="MonoMod_Cil_ILCursor_Emit_Mono_Cecil_Cil_OpCode_System_Object_" data-uid="MonoMod.Cil.ILCursor.Emit(Mono.Cecil.Cil.OpCode,System.Object)">Emit(OpCode, Object)</h4>
+  <div class="markdown level1 summary"><p>Emit a new instruction at this cursor's current position.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ILCursor Emit(OpCode opcode, object operand)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Mono.Cecil.Cil.OpCode</span></td>
+        <td><span class="parametername">opcode</span></td>
+        <td><p>The instruction opcode.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">operand</span></td>
+        <td><p>The instruction operand.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MonoMod.Cil.ILCursor.html">ILCursor</a></td>
+        <td><p>this</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_Cil_ILCursor_Emit_" data-uid="MonoMod.Cil.ILCursor.Emit*"></a>
+  <h4 id="MonoMod_Cil_ILCursor_Emit_Mono_Cecil_Cil_OpCode_System_Reflection_FieldInfo_" data-uid="MonoMod.Cil.ILCursor.Emit(Mono.Cecil.Cil.OpCode,System.Reflection.FieldInfo)">Emit(OpCode, FieldInfo)</h4>
+  <div class="markdown level1 summary"><p>Emit a new instruction at this cursor's current position.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ILCursor Emit(OpCode opcode, FieldInfo field)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Mono.Cecil.Cil.OpCode</span></td>
+        <td><span class="parametername">opcode</span></td>
+        <td><p>The instruction opcode.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Reflection.FieldInfo</span></td>
+        <td><span class="parametername">field</span></td>
+        <td><p>The instruction operand.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MonoMod.Cil.ILCursor.html">ILCursor</a></td>
+        <td><p>this</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_Cil_ILCursor_Emit_" data-uid="MonoMod.Cil.ILCursor.Emit*"></a>
+  <h4 id="MonoMod_Cil_ILCursor_Emit_Mono_Cecil_Cil_OpCode_System_Reflection_MethodBase_" data-uid="MonoMod.Cil.ILCursor.Emit(Mono.Cecil.Cil.OpCode,System.Reflection.MethodBase)">Emit(OpCode, MethodBase)</h4>
+  <div class="markdown level1 summary"><p>Emit a new instruction at this cursor's current position.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ILCursor Emit(OpCode opcode, MethodBase method)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Mono.Cecil.Cil.OpCode</span></td>
+        <td><span class="parametername">opcode</span></td>
+        <td><p>The instruction opcode.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Reflection.MethodBase</span></td>
+        <td><span class="parametername">method</span></td>
+        <td><p>The instruction operand.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MonoMod.Cil.ILCursor.html">ILCursor</a></td>
+        <td><p>this</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_Cil_ILCursor_Emit_" data-uid="MonoMod.Cil.ILCursor.Emit*"></a>
+  <h4 id="MonoMod_Cil_ILCursor_Emit_Mono_Cecil_Cil_OpCode_System_SByte_" data-uid="MonoMod.Cil.ILCursor.Emit(Mono.Cecil.Cil.OpCode,System.SByte)">Emit(OpCode, SByte)</h4>
+  <div class="markdown level1 summary"><p>Emit a new instruction at this cursor's current position.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ILCursor Emit(OpCode opcode, sbyte value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Mono.Cecil.Cil.OpCode</span></td>
+        <td><span class="parametername">opcode</span></td>
+        <td><p>The instruction opcode.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.SByte</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The instruction operand.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MonoMod.Cil.ILCursor.html">ILCursor</a></td>
+        <td><p>this</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_Cil_ILCursor_Emit_" data-uid="MonoMod.Cil.ILCursor.Emit*"></a>
+  <h4 id="MonoMod_Cil_ILCursor_Emit_Mono_Cecil_Cil_OpCode_System_Single_" data-uid="MonoMod.Cil.ILCursor.Emit(Mono.Cecil.Cil.OpCode,System.Single)">Emit(OpCode, Single)</h4>
+  <div class="markdown level1 summary"><p>Emit a new instruction at this cursor's current position.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ILCursor Emit(OpCode opcode, float value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Mono.Cecil.Cil.OpCode</span></td>
+        <td><span class="parametername">opcode</span></td>
+        <td><p>The instruction opcode.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The instruction operand.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MonoMod.Cil.ILCursor.html">ILCursor</a></td>
+        <td><p>this</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_Cil_ILCursor_Emit_" data-uid="MonoMod.Cil.ILCursor.Emit*"></a>
+  <h4 id="MonoMod_Cil_ILCursor_Emit_Mono_Cecil_Cil_OpCode_System_String_" data-uid="MonoMod.Cil.ILCursor.Emit(Mono.Cecil.Cil.OpCode,System.String)">Emit(OpCode, String)</h4>
+  <div class="markdown level1 summary"><p>Emit a new instruction at this cursor's current position.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ILCursor Emit(OpCode opcode, string value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Mono.Cecil.Cil.OpCode</span></td>
+        <td><span class="parametername">opcode</span></td>
+        <td><p>The instruction opcode.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The instruction operand.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MonoMod.Cil.ILCursor.html">ILCursor</a></td>
+        <td><p>this</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_Cil_ILCursor_Emit_" data-uid="MonoMod.Cil.ILCursor.Emit*"></a>
+  <h4 id="MonoMod_Cil_ILCursor_Emit_Mono_Cecil_Cil_OpCode_System_Type_" data-uid="MonoMod.Cil.ILCursor.Emit(Mono.Cecil.Cil.OpCode,System.Type)">Emit(OpCode, Type)</h4>
+  <div class="markdown level1 summary"><p>Emit a new instruction at this cursor's current position.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ILCursor Emit(OpCode opcode, Type type)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Mono.Cecil.Cil.OpCode</span></td>
+        <td><span class="parametername">opcode</span></td>
+        <td><p>The instruction opcode.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Type</span></td>
+        <td><span class="parametername">type</span></td>
+        <td><p>The instruction operand.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MonoMod.Cil.ILCursor.html">ILCursor</a></td>
+        <td><p>this</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_Cil_ILCursor_Emit_" data-uid="MonoMod.Cil.ILCursor.Emit*"></a>
+  <h4 id="MonoMod_Cil_ILCursor_Emit__1_Mono_Cecil_Cil_OpCode_System_String_" data-uid="MonoMod.Cil.ILCursor.Emit``1(Mono.Cecil.Cil.OpCode,System.String)">Emit&lt;T&gt;(OpCode, String)</h4>
+  <div class="markdown level1 summary"><p>Emit a new instruction at this cursor's current position, accessing a given member.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ILCursor Emit&lt;T&gt;(OpCode opcode, string memberName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Mono.Cecil.Cil.OpCode</span></td>
+        <td><span class="parametername">opcode</span></td>
+        <td><p>The instruction opcode.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">memberName</span></td>
+        <td><p>The accessed member name.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MonoMod.Cil.ILCursor.html">ILCursor</a></td>
+        <td><p>this</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type in which the member is defined.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_Cil_ILCursor_EmitDelegate_" data-uid="MonoMod.Cil.ILCursor.EmitDelegate*"></a>
+  <h4 id="MonoMod_Cil_ILCursor_EmitDelegate__1___0_" data-uid="MonoMod.Cil.ILCursor.EmitDelegate``1(``0)">EmitDelegate&lt;T&gt;(T)</h4>
+  <div class="markdown level1 summary"><p>Emit the IL to invoke a delegate as if it were a method. Stack behaviour matches OpCodes.Call</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int EmitDelegate&lt;T&gt;(T cb)
+    where T : Delegate</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">cb</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_Cil_ILCursor_EmitGetReference_" data-uid="MonoMod.Cil.ILCursor.EmitGetReference*"></a>
+  <h4 id="MonoMod_Cil_ILCursor_EmitGetReference__1_System_Int32_" data-uid="MonoMod.Cil.ILCursor.EmitGetReference``1(System.Int32)">EmitGetReference&lt;T&gt;(Int32)</h4>
+  <div class="markdown level1 summary"><p>Emit the IL to retrieve a stored reference of type <code data-dev-comment-type="typeparamref" class="typeparamref">T</code> with the given <code data-dev-comment-type="paramref" class="paramref">id</code> and place it on the stack.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void EmitGetReference&lt;T&gt;(int id)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">id</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_Cil_ILCursor_EmitReference_" data-uid="MonoMod.Cil.ILCursor.EmitReference*"></a>
+  <h4 id="MonoMod_Cil_ILCursor_EmitReference__1___0_" data-uid="MonoMod.Cil.ILCursor.EmitReference``1(``0)">EmitReference&lt;T&gt;(T)</h4>
+  <div class="markdown level1 summary"><p>Store an object in the reference store, and emit the IL to retrieve it and place it on the stack.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int EmitReference&lt;T&gt;(T t)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">t</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_Cil_ILCursor_FindNext_" data-uid="MonoMod.Cil.ILCursor.FindNext*"></a>
+  <h4 id="MonoMod_Cil_ILCursor_FindNext_MonoMod_Cil_ILCursor____System_Func_Mono_Cecil_Cil_Instruction_System_Boolean____" data-uid="MonoMod.Cil.ILCursor.FindNext(MonoMod.Cil.ILCursor[]@,System.Func{Mono.Cecil.Cil.Instruction,System.Boolean}[])">FindNext(out ILCursor[], Func&lt;Instruction, Boolean&gt;[])</h4>
+  <div class="markdown level1 summary"><p>Find the next occurences of a series of instructions matching the given set of predicates with gaps permitted.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void FindNext(out ILCursor[] cursors, params Func&lt;Instruction, bool&gt;[] predicates)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MonoMod.Cil.ILCursor.html">ILCursor</a>[]</td>
+        <td><span class="parametername">cursors</span></td>
+        <td><p>An array of cursors corresponding to each found instruction (MoveType.Before)</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<span class="xref">Mono.Cecil.Cil.Instruction</span>, <span class="xref">System.Boolean</span>&gt;[]</td>
+        <td><span class="parametername">predicates</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.KeyNotFoundException</span></td>
+        <td><p>If no match is found</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_Cil_ILCursor_FindPrev_" data-uid="MonoMod.Cil.ILCursor.FindPrev*"></a>
+  <h4 id="MonoMod_Cil_ILCursor_FindPrev_MonoMod_Cil_ILCursor____System_Func_Mono_Cecil_Cil_Instruction_System_Boolean____" data-uid="MonoMod.Cil.ILCursor.FindPrev(MonoMod.Cil.ILCursor[]@,System.Func{Mono.Cecil.Cil.Instruction,System.Boolean}[])">FindPrev(out ILCursor[], Func&lt;Instruction, Boolean&gt;[])</h4>
+  <div class="markdown level1 summary"><p>Search backwards for occurences of a series of instructions matching the given set of predicates with gaps permitted.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void FindPrev(out ILCursor[] cursors, params Func&lt;Instruction, bool&gt;[] predicates)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MonoMod.Cil.ILCursor.html">ILCursor</a>[]</td>
+        <td><span class="parametername">cursors</span></td>
+        <td><p>An array of cursors corresponding to each found instruction (MoveType.Before)</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<span class="xref">Mono.Cecil.Cil.Instruction</span>, <span class="xref">System.Boolean</span>&gt;[]</td>
+        <td><span class="parametername">predicates</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.KeyNotFoundException</span></td>
+        <td><p>If no match is found</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_Cil_ILCursor_Goto_" data-uid="MonoMod.Cil.ILCursor.Goto*"></a>
+  <h4 id="MonoMod_Cil_ILCursor_Goto_Mono_Cecil_Cil_Instruction_MonoMod_Cil_MoveType_System_Boolean_" data-uid="MonoMod.Cil.ILCursor.Goto(Mono.Cecil.Cil.Instruction,MonoMod.Cil.MoveType,System.Boolean)">Goto(Instruction, MoveType, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Move the cursor to a target instruction. All other movements go through this.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ILCursor Goto(Instruction insn, MoveType moveType, bool setTarget = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Mono.Cecil.Cil.Instruction</span></td>
+        <td><span class="parametername">insn</span></td>
+        <td><p>The target instruction</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MonoMod.Cil.MoveType.html">MoveType</a></td>
+        <td><span class="parametername">moveType</span></td>
+        <td><p>Where to move in relation to the target instruction and incoming labels (branches)</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">setTarget</span></td>
+        <td><p>Whether to set the <code>SearchTarget</code> and skip the target instruction with the next search function</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MonoMod.Cil.ILCursor.html">ILCursor</a></td>
+        <td><p>this</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_Cil_ILCursor_Goto_" data-uid="MonoMod.Cil.ILCursor.Goto*"></a>
+  <h4 id="MonoMod_Cil_ILCursor_Goto_System_Int32_MonoMod_Cil_MoveType_System_Boolean_" data-uid="MonoMod.Cil.ILCursor.Goto(System.Int32,MonoMod.Cil.MoveType,System.Boolean)">Goto(Int32, MoveType, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Move the cursor to a target index. Supports negative indexing. See <a class="xref" href="MonoMod.Cil.ILCursor.html#MonoMod_Cil_ILCursor_Goto_Mono_Cecil_Cil_Instruction_MonoMod_Cil_MoveType_System_Boolean_">Goto(Instruction, MoveType, Boolean)</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ILCursor Goto(int index, MoveType moveType, bool setTarget = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MonoMod.Cil.MoveType.html">MoveType</a></td>
+        <td><span class="parametername">moveType</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">setTarget</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MonoMod.Cil.ILCursor.html">ILCursor</a></td>
+        <td><p>this</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_Cil_ILCursor_GotoLabel_" data-uid="MonoMod.Cil.ILCursor.GotoLabel*"></a>
+  <h4 id="MonoMod_Cil_ILCursor_GotoLabel_MonoMod_Cil_ILLabel_MonoMod_Cil_MoveType_System_Boolean_" data-uid="MonoMod.Cil.ILCursor.GotoLabel(MonoMod.Cil.ILLabel,MonoMod.Cil.MoveType,System.Boolean)">GotoLabel(ILLabel, MoveType, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Overload for <code>Goto(label.Target)</code>. <code data-dev-comment-type="paramref" class="paramref">moveType</code> defaults to MoveType.AfterLabel</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ILCursor GotoLabel(ILLabel label, MoveType moveType, bool setTarget = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MonoMod.Cil.ILLabel.html">ILLabel</a></td>
+        <td><span class="parametername">label</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MonoMod.Cil.MoveType.html">MoveType</a></td>
+        <td><span class="parametername">moveType</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">setTarget</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MonoMod.Cil.ILCursor.html">ILCursor</a></td>
+        <td><p>this</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_Cil_ILCursor_GotoNext_" data-uid="MonoMod.Cil.ILCursor.GotoNext*"></a>
+  <h4 id="MonoMod_Cil_ILCursor_GotoNext_MonoMod_Cil_MoveType_System_Func_Mono_Cecil_Cil_Instruction_System_Boolean____" data-uid="MonoMod.Cil.ILCursor.GotoNext(MonoMod.Cil.MoveType,System.Func{Mono.Cecil.Cil.Instruction,System.Boolean}[])">GotoNext(MoveType, Func&lt;Instruction, Boolean&gt;[])</h4>
+  <div class="markdown level1 summary"><p>Search forward and moves the cursor to the next sequence of instructions matching the corresponding predicates. See also <a class="xref" href="MonoMod.Cil.ILCursor.html#MonoMod_Cil_ILCursor_TryGotoNext_MonoMod_Cil_MoveType_System_Func_Mono_Cecil_Cil_Instruction_System_Boolean____">TryGotoNext(MoveType, Func&lt;Instruction, Boolean&gt;[])</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ILCursor GotoNext(MoveType moveType, params Func&lt;Instruction, bool&gt;[] predicates)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MonoMod.Cil.MoveType.html">MoveType</a></td>
+        <td><span class="parametername">moveType</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<span class="xref">Mono.Cecil.Cil.Instruction</span>, <span class="xref">System.Boolean</span>&gt;[]</td>
+        <td><span class="parametername">predicates</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MonoMod.Cil.ILCursor.html">ILCursor</a></td>
+        <td><p>this</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.KeyNotFoundException</span></td>
+        <td><p>If no match is found</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_Cil_ILCursor_GotoNext_" data-uid="MonoMod.Cil.ILCursor.GotoNext*"></a>
+  <h4 id="MonoMod_Cil_ILCursor_GotoNext_System_Func_Mono_Cecil_Cil_Instruction_System_Boolean____" data-uid="MonoMod.Cil.ILCursor.GotoNext(System.Func{Mono.Cecil.Cil.Instruction,System.Boolean}[])">GotoNext(Func&lt;Instruction, Boolean&gt;[])</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ILCursor GotoNext(params Func&lt;Instruction, bool&gt;[] predicates)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<span class="xref">Mono.Cecil.Cil.Instruction</span>, <span class="xref">System.Boolean</span>&gt;[]</td>
+        <td><span class="parametername">predicates</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MonoMod.Cil.ILCursor.html">ILCursor</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_Cil_ILCursor_GotoPrev_" data-uid="MonoMod.Cil.ILCursor.GotoPrev*"></a>
+  <h4 id="MonoMod_Cil_ILCursor_GotoPrev_MonoMod_Cil_MoveType_System_Func_Mono_Cecil_Cil_Instruction_System_Boolean____" data-uid="MonoMod.Cil.ILCursor.GotoPrev(MonoMod.Cil.MoveType,System.Func{Mono.Cecil.Cil.Instruction,System.Boolean}[])">GotoPrev(MoveType, Func&lt;Instruction, Boolean&gt;[])</h4>
+  <div class="markdown level1 summary"><p>Search backward and moves the cursor to the next sequence of instructions matching the corresponding predicates. See also <a class="xref" href="MonoMod.Cil.ILCursor.html#MonoMod_Cil_ILCursor_TryGotoPrev_MonoMod_Cil_MoveType_System_Func_Mono_Cecil_Cil_Instruction_System_Boolean____">TryGotoPrev(MoveType, Func&lt;Instruction, Boolean&gt;[])</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ILCursor GotoPrev(MoveType moveType, params Func&lt;Instruction, bool&gt;[] predicates)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MonoMod.Cil.MoveType.html">MoveType</a></td>
+        <td><span class="parametername">moveType</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<span class="xref">Mono.Cecil.Cil.Instruction</span>, <span class="xref">System.Boolean</span>&gt;[]</td>
+        <td><span class="parametername">predicates</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MonoMod.Cil.ILCursor.html">ILCursor</a></td>
+        <td><p>this</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.KeyNotFoundException</span></td>
+        <td><p>If no match is found</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_Cil_ILCursor_GotoPrev_" data-uid="MonoMod.Cil.ILCursor.GotoPrev*"></a>
+  <h4 id="MonoMod_Cil_ILCursor_GotoPrev_System_Func_Mono_Cecil_Cil_Instruction_System_Boolean____" data-uid="MonoMod.Cil.ILCursor.GotoPrev(System.Func{Mono.Cecil.Cil.Instruction,System.Boolean}[])">GotoPrev(Func&lt;Instruction, Boolean&gt;[])</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ILCursor GotoPrev(params Func&lt;Instruction, bool&gt;[] predicates)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<span class="xref">Mono.Cecil.Cil.Instruction</span>, <span class="xref">System.Boolean</span>&gt;[]</td>
+        <td><span class="parametername">predicates</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MonoMod.Cil.ILCursor.html">ILCursor</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_Cil_ILCursor_IsAfter_" data-uid="MonoMod.Cil.ILCursor.IsAfter*"></a>
+  <h4 id="MonoMod_Cil_ILCursor_IsAfter_Mono_Cecil_Cil_Instruction_" data-uid="MonoMod.Cil.ILCursor.IsAfter(Mono.Cecil.Cil.Instruction)">IsAfter(Instruction)</h4>
+  <div class="markdown level1 summary"><p>Is this cursor after the given instruction?</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsAfter(Instruction instr)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Mono.Cecil.Cil.Instruction</span></td>
+        <td><span class="parametername">instr</span></td>
+        <td><p>The instruction to check.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if this cursor is after the given instruction, false otherwise.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_Cil_ILCursor_IsBefore_" data-uid="MonoMod.Cil.ILCursor.IsBefore*"></a>
+  <h4 id="MonoMod_Cil_ILCursor_IsBefore_Mono_Cecil_Cil_Instruction_" data-uid="MonoMod.Cil.ILCursor.IsBefore(Mono.Cecil.Cil.Instruction)">IsBefore(Instruction)</h4>
+  <div class="markdown level1 summary"><p>Is this cursor before the given instruction?</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsBefore(Instruction instr)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Mono.Cecil.Cil.Instruction</span></td>
+        <td><span class="parametername">instr</span></td>
+        <td><p>The instruction to check.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if this cursor is before the given instruction, false otherwise.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_Cil_ILCursor_MarkLabel_" data-uid="MonoMod.Cil.ILCursor.MarkLabel*"></a>
+  <h4 id="MonoMod_Cil_ILCursor_MarkLabel" data-uid="MonoMod.Cil.ILCursor.MarkLabel">MarkLabel()</h4>
+  <div class="markdown level1 summary"><p>Create a new label targetting the current position (<code>label.Target = Next</code>) and moves after it.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ILLabel MarkLabel()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MonoMod.Cil.ILLabel.html">ILLabel</a></td>
+        <td><p>The newly created label</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_Cil_ILCursor_MarkLabel_" data-uid="MonoMod.Cil.ILCursor.MarkLabel*"></a>
+  <h4 id="MonoMod_Cil_ILCursor_MarkLabel_MonoMod_Cil_ILLabel_" data-uid="MonoMod.Cil.ILCursor.MarkLabel(MonoMod.Cil.ILLabel)">MarkLabel(ILLabel)</h4>
+  <div class="markdown level1 summary"><p>Set the target of a label to the current position (<code>label.Target = Next</code>) and moves after it.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MarkLabel(ILLabel label)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MonoMod.Cil.ILLabel.html">ILLabel</a></td>
+        <td><span class="parametername">label</span></td>
+        <td><p>The label to mark</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_Cil_ILCursor_MoveAfterLabels_" data-uid="MonoMod.Cil.ILCursor.MoveAfterLabels*"></a>
+  <h4 id="MonoMod_Cil_ILCursor_MoveAfterLabels" data-uid="MonoMod.Cil.ILCursor.MoveAfterLabels">MoveAfterLabels()</h4>
+  <div class="markdown level1 summary"><p>Move the cursor after incoming labels (branches). If an instruction is emitted, all labels which currently point to Next, will point to the newly emitted instruction.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ILCursor MoveAfterLabels()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MonoMod.Cil.ILCursor.html">ILCursor</a></td>
+        <td><p>this</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_Cil_ILCursor_MoveBeforeLabels_" data-uid="MonoMod.Cil.ILCursor.MoveBeforeLabels*"></a>
+  <h4 id="MonoMod_Cil_ILCursor_MoveBeforeLabels" data-uid="MonoMod.Cil.ILCursor.MoveBeforeLabels">MoveBeforeLabels()</h4>
+  <div class="markdown level1 summary"><p>Move the cursor before incoming labels (branches). This is the default behaviour. Emitted instructions will not cause labels to change targets.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ILCursor MoveBeforeLabels()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MonoMod.Cil.ILCursor.html">ILCursor</a></td>
+        <td><p>this</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_Cil_ILCursor_Remove_" data-uid="MonoMod.Cil.ILCursor.Remove*"></a>
+  <h4 id="MonoMod_Cil_ILCursor_Remove" data-uid="MonoMod.Cil.ILCursor.Remove">Remove()</h4>
+  <div class="markdown level1 summary"><p>Remove the Next instruction</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ILCursor Remove()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MonoMod.Cil.ILCursor.html">ILCursor</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_Cil_ILCursor_RemoveRange_" data-uid="MonoMod.Cil.ILCursor.RemoveRange*"></a>
+  <h4 id="MonoMod_Cil_ILCursor_RemoveRange_System_Int32_" data-uid="MonoMod.Cil.ILCursor.RemoveRange(System.Int32)">RemoveRange(Int32)</h4>
+  <div class="markdown level1 summary"><p>Remove several instructions</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ILCursor RemoveRange(int num)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">num</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MonoMod.Cil.ILCursor.html">ILCursor</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_Cil_ILCursor_ToString_" data-uid="MonoMod.Cil.ILCursor.ToString*"></a>
+  <h4 id="MonoMod_Cil_ILCursor_ToString" data-uid="MonoMod.Cil.ILCursor.ToString">ToString()</h4>
+  <div class="markdown level1 summary"><p>Obtain a string representation of this cursor (method ID, index, search target, surrounding instructions).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>A string representation of this cursor.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_Cil_ILCursor_TryFindNext_" data-uid="MonoMod.Cil.ILCursor.TryFindNext*"></a>
+  <h4 id="MonoMod_Cil_ILCursor_TryFindNext_MonoMod_Cil_ILCursor____System_Func_Mono_Cecil_Cil_Instruction_System_Boolean____" data-uid="MonoMod.Cil.ILCursor.TryFindNext(MonoMod.Cil.ILCursor[]@,System.Func{Mono.Cecil.Cil.Instruction,System.Boolean}[])">TryFindNext(out ILCursor[], Func&lt;Instruction, Boolean&gt;[])</h4>
+  <div class="markdown level1 summary"><p>Find the next occurences of a series of instructions matching the given set of predicates with gaps permitted.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool TryFindNext(out ILCursor[] cursors, params Func&lt;Instruction, bool&gt;[] predicates)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MonoMod.Cil.ILCursor.html">ILCursor</a>[]</td>
+        <td><span class="parametername">cursors</span></td>
+        <td><p>An array of cursors corresponding to each found instruction (MoveType.Before)</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<span class="xref">Mono.Cecil.Cil.Instruction</span>, <span class="xref">System.Boolean</span>&gt;[]</td>
+        <td><span class="parametername">predicates</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if a match was found</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_Cil_ILCursor_TryFindPrev_" data-uid="MonoMod.Cil.ILCursor.TryFindPrev*"></a>
+  <h4 id="MonoMod_Cil_ILCursor_TryFindPrev_MonoMod_Cil_ILCursor____System_Func_Mono_Cecil_Cil_Instruction_System_Boolean____" data-uid="MonoMod.Cil.ILCursor.TryFindPrev(MonoMod.Cil.ILCursor[]@,System.Func{Mono.Cecil.Cil.Instruction,System.Boolean}[])">TryFindPrev(out ILCursor[], Func&lt;Instruction, Boolean&gt;[])</h4>
+  <div class="markdown level1 summary"><p>Search backwards for occurences of a series of instructions matching the given set of predicates with gaps permitted.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool TryFindPrev(out ILCursor[] cursors, params Func&lt;Instruction, bool&gt;[] predicates)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MonoMod.Cil.ILCursor.html">ILCursor</a>[]</td>
+        <td><span class="parametername">cursors</span></td>
+        <td><p>An array of cursors corresponding to each found instruction (MoveType.Before)</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<span class="xref">Mono.Cecil.Cil.Instruction</span>, <span class="xref">System.Boolean</span>&gt;[]</td>
+        <td><span class="parametername">predicates</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if a match was found</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_Cil_ILCursor_TryGotoNext_" data-uid="MonoMod.Cil.ILCursor.TryGotoNext*"></a>
+  <h4 id="MonoMod_Cil_ILCursor_TryGotoNext_MonoMod_Cil_MoveType_System_Func_Mono_Cecil_Cil_Instruction_System_Boolean____" data-uid="MonoMod.Cil.ILCursor.TryGotoNext(MonoMod.Cil.MoveType,System.Func{Mono.Cecil.Cil.Instruction,System.Boolean}[])">TryGotoNext(MoveType, Func&lt;Instruction, Boolean&gt;[])</h4>
+  <div class="markdown level1 summary"><p>Search forward and moves the cursor to the next sequence of instructions matching the corresponding predicates.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool TryGotoNext(MoveType moveType, params Func&lt;Instruction, bool&gt;[] predicates)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MonoMod.Cil.MoveType.html">MoveType</a></td>
+        <td><span class="parametername">moveType</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<span class="xref">Mono.Cecil.Cil.Instruction</span>, <span class="xref">System.Boolean</span>&gt;[]</td>
+        <td><span class="parametername">predicates</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if a match was found</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_Cil_ILCursor_TryGotoNext_" data-uid="MonoMod.Cil.ILCursor.TryGotoNext*"></a>
+  <h4 id="MonoMod_Cil_ILCursor_TryGotoNext_System_Func_Mono_Cecil_Cil_Instruction_System_Boolean____" data-uid="MonoMod.Cil.ILCursor.TryGotoNext(System.Func{Mono.Cecil.Cil.Instruction,System.Boolean}[])">TryGotoNext(Func&lt;Instruction, Boolean&gt;[])</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool TryGotoNext(params Func&lt;Instruction, bool&gt;[] predicates)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<span class="xref">Mono.Cecil.Cil.Instruction</span>, <span class="xref">System.Boolean</span>&gt;[]</td>
+        <td><span class="parametername">predicates</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_Cil_ILCursor_TryGotoPrev_" data-uid="MonoMod.Cil.ILCursor.TryGotoPrev*"></a>
+  <h4 id="MonoMod_Cil_ILCursor_TryGotoPrev_MonoMod_Cil_MoveType_System_Func_Mono_Cecil_Cil_Instruction_System_Boolean____" data-uid="MonoMod.Cil.ILCursor.TryGotoPrev(MonoMod.Cil.MoveType,System.Func{Mono.Cecil.Cil.Instruction,System.Boolean}[])">TryGotoPrev(MoveType, Func&lt;Instruction, Boolean&gt;[])</h4>
+  <div class="markdown level1 summary"><p>Search backward and moves the cursor to the next sequence of instructions matching the corresponding predicates.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool TryGotoPrev(MoveType moveType, params Func&lt;Instruction, bool&gt;[] predicates)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MonoMod.Cil.MoveType.html">MoveType</a></td>
+        <td><span class="parametername">moveType</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<span class="xref">Mono.Cecil.Cil.Instruction</span>, <span class="xref">System.Boolean</span>&gt;[]</td>
+        <td><span class="parametername">predicates</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if a match was found</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MonoMod_Cil_ILCursor_TryGotoPrev_" data-uid="MonoMod.Cil.ILCursor.TryGotoPrev*"></a>
+  <h4 id="MonoMod_Cil_ILCursor_TryGotoPrev_System_Func_Mono_Cecil_Cil_Instruction_System_Boolean____" data-uid="MonoMod.Cil.ILCursor.TryGotoPrev(System.Func{Mono.Cecil.Cil.Instruction,System.Boolean}[])">TryGotoPrev(Func&lt;Instruction, Boolean&gt;[])</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool TryGotoPrev(params Func&lt;Instruction, bool&gt;[] predicates)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<span class="xref">Mono.Cecil.Cil.Instruction</span>, <span class="xref">System.Boolean</span>&gt;[]</td>
+        <td><span class="parametername">predicates</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Yet another C# modding swiss army knife.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
