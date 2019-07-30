@@ -1,0 +1,7 @@
+apiRules:
+- exclude:
+    uidRegex: ^System\.Runtime\.CompilerServices$
+    type: Namespace
+- exclude:
+    uidRegex: ^MonoMod.Cil.RuntimeILReferenceBag.
+    type: Type

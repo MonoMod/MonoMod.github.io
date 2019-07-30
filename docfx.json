@@ -1,0 +1,70 @@
+{
+  "metadata": [
+    {
+      "src": [
+        {
+          "src": "..",
+          "files": [
+            "MonoMod.*/bin/**/MonoMod*.dll",
+            "MonoMod.*/bin/**/MonoMod*.exe"
+          ],
+          "exclude": [
+            "MonoMod.Common/**",
+            "MonoMod.UnitTest/**"
+          ]
+        }
+      ],
+      "dest": "api",
+      "filter": "filterConfig.yml",
+      "disableGitFeatures": false,
+      "disableDefaultFilter": false
+    }
+  ],
+  "build": {
+    "content": [
+      {
+        "files": [
+          "api/**.yml",
+          "api/index.md"
+        ]
+      },
+      {
+        "files": [
+          "toc.yml",
+          "*.md"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "logo*",
+          "favicon*"
+        ]
+      }
+    ],
+    "overwrite": [
+      {
+        "exclude": [
+          "obj/**",
+          "_site/**"
+        ]
+      }
+    ],
+    "dest": "_site",
+    "globalMetadataFiles": [
+      "global.json"
+    ],
+    "fileMetadataFiles": [],
+    "template": [
+      "default",
+      "darkfx/darkfx"
+    ],
+    "postProcessors": [],
+    "markdownEngineName": "markdig",
+    "noLangKeyword": false,
+    "keepFileLink": false,
+    "cleanupCacheHistory": false,
+    "disableGitFeatures": true
+  }
+}

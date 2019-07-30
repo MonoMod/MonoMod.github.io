@@ -1,0 +1,12 @@
+{
+  "_appTitle": "MonoMod",
+  "_appFooter": "Yet another C# modding swiss army knife.",
+  "_description": "A C# modding swiss army knife, powered by cecil.",
+  "author": "0x0ade and contributors",
+  "url": "https://monomod.github.io/",
+  "image": "https://monomod.github.io/favicon.png",
+  "_appLogoPath": "logo-small.png",
+  "_appFaviconPath": "favicon.png",
+  "_enableSearch": true,
+  "_enableNewTab": true
+}
