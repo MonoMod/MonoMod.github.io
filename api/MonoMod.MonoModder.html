@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class MonoModder
    | MonoMod ">
-    <meta name="generator" content="docfx 2.43.3.0">
+    <meta name="generator" content="docfx 2.44.0.0">
     <meta name="description" content="A C# modding swiss army knife, powered by cecil.">
     <link rel="shortcut icon" href="../favicon.png">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -1376,7 +1376,8 @@
       <tr>
         <td><span class="xref">Mono.Cecil.TypeDefinition</span></td>
         <td><span class="parametername">targetType</span></td>
-        <td></td>
+        <td><p>Type to which the method will be added.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -2964,7 +2965,8 @@
       <tr>
         <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">forceAdd</span></td>
-        <td></td>
+        <td><p>Forcibly add the type, no matter if it already exists or if it's MonoModRules.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -3183,13 +3185,14 @@
       <tr>
         <td><span class="xref">System.IO.Stream</span></td>
         <td><span class="parametername">output</span></td>
-        <td><p>Output stream. If none given, default Output will be used.</p>
+        <td><p>Output stream. If none given, outputPath or default Output will be used.</p>
 </td>
       </tr>
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">outputPath</span></td>
-        <td></td>
+        <td><p>Output path. If none given, output or default OutputPath will be used.</p>
+</td>
       </tr>
     </tbody>
   </table>
