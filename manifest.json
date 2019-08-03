@@ -629,7 +629,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.MonoModder.html",
-          "hash": "Yn9wOoKuE//PHZq1vY3mEQ=="
+          "hash": "9tmwpa8UkcImsJzPCSQNSA=="
         }
       },
       "is_incremental": false,
@@ -1301,43 +1301,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.Utils.Extensions.html",
-          "hash": "im1z3vOtBAo3mVPYEoA98Q=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MonoMod.Utils.FastReflectionDelegate.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MonoMod.Utils.FastReflectionDelegate.html",
-          "hash": "UkZ07lCX46IfPQ4i+6jfNA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MonoMod.Utils.FastReflectionHelper.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MonoMod.Utils.FastReflectionHelper.html",
-          "hash": "Rb0ew+gO+i3KGAtxGyWAJw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MonoMod.Utils.ILExt.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MonoMod.Utils.ILExt.html",
-          "hash": "00d06MRT7X1fFoUBZzjaaA=="
+          "hash": "1n++LJMVw+bj+/nmRa3V1w=="
         }
       },
       "is_incremental": false,
@@ -1362,18 +1326,6 @@
         ".html": {
           "relative_path": "api/MonoMod.Utils.LazyDisposable.html",
           "hash": "6wJlNcbC98wXURE2OqBWnA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MonoMod.Utils.LimitedStream.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MonoMod.Utils.LimitedStream.html",
-          "hash": "A/gGZUITpVk7QNveHNLu0A=="
         }
       },
       "is_incremental": false,
@@ -1481,7 +1433,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.Utils.html",
-          "hash": "wt0qV/sLlfkfyZ8cFvdqEA=="
+          "hash": "pBH0dzG9Msace15Pv2HI2w=="
         }
       },
       "is_incremental": false,
@@ -1517,7 +1469,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "cgCFPuslJCDxvdpGkADkAg=="
+          "hash": "vHdwvu0hiMJIss4MKj/qAw=="
         }
       },
       "is_incremental": false,
@@ -1588,6 +1540,12 @@
           "total_file_count": 0,
           "skipped_file_count": 0
         },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 2,
+          "skipped_file_count": 0
+        },
         "TocDocumentProcessor": {
           "can_incremental": false,
           "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
@@ -1595,16 +1553,10 @@
           "total_file_count": 0,
           "skipped_file_count": 0
         },
-        "ConceptualDocumentProcessor": {
-          "can_incremental": false,
-          "incrementalPhase": "build",
-          "total_file_count": 2,
-          "skipped_file_count": 0
-        },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 123,
+          "total_file_count": 119,
           "skipped_file_count": 0
         }
       }
