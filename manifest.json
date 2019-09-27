@@ -29,7 +29,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.Cil.IILReferenceBag.html",
-          "hash": "RVdvfPYTFaFUJOQjZGsJzA=="
+          "hash": "2T711EZhqIcMZwpfxWJhKA=="
         }
       },
       "is_incremental": false,
@@ -41,7 +41,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.Cil.ILContext.Manipulator.html",
-          "hash": "5z3oYLf0kdct4tEQaa4Ctw=="
+          "hash": "M5bVWNPDfrGhNWVO0pCPnw=="
         }
       },
       "is_incremental": false,
@@ -53,7 +53,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.Cil.ILContext.html",
-          "hash": "+G0+6Cuiduje94HTnTA0qA=="
+          "hash": "mrZSAmga8pL/Plbxv/wzRw=="
         }
       },
       "is_incremental": false,
@@ -65,7 +65,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.Cil.ILCursor.html",
-          "hash": "9ZIkpjrviTtRQ1wuNAuRzg=="
+          "hash": "Al+Y3vBRA++kI/gFtejMhw=="
         }
       },
       "is_incremental": false,
@@ -77,7 +77,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.Cil.ILLabel.html",
-          "hash": "1C+F9ijpKhZH4x3svjzsRw=="
+          "hash": "9wg/5B8MBO8sFymNbRaq4Q=="
         }
       },
       "is_incremental": false,
@@ -89,7 +89,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.Cil.ILPatternMatchingExt.html",
-          "hash": "K+WuqvATyKYbezyNsJqQow=="
+          "hash": "Bw1ySfieEhjfDgds/rBHmQ=="
         }
       },
       "is_incremental": false,
@@ -101,7 +101,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.Cil.MoveType.html",
-          "hash": "CSgw79tC1OP+/u6I3ouOXQ=="
+          "hash": "GSe3aPCUfii+q1p/eIecLw=="
         }
       },
       "is_incremental": false,
@@ -113,7 +113,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.Cil.NopILReferenceBag.html",
-          "hash": "wFKRPCFGEt6LnAFOGNmxIw=="
+          "hash": "pfrxS3oqB8115thHDgzb5g=="
         }
       },
       "is_incremental": false,
@@ -125,7 +125,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.Cil.RuntimeILReferenceBag.html",
-          "hash": "69N2dIBw3s13SsKLls3qLA=="
+          "hash": "ljGTx5OBJId9llgX+mfu5A=="
         }
       },
       "is_incremental": false,
@@ -137,7 +137,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.Cil.SearchTarget.html",
-          "hash": "WPRQklKJlPEFhv0FbJZDIw=="
+          "hash": "SzTC1KFRs5iFXWrFthZb0Q=="
         }
       },
       "is_incremental": false,
@@ -149,7 +149,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.Cil.html",
-          "hash": "Vqs9zsSdZeyls0hT4/dfhQ=="
+          "hash": "okhUUFJ9HRyGHCVSQL6CNg=="
         }
       },
       "is_incremental": false,
@@ -161,7 +161,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.DebugIL.DebugILGenerator.html",
-          "hash": "wypluAHSVIfdufAvDJVLpg=="
+          "hash": "W6WX8ARlXI672/QMU4XacQ=="
         }
       },
       "is_incremental": false,
@@ -173,7 +173,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.DebugIL.DebugILGeneratorExt.html",
-          "hash": "1EC3cE9ps4n6by6/4zbtJg=="
+          "hash": "T5EARBxfXsz39+gJ0gls/Q=="
         }
       },
       "is_incremental": false,
@@ -185,7 +185,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.DebugIL.html",
-          "hash": "9iIKWO3WB8+3/OVXt5ejGQ=="
+          "hash": "e//E9c7Yl5/m0RLxlY0B6Q=="
         }
       },
       "is_incremental": false,
@@ -197,7 +197,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.DebugSymbolFormat.html",
-          "hash": "X4o45y8LlK2/OHT8u9bmJA=="
+          "hash": "cNXxm/vwBmOVEOVVGGwVAQ=="
         }
       },
       "is_incremental": false,
@@ -209,7 +209,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.InlineRT.MonoModRule.Data.html",
-          "hash": "iPzLzjd/6tF1B7UEKVr02w=="
+          "hash": "Z6awdBlAEBwEzMKkODRTRQ=="
         }
       },
       "is_incremental": false,
@@ -221,7 +221,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.InlineRT.MonoModRule.Flag.html",
-          "hash": "zo6iU4nEtDykdJdRE2gd6w=="
+          "hash": "aT3JvKTtsXSvgSkOjkhgJQ=="
         }
       },
       "is_incremental": false,
@@ -233,7 +233,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.InlineRT.MonoModRule.html",
-          "hash": "htzuhEazaH0+gaMZ81xAKA=="
+          "hash": "1TgjTMXLDVRdVe1oA8HG5Q=="
         }
       },
       "is_incremental": false,
@@ -245,7 +245,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.InlineRT.MonoModRulesManager.html",
-          "hash": "2rbTVzeaxuM3Su2rF/emkA=="
+          "hash": "9FQ52poZjoFUsxK6Efp2gg=="
         }
       },
       "is_incremental": false,
@@ -257,7 +257,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.InlineRT.html",
-          "hash": "G1sHW0LWR27mFrUZ2TU7Nw=="
+          "hash": "uSijvWpH6BG3grgo12xxxg=="
         }
       },
       "is_incremental": false,
@@ -269,7 +269,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.MethodBodyRewriter.html",
-          "hash": "p+CNvAp/l0L9QF/WbjhlzA=="
+          "hash": "5xE1yM6I2uAbLaYRyp60Jw=="
         }
       },
       "is_incremental": false,
@@ -281,7 +281,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.MethodParser.html",
-          "hash": "vEo/ptA0F/iGi5u8vq2bgQ=="
+          "hash": "eHuONY1x06Q0J0wymSjdyw=="
         }
       },
       "is_incremental": false,
@@ -293,7 +293,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.MethodRewriter.html",
-          "hash": "nJNfzM16VIOayoEGMwDKjQ=="
+          "hash": "wiaKq1D6+114VKuGmppYLw=="
         }
       },
       "is_incremental": false,
@@ -305,7 +305,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.MissingDependencyResolver.html",
-          "hash": "lmeLUX2E28Ifejbzfdb+YA=="
+          "hash": "cLmjireuJtAvh8Q+pUYPQQ=="
         }
       },
       "is_incremental": false,
@@ -317,7 +317,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.ModInterop.ModExportNameAttribute.html",
-          "hash": "Cb1CSy6iwSzB+SjEjZ507w=="
+          "hash": "WEwcmJGkDlAeUsshyE2vbA=="
         }
       },
       "is_incremental": false,
@@ -329,7 +329,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.ModInterop.ModImportNameAttribute.html",
-          "hash": "xa7N7rYdu+exq3eHro0szQ=="
+          "hash": "D/AK3l4xp1UWJSIYJRNtdA=="
         }
       },
       "is_incremental": false,
@@ -341,7 +341,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.ModInterop.ModInteropManager.html",
-          "hash": "XxlMqVmdQi0OnEJ98dMCVA=="
+          "hash": "XELobb9x6aN+U4kpqrR1Yw=="
         }
       },
       "is_incremental": false,
@@ -353,7 +353,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.ModInterop.html",
-          "hash": "87c8Z84XwSSbRnka2K5p2Q=="
+          "hash": "2PZKDlKBfiBJLVk7Dq3DCw=="
         }
       },
       "is_incremental": false,
@@ -365,7 +365,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.ModReadEventHandler.html",
-          "hash": "xLAfw3a8F+5bYMF0zHoYEg=="
+          "hash": "vxaaMSuGvI2moFeOijij7g=="
         }
       },
       "is_incremental": false,
@@ -377,7 +377,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.MonoModAdded.html",
-          "hash": "iQ93SG6/w7ygne57iM271A=="
+          "hash": "41Pt+lkaSUUIk/gI94rJbw=="
         }
       },
       "is_incremental": false,
@@ -389,7 +389,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.MonoModConstructor.html",
-          "hash": "RtgSiGk+HJIcAbX8HklqyQ=="
+          "hash": "qyIVkJxh9fMarn6bIUtjcg=="
         }
       },
       "is_incremental": false,
@@ -401,7 +401,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.MonoModCustomAttributeAttribute.html",
-          "hash": "x1RR0upZiO8uG3Phn1ScTw=="
+          "hash": "9NOFf4a8UQt/Gm+r4NNcZA=="
         }
       },
       "is_incremental": false,
@@ -413,7 +413,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.MonoModCustomMethodAttributeAttribute.html",
-          "hash": "3QttuoBnufyQkE+zrSTYSA=="
+          "hash": "CTjBVsWeehG2eUJTRUzqtw=="
         }
       },
       "is_incremental": false,
@@ -425,7 +425,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.MonoModEnumReplace.html",
-          "hash": "SO+8SoLURG6opih3EQzCJg=="
+          "hash": "ozGctHBfn3W5oOjFYbANtw=="
         }
       },
       "is_incremental": false,
@@ -437,7 +437,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.MonoModForceCall.html",
-          "hash": "iF1SydxZqL0I6J50NXROFQ=="
+          "hash": "zwpPwvaF52E/2J6Ea672jA=="
         }
       },
       "is_incremental": false,
@@ -449,7 +449,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.MonoModForceCallvirt.html",
-          "hash": "+kuTVrbSvot6VQ6AzXGA9Q=="
+          "hash": "U9o4NeHmA92Z6eH0DCm4Qw=="
         }
       },
       "is_incremental": false,
@@ -461,7 +461,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.MonoModHook.html",
-          "hash": "EZLe+83xvMUpIAAhGZa+9g=="
+          "hash": "4vSpyUldvpfJ5bkE09nNNg=="
         }
       },
       "is_incremental": false,
@@ -473,7 +473,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.MonoModIfFlag.html",
-          "hash": "yi8TcOLsojXIWU++29WOLg=="
+          "hash": "gklJ8+CSLeKjotLzUxPRew=="
         }
       },
       "is_incremental": false,
@@ -485,7 +485,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.MonoModIgnore.html",
-          "hash": "jEAJ4lk2l3mQKKcMZ+tGeg=="
+          "hash": "w/7Ymos4A2L3SCoKaLNDcg=="
         }
       },
       "is_incremental": false,
@@ -497,7 +497,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.MonoModLinkFrom.html",
-          "hash": "GmWswLIhI9J1iZK4RHP/+w=="
+          "hash": "+o0nBKxTSWBNGeU4Qb/JTA=="
         }
       },
       "is_incremental": false,
@@ -509,7 +509,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.MonoModLinkTo.html",
-          "hash": "P9OYKn7wuo10ynrxuKA+5g=="
+          "hash": "L8xwxDKIMCvWKoAdXJxTvg=="
         }
       },
       "is_incremental": false,
@@ -521,7 +521,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.MonoModNoNew.html",
-          "hash": "+h7T7lTKqwc49depDmCl6g=="
+          "hash": "yGZFWzd7QIRTwXIX0snyiA=="
         }
       },
       "is_incremental": false,
@@ -533,7 +533,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.MonoModOnPlatform.html",
-          "hash": "S9H6u9JrrPz9TY5vbOLW1A=="
+          "hash": "tNUCW+wz0xTjKFV7PAbxOA=="
         }
       },
       "is_incremental": false,
@@ -545,7 +545,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.MonoModOriginal.html",
-          "hash": "Hh9ERkx45AszfbmaccSXWw=="
+          "hash": "6xvbxtFiV16O/IQcXHVeWA=="
         }
       },
       "is_incremental": false,
@@ -557,7 +557,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.MonoModOriginalName.html",
-          "hash": "+n3lursckRP4+JhVswMVVg=="
+          "hash": "rT6/iDyiIvXQ3ETOssVOCQ=="
         }
       },
       "is_incremental": false,
@@ -569,7 +569,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.MonoModPatch.html",
-          "hash": "TlJOaDdQLKrZjZ2hhumEtQ=="
+          "hash": "Vu2NJPvM/rNZdjtgpuxZAA=="
         }
       },
       "is_incremental": false,
@@ -581,7 +581,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.MonoModPublic.html",
-          "hash": "gd0oYT/a0O4GWPXDBZCuYg=="
+          "hash": "zjvhKHLz/BRBc66Bd2KvbA=="
         }
       },
       "is_incremental": false,
@@ -593,7 +593,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.MonoModRemove.html",
-          "hash": "O6lUZ1xh2fegW+AfO9ZgBg=="
+          "hash": "1mIRVTKeS5kDA0TGdha1aA=="
         }
       },
       "is_incremental": false,
@@ -605,7 +605,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.MonoModReplace.html",
-          "hash": "Dwsuuh3Q52/6xASyHvmLOQ=="
+          "hash": "zmdNtD3XtO6lFzOOHpnz/A=="
         }
       },
       "is_incremental": false,
@@ -617,7 +617,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.MonoModTargetModule.html",
-          "hash": "FuRWQPaH86gSyty458e9Wg=="
+          "hash": "Xg3odP2JOoGRe99Nohypxw=="
         }
       },
       "is_incremental": false,
@@ -629,7 +629,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.MonoModder.html",
-          "hash": "fazLgZcQbct3tB3Z+GGhqw=="
+          "hash": "Hs5cKE2WcLhsoNNMRqPdIA=="
         }
       },
       "is_incremental": false,
@@ -641,7 +641,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.PostProcessor.html",
-          "hash": "emcecjiPMJahN/ivp4EpXA=="
+          "hash": "fWgCcPUFfzU8rFWqFSxW7Q=="
         }
       },
       "is_incremental": false,
@@ -653,7 +653,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.RelinkMapEntry.html",
-          "hash": "IMj3Gg1znGaRXFBDByNFtw=="
+          "hash": "cIBle2AkHPp9Z7VO6WaMkA=="
         }
       },
       "is_incremental": false,
@@ -665,7 +665,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.RuntimeDetour.Detour-1.html",
-          "hash": "dr3f1I81ku8OEb39VELgvA=="
+          "hash": "mblL4JBCUaL36ZiKqvilwA=="
         }
       },
       "is_incremental": false,
@@ -677,7 +677,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.RuntimeDetour.Detour.html",
-          "hash": "8LhQ03xZe7ChtBpRAbtXLw=="
+          "hash": "kWJb+ZoIfv/06fK6xR/INg=="
         }
       },
       "is_incremental": false,
@@ -689,7 +689,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.RuntimeDetour.DetourConfig.html",
-          "hash": "HiAuZCzLYOLyHtlyUOR/Ug=="
+          "hash": "ljsuJtGamjgLQeWrPJo2Hw=="
         }
       },
       "is_incremental": false,
@@ -701,7 +701,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.RuntimeDetour.DetourContext.html",
-          "hash": "Tve6WIcfGawXUoMOTXeB1A=="
+          "hash": "a+Apj8TyifaJZTFDDbNWgg=="
         }
       },
       "is_incremental": false,
@@ -713,7 +713,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.RuntimeDetour.DetourHelper.html",
-          "hash": "QTNtbbkVgFLXekjHU/Denw=="
+          "hash": "hujw75aZjNKYScH/PQyTeQ=="
         }
       },
       "is_incremental": false,
@@ -725,7 +725,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.RuntimeDetour.DetourModManager.html",
-          "hash": "ERW5F1LQ8A8VTEw4gYIFLg=="
+          "hash": "z6bb90PvFCxE7nS6xYHeKA=="
         }
       },
       "is_incremental": false,
@@ -737,7 +737,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.RuntimeDetour.HarmonyDetourBridge.Type.html",
-          "hash": "kE2km3OexQN5sWMWVQocaw=="
+          "hash": "cEk2CsHaPDCctSENSN9LTA=="
         }
       },
       "is_incremental": false,
@@ -749,7 +749,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.RuntimeDetour.HarmonyDetourBridge.html",
-          "hash": "B5o5zeMOwN3WmJftkZ+aUw=="
+          "hash": "VE/4fCDxXegujXDMmiXWog=="
         }
       },
       "is_incremental": false,
@@ -761,7 +761,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.RuntimeDetour.Hook-1.html",
-          "hash": "4oxqw/BUaYNQJhHaiprPBw=="
+          "hash": "vp8hgfeE02XaVbz1BbgNVQ=="
         }
       },
       "is_incremental": false,
@@ -773,7 +773,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.RuntimeDetour.Hook-2.html",
-          "hash": "jyq4Aqyq1+FVfUAVTDvQtg=="
+          "hash": "dtIsJsmYay9rXPNO5JHsLw=="
         }
       },
       "is_incremental": false,
@@ -785,7 +785,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.RuntimeDetour.Hook.html",
-          "hash": "H4DsbKHxnjqCmspncr32mA=="
+          "hash": "153qyvORdvUPr9Wq4CES7w=="
         }
       },
       "is_incremental": false,
@@ -797,7 +797,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.RuntimeDetour.HookConfig.html",
-          "hash": "7tfUgCQ3SvAiKERuTAQkhQ=="
+          "hash": "h5wuCDo4Q0VbmbNevMgBwA=="
         }
       },
       "is_incremental": false,
@@ -809,7 +809,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.RuntimeDetour.HookGen.HookEndpointManager.html",
-          "hash": "md0dqxed9IEfrlF+RYx98g=="
+          "hash": "EKEuIRVA/YGDNQY6433CVA=="
         }
       },
       "is_incremental": false,
@@ -821,7 +821,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.RuntimeDetour.HookGen.HookGenerator.html",
-          "hash": "tH24NohecP4SihiyxEIl2g=="
+          "hash": "lDPYXDOnOExwiunEhvDY3A=="
         }
       },
       "is_incremental": false,
@@ -833,7 +833,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.RuntimeDetour.HookGen.html",
-          "hash": "EV53JRMLDEohlJNMFoFojA=="
+          "hash": "EQoBCX6xmOKYvD7Qdoy33g=="
         }
       },
       "is_incremental": false,
@@ -845,7 +845,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.RuntimeDetour.IDetour.html",
-          "hash": "bD9bCGALzUC3I6YgTDoRpg=="
+          "hash": "WrFsHPl4ACjcCVK2rrwjxQ=="
         }
       },
       "is_incremental": false,
@@ -857,7 +857,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.RuntimeDetour.IDetourNativePlatform.html",
-          "hash": "0GhzcuT9o15/Hn0I3O97Gg=="
+          "hash": "e/Q0PIq+6Pe2E6n1y8Klpw=="
         }
       },
       "is_incremental": false,
@@ -869,7 +869,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.RuntimeDetour.IDetourRuntimePlatform.html",
-          "hash": "cSEI+QSNczKgVNre5N0cFA=="
+          "hash": "5g09rdKKaOWjSgesWdN1vg=="
         }
       },
       "is_incremental": false,
@@ -881,7 +881,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.RuntimeDetour.ILHook.html",
-          "hash": "Ry/08xnwokPd2S6zHStbSg=="
+          "hash": "oxmmJO70dvET5aNV+khgVw=="
         }
       },
       "is_incremental": false,
@@ -893,7 +893,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.RuntimeDetour.ILHookConfig.html",
-          "hash": "5AXoGLg/oVKrLh7ewgRRFQ=="
+          "hash": "RBy74of/0I5ePnSzYe+npA=="
         }
       },
       "is_incremental": false,
@@ -905,7 +905,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.RuntimeDetour.ISortableDetour.html",
-          "hash": "C5X/KM7hA6O09H6/cUPRYw=="
+          "hash": "4LmNSyGfG9Y0aZEjqSD6Aw=="
         }
       },
       "is_incremental": false,
@@ -917,7 +917,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.RuntimeDetour.NativeDetour.html",
-          "hash": "6eR5NHXke8ap/awOEVY7AA=="
+          "hash": "MZ6X3mGKWMUIR/EzCYGwXQ=="
         }
       },
       "is_incremental": false,
@@ -929,7 +929,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.RuntimeDetour.NativeDetourConfig.html",
-          "hash": "JLRmlNbOA0GAdebXNMk2Sw=="
+          "hash": "G+8Vlu1w1i2GGS2k6GocAw=="
         }
       },
       "is_incremental": false,
@@ -941,7 +941,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.RuntimeDetour.NativeDetourData.html",
-          "hash": "UFtlGmazjoOM5hPhOdNfgQ=="
+          "hash": "ETeuEVPJ4FCU4glXg1LO5A=="
         }
       },
       "is_incremental": false,
@@ -953,7 +953,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.RuntimeDetour.Platforms.DetourNativeARMPlatform.DetourType.html",
-          "hash": "gibt9wb9hxPCx1H5MDq6zw=="
+          "hash": "dNRHz+4DrVbNgvgq+SyGDw=="
         }
       },
       "is_incremental": false,
@@ -965,7 +965,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.RuntimeDetour.Platforms.DetourNativeARMPlatform.html",
-          "hash": "H/ueUFIEjh/EP1JGSHw7XQ=="
+          "hash": "XWWKOqTwy/305V7MVc5WhA=="
         }
       },
       "is_incremental": false,
@@ -977,7 +977,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.RuntimeDetour.Platforms.DetourNativeLibcPlatform.html",
-          "hash": "qrdd7C1HTH+SADgGzGTsTg=="
+          "hash": "Zp+BLQ+n52pSvbxZKB3mWA=="
         }
       },
       "is_incremental": false,
@@ -989,7 +989,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.RuntimeDetour.Platforms.DetourNativeMonoPlatform.html",
-          "hash": "2eOq+SSPYAwYSihRQ8oXBQ=="
+          "hash": "a+ZaG4H2X39a5qgPdFb4lA=="
         }
       },
       "is_incremental": false,
@@ -1001,7 +1001,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.RuntimeDetour.Platforms.DetourNativeMonoPosixPlatform.Errno.html",
-          "hash": "xNurSbBH/lUfu1bRrFsrqw=="
+          "hash": "GQi5x5oa7nrjShQcMmmpuw=="
         }
       },
       "is_incremental": false,
@@ -1013,7 +1013,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.RuntimeDetour.Platforms.DetourNativeMonoPosixPlatform.SysconfName.html",
-          "hash": "yFELK8D25Tz+4ovWg04k/g=="
+          "hash": "BQui9/Nl8meiDjfhM9lq+Q=="
         }
       },
       "is_incremental": false,
@@ -1025,7 +1025,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.RuntimeDetour.Platforms.DetourNativeMonoPosixPlatform.html",
-          "hash": "moGUSYfaGE6KkqAzl5R3KA=="
+          "hash": "u2hGVSJ6Li+e9iIMwn7I/Q=="
         }
       },
       "is_incremental": false,
@@ -1037,7 +1037,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.RuntimeDetour.Platforms.DetourNativeWindowsPlatform.html",
-          "hash": "UcgE9pHn/HEfo+tFjBd9yA=="
+          "hash": "2GylHKlGgRqI+2aVot1PBA=="
         }
       },
       "is_incremental": false,
@@ -1049,7 +1049,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.RuntimeDetour.Platforms.DetourNativeX86Platform.DetourType.html",
-          "hash": "MGeYZoKgHsU5oyvFsZP9WQ=="
+          "hash": "vJbpe/VXDJDGOyQ3OVbi4w=="
         }
       },
       "is_incremental": false,
@@ -1061,7 +1061,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.RuntimeDetour.Platforms.DetourNativeX86Platform.html",
-          "hash": "/Hc4AcBn6zuLY74aYYQANw=="
+          "hash": "J4D/Xz2lnc01YXN1ehN3Fw=="
         }
       },
       "is_incremental": false,
@@ -1073,7 +1073,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.RuntimeDetour.Platforms.DetourRuntimeILPlatform.MethodPin.html",
-          "hash": "rz8b8IFpNOlQxbq0altMYQ=="
+          "hash": "/6nS3PTwh49sqxOjRMtSVA=="
         }
       },
       "is_incremental": false,
@@ -1085,7 +1085,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.RuntimeDetour.Platforms.DetourRuntimeILPlatform.html",
-          "hash": "lZQUJ9hxEQhGSVeoSjQUfw=="
+          "hash": "h9yYeQgSkuyiA+orLNefkw=="
         }
       },
       "is_incremental": false,
@@ -1097,7 +1097,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.RuntimeDetour.Platforms.DetourRuntimeMonoPlatform.html",
-          "hash": "G4fkvXUjZAYawII29DfC2A=="
+          "hash": "2Qfn4m1c8Ei939DrEgEgQQ=="
         }
       },
       "is_incremental": false,
@@ -1109,7 +1109,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.RuntimeDetour.Platforms.DetourRuntimeNETPlatform.html",
-          "hash": "37Mixd70wvm9IXAr9e2rTA=="
+          "hash": "SKinnRFhfg0abOmWEZ2ZbA=="
         }
       },
       "is_incremental": false,
@@ -1121,7 +1121,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.RuntimeDetour.Platforms.html",
-          "hash": "gxnCvXgtMMFDKmVSP6rqpg=="
+          "hash": "TYQ85r1WKrazIko7p5ZhzQ=="
         }
       },
       "is_incremental": false,
@@ -1133,7 +1133,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.RuntimeDetour.html",
-          "hash": "vm5fBA7y20qSCDs/J0qe3w=="
+          "hash": "9yVArnYDfDNnIc8/yP4g1w=="
         }
       },
       "is_incremental": false,
@@ -1145,7 +1145,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.Utils.Cil.CecilILGenerator.html",
-          "hash": "/OF0Dtf+ozSM7lKEq6oFNA=="
+          "hash": "H09vEu4ycO8aVgjqVfeaaQ=="
         }
       },
       "is_incremental": false,
@@ -1157,7 +1157,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.Utils.Cil.ILGeneratorShim.html",
-          "hash": "SfB3kQKSDwIkpEDfiPOBeg=="
+          "hash": "LvFKmflmExhL/WWKAqGmVQ=="
         }
       },
       "is_incremental": false,
@@ -1169,7 +1169,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.Utils.Cil.html",
-          "hash": "y98D0pnGBhzlZM/Ckzi4xQ=="
+          "hash": "KKrH3oGalflGk/YZGF7u+Q=="
         }
       },
       "is_incremental": false,
@@ -1181,7 +1181,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.Utils.DMDCecilGenerator.html",
-          "hash": "m0cr0ku5mmEaEm/pfQH9Wg=="
+          "hash": "bAygSYyKPWh3Oi1CwspxCw=="
         }
       },
       "is_incremental": false,
@@ -1193,7 +1193,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.Utils.DMDEmitDynamicMethodGenerator.html",
-          "hash": "9OYr5jqJf4Vf2D/Kw5tv2w=="
+          "hash": "vY5Jf3a7y366Xb8Il42UKQ=="
         }
       },
       "is_incremental": false,
@@ -1205,7 +1205,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.Utils.DMDGenerator-1.html",
-          "hash": "qZuoXTKPtYt4519E7ZfHHg=="
+          "hash": "cIB2iLcRmF/FdAzV32H1oA=="
         }
       },
       "is_incremental": false,
@@ -1217,7 +1217,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.Utils.DynData-1.html",
-          "hash": "E8fvB2IL+dUQ7nD8bFI8QQ=="
+          "hash": "Mo1m2M12H9R4p1RKql7AAw=="
         }
       },
       "is_incremental": false,
@@ -1229,7 +1229,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.Utils.DynDll.html",
-          "hash": "hFU3cqo+NBn6BJn8ivpxGA=="
+          "hash": "jxezz/IvXRoQ6OQFDHbRGQ=="
         }
       },
       "is_incremental": false,
@@ -1241,7 +1241,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.Utils.DynDllImportAttribute.html",
-          "hash": "t7Fmz0UQLUoG5tDNnJ/KOg=="
+          "hash": "05ntHw2TiQaAUGeCqM/U0w=="
         }
       },
       "is_incremental": false,
@@ -1253,7 +1253,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.Utils.DynDllMapping.html",
-          "hash": "jEW6KJ86n0FQMW+pKCHPhA=="
+          "hash": "vr595tdR8IK/NdmTtSe6xg=="
         }
       },
       "is_incremental": false,
@@ -1265,7 +1265,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.Utils.DynamicMethodDefinition.html",
-          "hash": "Ijfhx2ow9MaffHT9ZH6npQ=="
+          "hash": "lcOjdz0cROtXbEnCEkKo9g=="
         }
       },
       "is_incremental": false,
@@ -1277,7 +1277,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.Utils.DynamicMethodHelper.html",
-          "hash": "ULOXTz01rsAmDb+gnwuxPA=="
+          "hash": "6C794zB8NY0Geo96Nvx77Q=="
         }
       },
       "is_incremental": false,
@@ -1289,7 +1289,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.Utils.DynamicMethodReference.html",
-          "hash": "S5MMCXdt5CzL2UEFkSsrqg=="
+          "hash": "/IFs1FlX1m7WqewzyiIQUw=="
         }
       },
       "is_incremental": false,
@@ -1301,7 +1301,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.Utils.Extensions.html",
-          "hash": "VCq0230TPt6RnIMmbmuUWA=="
+          "hash": "tBe+i/ZisOWGAbYjqX7XYA=="
         }
       },
       "is_incremental": false,
@@ -1313,7 +1313,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.Utils.LazyDisposable-1.html",
-          "hash": "MXNwQVsrvwx6e80mcFOSow=="
+          "hash": "ckgaIU6LdoYVMeqDfYUQSw=="
         }
       },
       "is_incremental": false,
@@ -1325,7 +1325,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.Utils.LazyDisposable.html",
-          "hash": "06xUbUZL/r7H+wLUevCk4g=="
+          "hash": "Lysu79svAJImaYtPdfW1DQ=="
         }
       },
       "is_incremental": false,
@@ -1337,7 +1337,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.Utils.MMReflectionImporter.html",
-          "hash": "fodab3cHxpMLd35AVq3Z3w=="
+          "hash": "RhQecr102v7kmgQdq59veg=="
         }
       },
       "is_incremental": false,
@@ -1349,7 +1349,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.Utils.Platform.html",
-          "hash": "cbGGlqBrXlic7MwByq9KsQ=="
+          "hash": "jaB/t9Iy7CfQlib6qejeUw=="
         }
       },
       "is_incremental": false,
@@ -1361,7 +1361,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.Utils.PlatformHelper.html",
-          "hash": "IKaE6ebXgYQUB62yjXgx7g=="
+          "hash": "naYAY24mqbQaCf4gACj4ng=="
         }
       },
       "is_incremental": false,
@@ -1373,7 +1373,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.Utils.ReflectionHelper.html",
-          "hash": "3BQNb3oW2RaI6Run88NJvQ=="
+          "hash": "aCHMVLQxAYkqT24MjJOodA=="
         }
       },
       "is_incremental": false,
@@ -1385,7 +1385,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.Utils.RelinkFailedException.html",
-          "hash": "UgNLIuWOIXXzEXFQlKC99Q=="
+          "hash": "qE2UfP2Hq0/kDYJyVHByXw=="
         }
       },
       "is_incremental": false,
@@ -1397,7 +1397,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.Utils.RelinkTargetNotFoundException.html",
-          "hash": "fpc8/u/7rKo9iCTnqG2glQ=="
+          "hash": "xHaIjxJKt3P76y6+LqwOLg=="
         }
       },
       "is_incremental": false,
@@ -1409,7 +1409,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.Utils.Relinker.html",
-          "hash": "DCWWJqssutKzO4UMumLhkw=="
+          "hash": "OMbilylDxjc6ELE8JHAqDQ=="
         }
       },
       "is_incremental": false,
@@ -1421,7 +1421,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.Utils.WeakReferenceComparer.html",
-          "hash": "glrRbMQ2rkqRCPiajYNEHw=="
+          "hash": "NbKiPxZ6y3hCH3lFeH04Sw=="
         }
       },
       "is_incremental": false,
@@ -1433,7 +1433,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.Utils.html",
-          "hash": "agqQROILzSBEMND2rDiY+A=="
+          "hash": "lQF9TfTj83IaMdT2VwUoaA=="
         }
       },
       "is_incremental": false,
@@ -1445,7 +1445,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.html",
-          "hash": "GCc2+SZC3cShX+2/Id6rjw=="
+          "hash": "sB5VncdK5zpebGF+ezbdvw=="
         }
       },
       "is_incremental": false,
@@ -1457,7 +1457,7 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "6ypJt2ZhIFgEGbg7EBBhYA=="
+          "hash": "zS/YjMA27LEhPvvLPvlcYg=="
         }
       },
       "is_incremental": false,
@@ -1492,7 +1492,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "qymTDhNievUQXAj3JddWMA=="
+          "hash": "rp9ek+jDi9z9y5VjG+4JeA=="
         }
       },
       "is_incremental": false,
