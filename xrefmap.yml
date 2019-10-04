@@ -16186,6 +16186,18 @@ references:
   commentId: Overload:MonoMod.Utils.MMReflectionImporter.#ctor
   fullName: MonoMod.Utils.MMReflectionImporter.MMReflectionImporter
   nameWithType: MMReflectionImporter.MMReflectionImporter
+- uid: MonoMod.Utils.MMReflectionImporter.ImportModuleType(System.Reflection.Module,Mono.Cecil.IGenericParameterProvider)
+  name: ImportModuleType(Module, IGenericParameterProvider)
+  href: api/MonoMod.Utils.MMReflectionImporter.html#MonoMod_Utils_MMReflectionImporter_ImportModuleType_System_Reflection_Module_Mono_Cecil_IGenericParameterProvider_
+  commentId: M:MonoMod.Utils.MMReflectionImporter.ImportModuleType(System.Reflection.Module,Mono.Cecil.IGenericParameterProvider)
+  fullName: MonoMod.Utils.MMReflectionImporter.ImportModuleType(System.Reflection.Module, Mono.Cecil.IGenericParameterProvider)
+  nameWithType: MMReflectionImporter.ImportModuleType(Module, IGenericParameterProvider)
+- uid: MonoMod.Utils.MMReflectionImporter.ImportModuleType*
+  name: ImportModuleType
+  href: api/MonoMod.Utils.MMReflectionImporter.html#MonoMod_Utils_MMReflectionImporter_ImportModuleType_
+  commentId: Overload:MonoMod.Utils.MMReflectionImporter.ImportModuleType
+  fullName: MonoMod.Utils.MMReflectionImporter.ImportModuleType
+  nameWithType: MMReflectionImporter.ImportModuleType
 - uid: MonoMod.Utils.MMReflectionImporter.ImportReference(System.Reflection.AssemblyName)
   name: ImportReference(AssemblyName)
   href: api/MonoMod.Utils.MMReflectionImporter.html#MonoMod_Utils_MMReflectionImporter_ImportReference_System_Reflection_AssemblyName_
