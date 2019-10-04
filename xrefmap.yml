@@ -9024,12 +9024,6 @@ references:
   commentId: E:MonoMod.RuntimeDetour.HookGen.HookEndpointManager.OnModify
   fullName: MonoMod.RuntimeDetour.HookGen.HookEndpointManager.OnModify
   nameWithType: HookEndpointManager.OnModify
-- uid: MonoMod.RuntimeDetour.HookGen.HookEndpointManager.OnPostModify
-  name: OnPostModify
-  href: api/MonoMod.RuntimeDetour.HookGen.HookEndpointManager.html#MonoMod_RuntimeDetour_HookGen_HookEndpointManager_OnPostModify
-  commentId: E:MonoMod.RuntimeDetour.HookGen.HookEndpointManager.OnPostModify
-  fullName: MonoMod.RuntimeDetour.HookGen.HookEndpointManager.OnPostModify
-  nameWithType: HookEndpointManager.OnPostModify
 - uid: MonoMod.RuntimeDetour.HookGen.HookEndpointManager.OnRemove
   name: OnRemove
   href: api/MonoMod.RuntimeDetour.HookGen.HookEndpointManager.html#MonoMod_RuntimeDetour_HookGen_HookEndpointManager_OnRemove
