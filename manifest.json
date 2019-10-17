@@ -1309,6 +1309,30 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/MonoMod.Utils.FastReflectionDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MonoMod.Utils.FastReflectionDelegate.html",
+          "hash": "WzDvL1k1hdn/9x1e2tE5Zg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MonoMod.Utils.FastReflectionHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MonoMod.Utils.FastReflectionHelper.html",
+          "hash": "l+MpfDWx7S4NT/6rYidM4A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/MonoMod.Utils.LazyDisposable-1.yml",
       "output": {
         ".html": {
@@ -1433,7 +1457,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.Utils.html",
-          "hash": "kmn+AicXrppJ7RCPe5X5XQ=="
+          "hash": "+quxc8G3AxXD4rJ0K81Luw=="
         }
       },
       "is_incremental": false,
@@ -1469,7 +1493,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "vHdwvu0hiMJIss4MKj/qAw=="
+          "hash": "paAsa7qC5IO72xV/WqQIqg=="
         }
       },
       "is_incremental": false,
@@ -1556,7 +1580,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 119,
+          "total_file_count": 121,
           "skipped_file_count": 0
         }
       }

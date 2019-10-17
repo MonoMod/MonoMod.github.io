@@ -16068,6 +16068,96 @@ references:
   commentId: Overload:MonoMod.Utils.Extensions.WriteNullTerminatedString
   fullName: MonoMod.Utils.Extensions.WriteNullTerminatedString
   nameWithType: Extensions.WriteNullTerminatedString
+- uid: MonoMod.Utils.FastReflectionDelegate
+  name: FastReflectionDelegate
+  href: api/MonoMod.Utils.FastReflectionDelegate.html
+  commentId: T:MonoMod.Utils.FastReflectionDelegate
+  fullName: MonoMod.Utils.FastReflectionDelegate
+  nameWithType: FastReflectionDelegate
+- uid: MonoMod.Utils.FastReflectionDelegate.#ctor(System.Object,System.IntPtr)
+  name: FastReflectionDelegate(Object, IntPtr)
+  href: api/MonoMod.Utils.FastReflectionDelegate.html#MonoMod_Utils_FastReflectionDelegate__ctor_System_Object_System_IntPtr_
+  commentId: M:MonoMod.Utils.FastReflectionDelegate.#ctor(System.Object,System.IntPtr)
+  fullName: MonoMod.Utils.FastReflectionDelegate.FastReflectionDelegate(System.Object, System.IntPtr)
+  nameWithType: FastReflectionDelegate.FastReflectionDelegate(Object, IntPtr)
+- uid: MonoMod.Utils.FastReflectionDelegate.#ctor*
+  name: FastReflectionDelegate
+  href: api/MonoMod.Utils.FastReflectionDelegate.html#MonoMod_Utils_FastReflectionDelegate__ctor_
+  commentId: Overload:MonoMod.Utils.FastReflectionDelegate.#ctor
+  fullName: MonoMod.Utils.FastReflectionDelegate.FastReflectionDelegate
+  nameWithType: FastReflectionDelegate.FastReflectionDelegate
+- uid: MonoMod.Utils.FastReflectionDelegate.BeginInvoke(System.Object,System.Object[],System.AsyncCallback,System.Object)
+  name: BeginInvoke(Object, Object[], AsyncCallback, Object)
+  href: api/MonoMod.Utils.FastReflectionDelegate.html#MonoMod_Utils_FastReflectionDelegate_BeginInvoke_System_Object_System_Object___System_AsyncCallback_System_Object_
+  commentId: M:MonoMod.Utils.FastReflectionDelegate.BeginInvoke(System.Object,System.Object[],System.AsyncCallback,System.Object)
+  name.vb: BeginInvoke(Object, Object(), AsyncCallback, Object)
+  fullName: MonoMod.Utils.FastReflectionDelegate.BeginInvoke(System.Object, System.Object[], System.AsyncCallback, System.Object)
+  fullName.vb: MonoMod.Utils.FastReflectionDelegate.BeginInvoke(System.Object, System.Object(), System.AsyncCallback, System.Object)
+  nameWithType: FastReflectionDelegate.BeginInvoke(Object, Object[], AsyncCallback, Object)
+  nameWithType.vb: FastReflectionDelegate.BeginInvoke(Object, Object(), AsyncCallback, Object)
+- uid: MonoMod.Utils.FastReflectionDelegate.BeginInvoke*
+  name: BeginInvoke
+  href: api/MonoMod.Utils.FastReflectionDelegate.html#MonoMod_Utils_FastReflectionDelegate_BeginInvoke_
+  commentId: Overload:MonoMod.Utils.FastReflectionDelegate.BeginInvoke
+  fullName: MonoMod.Utils.FastReflectionDelegate.BeginInvoke
+  nameWithType: FastReflectionDelegate.BeginInvoke
+- uid: MonoMod.Utils.FastReflectionDelegate.EndInvoke(System.IAsyncResult)
+  name: EndInvoke(IAsyncResult)
+  href: api/MonoMod.Utils.FastReflectionDelegate.html#MonoMod_Utils_FastReflectionDelegate_EndInvoke_System_IAsyncResult_
+  commentId: M:MonoMod.Utils.FastReflectionDelegate.EndInvoke(System.IAsyncResult)
+  fullName: MonoMod.Utils.FastReflectionDelegate.EndInvoke(System.IAsyncResult)
+  nameWithType: FastReflectionDelegate.EndInvoke(IAsyncResult)
+- uid: MonoMod.Utils.FastReflectionDelegate.EndInvoke*
+  name: EndInvoke
+  href: api/MonoMod.Utils.FastReflectionDelegate.html#MonoMod_Utils_FastReflectionDelegate_EndInvoke_
+  commentId: Overload:MonoMod.Utils.FastReflectionDelegate.EndInvoke
+  fullName: MonoMod.Utils.FastReflectionDelegate.EndInvoke
+  nameWithType: FastReflectionDelegate.EndInvoke
+- uid: MonoMod.Utils.FastReflectionDelegate.Invoke(System.Object,System.Object[])
+  name: Invoke(Object, Object[])
+  href: api/MonoMod.Utils.FastReflectionDelegate.html#MonoMod_Utils_FastReflectionDelegate_Invoke_System_Object_System_Object___
+  commentId: M:MonoMod.Utils.FastReflectionDelegate.Invoke(System.Object,System.Object[])
+  name.vb: Invoke(Object, Object())
+  fullName: MonoMod.Utils.FastReflectionDelegate.Invoke(System.Object, System.Object[])
+  fullName.vb: MonoMod.Utils.FastReflectionDelegate.Invoke(System.Object, System.Object())
+  nameWithType: FastReflectionDelegate.Invoke(Object, Object[])
+  nameWithType.vb: FastReflectionDelegate.Invoke(Object, Object())
+- uid: MonoMod.Utils.FastReflectionDelegate.Invoke*
+  name: Invoke
+  href: api/MonoMod.Utils.FastReflectionDelegate.html#MonoMod_Utils_FastReflectionDelegate_Invoke_
+  commentId: Overload:MonoMod.Utils.FastReflectionDelegate.Invoke
+  fullName: MonoMod.Utils.FastReflectionDelegate.Invoke
+  nameWithType: FastReflectionDelegate.Invoke
+- uid: MonoMod.Utils.FastReflectionHelper
+  name: FastReflectionHelper
+  href: api/MonoMod.Utils.FastReflectionHelper.html
+  commentId: T:MonoMod.Utils.FastReflectionHelper
+  fullName: MonoMod.Utils.FastReflectionHelper
+  nameWithType: FastReflectionHelper
+- uid: MonoMod.Utils.FastReflectionHelper.CreateFastDelegate(System.Reflection.MethodInfo,System.Boolean)
+  name: CreateFastDelegate(MethodInfo, Boolean)
+  href: api/MonoMod.Utils.FastReflectionHelper.html#MonoMod_Utils_FastReflectionHelper_CreateFastDelegate_System_Reflection_MethodInfo_System_Boolean_
+  commentId: M:MonoMod.Utils.FastReflectionHelper.CreateFastDelegate(System.Reflection.MethodInfo,System.Boolean)
+  fullName: MonoMod.Utils.FastReflectionHelper.CreateFastDelegate(System.Reflection.MethodInfo, System.Boolean)
+  nameWithType: FastReflectionHelper.CreateFastDelegate(MethodInfo, Boolean)
+- uid: MonoMod.Utils.FastReflectionHelper.CreateFastDelegate*
+  name: CreateFastDelegate
+  href: api/MonoMod.Utils.FastReflectionHelper.html#MonoMod_Utils_FastReflectionHelper_CreateFastDelegate_
+  commentId: Overload:MonoMod.Utils.FastReflectionHelper.CreateFastDelegate
+  fullName: MonoMod.Utils.FastReflectionHelper.CreateFastDelegate
+  nameWithType: FastReflectionHelper.CreateFastDelegate
+- uid: MonoMod.Utils.FastReflectionHelper.GetFastDelegate(System.Reflection.MethodInfo,System.Boolean)
+  name: GetFastDelegate(MethodInfo, Boolean)
+  href: api/MonoMod.Utils.FastReflectionHelper.html#MonoMod_Utils_FastReflectionHelper_GetFastDelegate_System_Reflection_MethodInfo_System_Boolean_
+  commentId: M:MonoMod.Utils.FastReflectionHelper.GetFastDelegate(System.Reflection.MethodInfo,System.Boolean)
+  fullName: MonoMod.Utils.FastReflectionHelper.GetFastDelegate(System.Reflection.MethodInfo, System.Boolean)
+  nameWithType: FastReflectionHelper.GetFastDelegate(MethodInfo, Boolean)
+- uid: MonoMod.Utils.FastReflectionHelper.GetFastDelegate*
+  name: GetFastDelegate
+  href: api/MonoMod.Utils.FastReflectionHelper.html#MonoMod_Utils_FastReflectionHelper_GetFastDelegate_
+  commentId: Overload:MonoMod.Utils.FastReflectionHelper.GetFastDelegate
+  fullName: MonoMod.Utils.FastReflectionHelper.GetFastDelegate
+  nameWithType: FastReflectionHelper.GetFastDelegate
 - uid: MonoMod.Utils.LazyDisposable
   name: LazyDisposable
   href: api/MonoMod.Utils.LazyDisposable.html

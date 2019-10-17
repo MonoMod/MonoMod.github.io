@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class FastReflectionHelper
    | MonoMod ">
-    <meta name="generator" content="docfx 2.44.0.0">
+    <meta name="generator" content="docfx 2.46.0.0">
     <meta name="description" content="A C# modding swiss army knife, powered by cecil.">
     <link rel="shortcut icon" href="../favicon.png">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -83,8 +83,7 @@
   
   <h1 id="MonoMod_Utils_FastReflectionHelper" data-uid="MonoMod.Utils.FastReflectionHelper" class="text-break">Class FastReflectionHelper
   </h1>
-  <div class="markdown level0 summary"><p>Based on ReflectionHelper from <a href="http://theinstructionlimit.com/fast-net-reflection">http://theinstructionlimit.com/fast-net-reflection</a> and FEZ. Thanks, Renaud!</p>
-</div>
+  <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -102,12 +101,12 @@
   
   
   <a id="MonoMod_Utils_FastReflectionHelper_CreateFastDelegate_" data-uid="MonoMod.Utils.FastReflectionHelper.CreateFastDelegate*"></a>
-  <h4 id="MonoMod_Utils_FastReflectionHelper_CreateFastDelegate_System_Reflection_MethodBase_System_Boolean_" data-uid="MonoMod.Utils.FastReflectionHelper.CreateFastDelegate(System.Reflection.MethodBase,System.Boolean)">CreateFastDelegate(MethodBase, Boolean)</h4>
+  <h4 id="MonoMod_Utils_FastReflectionHelper_CreateFastDelegate_System_Reflection_MethodInfo_System_Boolean_" data-uid="MonoMod.Utils.FastReflectionHelper.CreateFastDelegate(System.Reflection.MethodInfo,System.Boolean)">CreateFastDelegate(MethodInfo, Boolean)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static FastReflectionDelegate CreateFastDelegate(this MethodBase method, bool directBoxValueAccess = true)</code></pre>
+    <pre><code class="lang-csharp hljs">public static FastReflectionDelegate CreateFastDelegate(this MethodInfo method, bool directBoxValueAccess = true)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -120,7 +119,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Reflection.MethodBase</span></td>
+        <td><span class="xref">System.Reflection.MethodInfo</span></td>
         <td><span class="parametername">method</span></td>
         <td></td>
       </tr>
@@ -142,63 +141,6 @@
     <tbody>
       <tr>
         <td><a class="xref" href="MonoMod.Utils.FastReflectionDelegate.html">FastReflectionDelegate</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="MonoMod_Utils_FastReflectionHelper_CreateJmpDelegate_" data-uid="MonoMod.Utils.FastReflectionHelper.CreateJmpDelegate*"></a>
-  <h4 id="MonoMod_Utils_FastReflectionHelper_CreateJmpDelegate__1_System_Reflection_MethodBase_" data-uid="MonoMod.Utils.FastReflectionHelper.CreateJmpDelegate``1(System.Reflection.MethodBase)">CreateJmpDelegate&lt;T&gt;(MethodBase)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static T CreateJmpDelegate&lt;T&gt;(this MethodBase method)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Reflection.MethodBase</span></td>
-        <td><span class="parametername">method</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">T</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
         <td></td>
       </tr>
     </tbody>
