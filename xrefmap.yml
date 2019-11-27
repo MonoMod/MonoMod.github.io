@@ -6334,6 +6334,24 @@ references:
   commentId: Overload:MonoMod.MonoModder.MapDependency
   fullName: MonoMod.MonoModder.MapDependency
   nameWithType: MonoModder.MapDependency
+- uid: MonoMod.MonoModder.MatchingConditionals(Mono.Cecil.ICustomAttributeProvider,Mono.Cecil.AssemblyNameReference)
+  name: MatchingConditionals(ICustomAttributeProvider, AssemblyNameReference)
+  href: api/MonoMod.MonoModder.html#MonoMod_MonoModder_MatchingConditionals_Mono_Cecil_ICustomAttributeProvider_Mono_Cecil_AssemblyNameReference_
+  commentId: M:MonoMod.MonoModder.MatchingConditionals(Mono.Cecil.ICustomAttributeProvider,Mono.Cecil.AssemblyNameReference)
+  fullName: MonoMod.MonoModder.MatchingConditionals(Mono.Cecil.ICustomAttributeProvider, Mono.Cecil.AssemblyNameReference)
+  nameWithType: MonoModder.MatchingConditionals(ICustomAttributeProvider, AssemblyNameReference)
+- uid: MonoMod.MonoModder.MatchingConditionals(Mono.Cecil.ICustomAttributeProvider,Mono.Cecil.ModuleDefinition)
+  name: MatchingConditionals(ICustomAttributeProvider, ModuleDefinition)
+  href: api/MonoMod.MonoModder.html#MonoMod_MonoModder_MatchingConditionals_Mono_Cecil_ICustomAttributeProvider_Mono_Cecil_ModuleDefinition_
+  commentId: M:MonoMod.MonoModder.MatchingConditionals(Mono.Cecil.ICustomAttributeProvider,Mono.Cecil.ModuleDefinition)
+  fullName: MonoMod.MonoModder.MatchingConditionals(Mono.Cecil.ICustomAttributeProvider, Mono.Cecil.ModuleDefinition)
+  nameWithType: MonoModder.MatchingConditionals(ICustomAttributeProvider, ModuleDefinition)
+- uid: MonoMod.MonoModder.MatchingConditionals*
+  name: MatchingConditionals
+  href: api/MonoMod.MonoModder.html#MonoMod_MonoModder_MatchingConditionals_
+  commentId: Overload:MonoMod.MonoModder.MatchingConditionals
+  fullName: MonoMod.MonoModder.MatchingConditionals
+  nameWithType: MonoModder.MatchingConditionals
 - uid: MonoMod.MonoModder.MethodBodyRewriter
   name: MethodBodyRewriter
   href: api/MonoMod.MonoModder.html#MonoMod_MonoModder_MethodBodyRewriter
@@ -7201,6 +7219,66 @@ references:
   commentId: Overload:MonoMod.MonoModTargetModule.#ctor
   fullName: MonoMod.MonoModTargetModule.MonoModTargetModule
   nameWithType: MonoModTargetModule.MonoModTargetModule
+- uid: MonoMod.PatcherExtensions
+  name: PatcherExtensions
+  href: api/MonoMod.PatcherExtensions.html
+  commentId: T:MonoMod.PatcherExtensions
+  fullName: MonoMod.PatcherExtensions
+  nameWithType: PatcherExtensions
+- uid: MonoMod.PatcherExtensions.GetOriginalName(Mono.Cecil.MethodDefinition)
+  name: GetOriginalName(MethodDefinition)
+  href: api/MonoMod.PatcherExtensions.html#MonoMod_PatcherExtensions_GetOriginalName_Mono_Cecil_MethodDefinition_
+  commentId: M:MonoMod.PatcherExtensions.GetOriginalName(Mono.Cecil.MethodDefinition)
+  fullName: MonoMod.PatcherExtensions.GetOriginalName(Mono.Cecil.MethodDefinition)
+  nameWithType: PatcherExtensions.GetOriginalName(MethodDefinition)
+- uid: MonoMod.PatcherExtensions.GetOriginalName*
+  name: GetOriginalName
+  href: api/MonoMod.PatcherExtensions.html#MonoMod_PatcherExtensions_GetOriginalName_
+  commentId: Overload:MonoMod.PatcherExtensions.GetOriginalName
+  fullName: MonoMod.PatcherExtensions.GetOriginalName
+  nameWithType: PatcherExtensions.GetOriginalName
+- uid: MonoMod.PatcherExtensions.SetPublic(Mono.Cecil.EventDefinition,System.Boolean)
+  name: SetPublic(EventDefinition, Boolean)
+  href: api/MonoMod.PatcherExtensions.html#MonoMod_PatcherExtensions_SetPublic_Mono_Cecil_EventDefinition_System_Boolean_
+  commentId: M:MonoMod.PatcherExtensions.SetPublic(Mono.Cecil.EventDefinition,System.Boolean)
+  fullName: MonoMod.PatcherExtensions.SetPublic(Mono.Cecil.EventDefinition, System.Boolean)
+  nameWithType: PatcherExtensions.SetPublic(EventDefinition, Boolean)
+- uid: MonoMod.PatcherExtensions.SetPublic(Mono.Cecil.FieldDefinition,System.Boolean)
+  name: SetPublic(FieldDefinition, Boolean)
+  href: api/MonoMod.PatcherExtensions.html#MonoMod_PatcherExtensions_SetPublic_Mono_Cecil_FieldDefinition_System_Boolean_
+  commentId: M:MonoMod.PatcherExtensions.SetPublic(Mono.Cecil.FieldDefinition,System.Boolean)
+  fullName: MonoMod.PatcherExtensions.SetPublic(Mono.Cecil.FieldDefinition, System.Boolean)
+  nameWithType: PatcherExtensions.SetPublic(FieldDefinition, Boolean)
+- uid: MonoMod.PatcherExtensions.SetPublic(Mono.Cecil.IMetadataTokenProvider,System.Boolean)
+  name: SetPublic(IMetadataTokenProvider, Boolean)
+  href: api/MonoMod.PatcherExtensions.html#MonoMod_PatcherExtensions_SetPublic_Mono_Cecil_IMetadataTokenProvider_System_Boolean_
+  commentId: M:MonoMod.PatcherExtensions.SetPublic(Mono.Cecil.IMetadataTokenProvider,System.Boolean)
+  fullName: MonoMod.PatcherExtensions.SetPublic(Mono.Cecil.IMetadataTokenProvider, System.Boolean)
+  nameWithType: PatcherExtensions.SetPublic(IMetadataTokenProvider, Boolean)
+- uid: MonoMod.PatcherExtensions.SetPublic(Mono.Cecil.MethodDefinition,System.Boolean)
+  name: SetPublic(MethodDefinition, Boolean)
+  href: api/MonoMod.PatcherExtensions.html#MonoMod_PatcherExtensions_SetPublic_Mono_Cecil_MethodDefinition_System_Boolean_
+  commentId: M:MonoMod.PatcherExtensions.SetPublic(Mono.Cecil.MethodDefinition,System.Boolean)
+  fullName: MonoMod.PatcherExtensions.SetPublic(Mono.Cecil.MethodDefinition, System.Boolean)
+  nameWithType: PatcherExtensions.SetPublic(MethodDefinition, Boolean)
+- uid: MonoMod.PatcherExtensions.SetPublic(Mono.Cecil.PropertyDefinition,System.Boolean)
+  name: SetPublic(PropertyDefinition, Boolean)
+  href: api/MonoMod.PatcherExtensions.html#MonoMod_PatcherExtensions_SetPublic_Mono_Cecil_PropertyDefinition_System_Boolean_
+  commentId: M:MonoMod.PatcherExtensions.SetPublic(Mono.Cecil.PropertyDefinition,System.Boolean)
+  fullName: MonoMod.PatcherExtensions.SetPublic(Mono.Cecil.PropertyDefinition, System.Boolean)
+  nameWithType: PatcherExtensions.SetPublic(PropertyDefinition, Boolean)
+- uid: MonoMod.PatcherExtensions.SetPublic(Mono.Cecil.TypeDefinition,System.Boolean)
+  name: SetPublic(TypeDefinition, Boolean)
+  href: api/MonoMod.PatcherExtensions.html#MonoMod_PatcherExtensions_SetPublic_Mono_Cecil_TypeDefinition_System_Boolean_
+  commentId: M:MonoMod.PatcherExtensions.SetPublic(Mono.Cecil.TypeDefinition,System.Boolean)
+  fullName: MonoMod.PatcherExtensions.SetPublic(Mono.Cecil.TypeDefinition, System.Boolean)
+  nameWithType: PatcherExtensions.SetPublic(TypeDefinition, Boolean)
+- uid: MonoMod.PatcherExtensions.SetPublic*
+  name: SetPublic
+  href: api/MonoMod.PatcherExtensions.html#MonoMod_PatcherExtensions_SetPublic_
+  commentId: Overload:MonoMod.PatcherExtensions.SetPublic
+  fullName: MonoMod.PatcherExtensions.SetPublic
+  nameWithType: PatcherExtensions.SetPublic
 - uid: MonoMod.PostProcessor
   name: PostProcessor
   href: api/MonoMod.PostProcessor.html
